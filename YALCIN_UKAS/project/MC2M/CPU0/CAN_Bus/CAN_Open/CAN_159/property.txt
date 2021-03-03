@@ -1,0 +1,70 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_Open\\CAN_159\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_159'
+nodesInfo = []
+id = 345
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 1500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MC2M_TERA_DIAG_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 4
+[CAN_VARIABLE_0]
+name = u'INP13AN'
+vartype = u'UINT'
+bytepos = 0
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'INP14AN'
+vartype = u'UINT'
+bytepos = 2
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'INP22AN'
+vartype = u'UINT'
+bytepos = 4
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'INP25AN'
+vartype = u'UINT'
+bytepos = 6
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

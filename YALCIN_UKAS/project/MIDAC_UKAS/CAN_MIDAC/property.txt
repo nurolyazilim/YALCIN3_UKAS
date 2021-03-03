@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\MIDAC_UKAS\\CAN_MIDAC\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_MIDAC'
+nodesInfo = [(u'CAN_183_3', 'CanMsgModel'), (u'CAN_184_3', 'CanMsgModel'), (u'CAN_185_3', 'CanMsgModel'), (u'CAN_186_3', 'CanMsgModel'), (u'CAN_187_3', 'CanMsgModel'), (u'CAN_188_3', 'CanMsgModel')]
+connection = u'CAN_Open_forAselsan'
+port_number = 0
+j1939_source_address = 10
+whitelist = []

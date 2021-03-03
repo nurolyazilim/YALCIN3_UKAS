@@ -1,0 +1,5 @@
+1;TimerDelta_ResistanceFront;TIME;4;%P;36;5;;;;;;;;T#7m
+2;TimerDelta_ResistanceSide;TIME;4;%P;96;5;;;;;;;;T#7m
+Refresh = 100
+DiskSpace = 1
+Signature = E70A9C3B7FF10B10B04CEE61BD5B1D72

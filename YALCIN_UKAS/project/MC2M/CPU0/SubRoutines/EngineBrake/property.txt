@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\EngineBrake\\property.txt'
+[ATTRIBUTES]
+name = u'EngineBrake'
+nodesInfo = [(u'Data_EngineBrake', 'GlobalDataModel'), (u'mainEngineBrake', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\DiffLock\\property.txt'
+[ATTRIBUTES]
+name = u'DiffLock'
+nodesInfo = [(u'Data_DiffLock', 'GlobalDataModel'), (u'mainDiffLock', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

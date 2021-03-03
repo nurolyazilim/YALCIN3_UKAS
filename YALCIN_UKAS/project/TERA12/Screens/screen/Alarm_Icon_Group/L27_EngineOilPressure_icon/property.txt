@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\Alarm_Icon_Group\\L27_EngineOilPressure_icon\\property.txt'
+[ATTRIBUTES]
+name = u'L27_EngineOilPressure_icon'
+nodesInfo = []
+body_language = 'C'
+x = 171
+y = 558
+width = 53
+height = 32
+layer = 0
+expression = 'MC2M_TERA_Icon_Status_L27'
+timer = 100
+currentValue = 1
+count = 2
+bitmap0 (repr) = "Bitmap(u'15B.png', (0, 0, 0))"
+bitmap1 (repr) = "Bitmap(u'15A.png', (0, 0, 0))"

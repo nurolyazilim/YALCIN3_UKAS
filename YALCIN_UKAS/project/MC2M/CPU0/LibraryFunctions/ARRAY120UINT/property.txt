@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\LibraryFunctions\\ARRAY120UINT\\property.txt'
+[ATTRIBUTES]
+name = u'ARRAY120UINT'
+nodesInfo = []
+definition = u'ARRAY [0..119] OF UINT'

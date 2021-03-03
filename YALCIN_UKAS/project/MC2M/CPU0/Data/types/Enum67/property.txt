@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum67\\property.txt'
+[ATTRIBUTES]
+name = u'Enum67'
+nodesInfo = []
+definition = '(\n\tEnum67_ABS_OFFROAD_SWITCH_PASSIVE := 0,\n\tEnum67_ABS_OFFROAD_SWITCH_ACTIVE := 1,\n\tEnum67_ERROR := 2,\n\tEnum67_NOT_AVAILABLE := 3\n)'

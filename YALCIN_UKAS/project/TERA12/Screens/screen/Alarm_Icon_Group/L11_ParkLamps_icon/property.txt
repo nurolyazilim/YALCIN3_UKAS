@@ -1,0 +1,20 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\Alarm_Icon_Group\\L11_ParkLamps_icon\\property.txt'
+[ATTRIBUTES]
+name = u'L11_ParkLamps_icon'
+nodesInfo = []
+body_language = 'ST'
+x = 421
+y = 556
+width = 47
+height = 30
+layer = 0
+expression = 'Icon_Status_L11'
+timer = 100
+currentValue = 2
+count = 3
+bitmap0 (repr) = "Bitmap(u'05B.png', ('null', 0, 0))"
+bitmap1 (repr) = "Bitmap(u'05A.png', ('null', 0, 0))"
+bitmap2 (repr) = "Bitmap(u'05C.png', ('null', 0, 0))"

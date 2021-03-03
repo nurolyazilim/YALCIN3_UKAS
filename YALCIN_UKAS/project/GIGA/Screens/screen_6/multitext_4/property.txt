@@ -1,0 +1,26 @@
+[GENERAL]
+module = 'model.indicatorModel.multiText'
+class = 'MultiText'
+filename = u'project\\GIGA\\Screens\\screen_6\\multitext_4\\property.txt'
+[ATTRIBUTES]
+name = 'multitext_4'
+nodesInfo = []
+body_language = 'C'
+x = 21
+y = 27
+width = 73
+height = 24
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'left',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = 'GIGAMenuVar06'
+timer = 0
+currentValue = 0
+count = 2
+text0 = u'GIGA_TEXT7'
+font0 (repr) = "FontName(u'Arial Regular', 16)"
+color0 (repr) = 'ColorOnly((85, 191, 255),)'
+text1 = u'GIGA_TEXT7'
+font1 (repr) = "FontName(u'Arial Regular', 16)"
+color1 (repr) = 'ColorOnly((255, 255, 255),)'

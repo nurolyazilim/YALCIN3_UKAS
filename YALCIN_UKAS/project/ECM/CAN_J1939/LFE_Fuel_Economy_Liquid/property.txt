@@ -1,0 +1,83 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\LFE_Fuel_Economy_Liquid\\property.txt'
+[ATTRIBUTES]
+name = 'LFE_Fuel_Economy_Liquid'
+nodesInfo = []
+id = 419361534
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 100
+alm_tout = 110
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'LFE_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 5
+[CAN_VARIABLE_0]
+name = 'EngineThrottlePosition'
+vartype = 'USINT'
+bytepos = 6
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 2L
+init = ''
+comment = 'Engine Throttle Position J1939 SPN 51 [%]'
+[CAN_VARIABLE_1]
+name = 'EngineThrottle2Position'
+vartype = 'USINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 2L
+init = ''
+comment = 'Engine Throttle 2 Position J1939 SPN 3673 [%]'
+[CAN_VARIABLE_2]
+name = 'EngineFuelRate'
+vartype = 'UINT'
+bytepos = 0
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 20L
+div = 1L
+init = ''
+comment = 'Engine Fuel Rate J1939 SPN 183 [l/h]'
+[CAN_VARIABLE_3]
+name = 'EngineInstantaneousFuelEconomy'
+vartype = 'UINT'
+bytepos = 2
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 512L
+div = 1L
+init = ''
+comment = 'Engine Instantaneous Fuel Economy J1939 SPN 184 [km/l]'
+[CAN_VARIABLE_4]
+name = 'EngineAverageFuelEconomy'
+vartype = 'UINT'
+bytepos = 4
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 512L
+div = 1L
+init = ''
+comment = 'Engine Average Fuel Economy J1939 SPN 185 [km/l]'

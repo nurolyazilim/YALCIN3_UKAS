@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\gauge_2\\property.txt'
+[ATTRIBUTES]
+name = 'gauge_2'
+nodesInfo = []
+body_language = 'C'
+expression = 'GIGAEngineSpeed  + GIGAGaugeOverride2'
+x = 658
+y = 158
+width = 300
+height = 140
+hwNumber = 1001
+currentValue = 0

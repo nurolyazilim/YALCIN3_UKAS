@@ -1,0 +1,83 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\VEP1_Vehicle_Electrical_Power_1\\property.txt'
+[ATTRIBUTES]
+name = 'VEP1_Vehicle_Electrical_Power_1'
+nodesInfo = []
+id = 419362814
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 1000
+alm_tout = 1010
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'VEP1_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 5
+[CAN_VARIABLE_0]
+name = u'NetBatteryCurrent'
+vartype = u'SINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 125
+mul = 1
+div = 1
+init = ''
+comment = u'Net Battery Current J1939 SPN 114 [A]'
+[CAN_VARIABLE_1]
+name = u'AlternatorCurrent'
+vartype = u'USINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Alternator Current J1939 SPN 115 [A]'
+[CAN_VARIABLE_2]
+name = u'ChargingSystemPotential'
+vartype = u'UINT'
+bytepos = 2
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 20
+div = 1
+init = ''
+comment = u'Charging System Potential (Voltage) J1939 SPN 167 [V]'
+[CAN_VARIABLE_3]
+name = u'BatteryPotentialPowerInput1'
+vartype = u'UINT'
+bytepos = 4
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 2
+div = 1
+init = ''
+comment = u'Battery Potential / Power Input 1 J1939 SPN 168 [V]'
+[CAN_VARIABLE_4]
+name = u'KeyswitchBatteryPotential'
+vartype = u'UINT'
+bytepos = 6
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 20
+div = 1
+init = ''
+comment = u'Keyswitch Battery Potential J1939 SPN 158 [V]'

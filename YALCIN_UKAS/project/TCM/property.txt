@@ -1,0 +1,7 @@
+[GENERAL]
+module = 'model.deviceJ1939Model'
+class = 'DeviceJ1939Model'
+filename = u'project\\TCM\\property.txt'
+[ATTRIBUTES]
+name = u'TCM'
+nodesInfo = [(u'CAN_J1939', 'CanInterfaceModel')]

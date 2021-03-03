@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\led_22\\property.txt'
+[ATTRIBUTES]
+name = 'led_22'
+nodesInfo = []
+body_language = 'C'
+expression = '(MC2M_TERA_Icon_Status_L14_3 OR MC2M_TERA_Icon_Status_L14_1 OR MC2M_TERA_Icon_Status_L14_5) AND IgnitionOn OR GIGALedOverride'
+x = 1037
+y = 268
+width = 40
+height = 40
+hwNumber = 21
+currentValue = 0

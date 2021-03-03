@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\Type_Lib\\dataArray\\property.txt'
+[ATTRIBUTES]
+name = u'dataArray'
+nodesInfo = []
+definition = u'ARRAY [0..99, 0..2] OF UDINT\r\n'

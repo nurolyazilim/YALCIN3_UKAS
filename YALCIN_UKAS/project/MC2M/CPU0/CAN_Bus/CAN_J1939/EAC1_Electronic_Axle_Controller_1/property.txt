@@ -1,0 +1,83 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_J1939\\EAC1_Electronic_Axle_Controller_1\\property.txt'
+[ATTRIBUTES]
+name = 'EAC1_Electronic_Axle_Controller_1'
+nodesInfo = []
+id = 418383614
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 500
+alm_tout = 510
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'EAC1_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = u'33'
+[CAN_VARIABLES]
+count = 5
+[CAN_VARIABLE_0]
+name = u'Location'
+vartype = u'USINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Location J1939 SPN 927'
+[CAN_VARIABLE_1]
+name = u'DifferentialLockStateFrontAxle1'
+vartype = u'USINT'
+bytepos = 1
+bitpos = 0
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Differential Lock State - Front Axle 1 J1939 SPN 567'
+[CAN_VARIABLE_2]
+name = u'DifferentialLockStateFrontAxle2'
+vartype = u'USINT'
+bytepos = 1
+bitpos = 2
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Differential Lock State - Front Axle 2 J1939 SPN 568'
+[CAN_VARIABLE_3]
+name = u'DifferentialLockStateRearAxle1'
+vartype = u'USINT'
+bytepos = 1
+bitpos = 4
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Differential Lock State - Rear Axle 1 J1939 SPN 569'
+[CAN_VARIABLE_4]
+name = u'DifferentialLockStateRearAxle2'
+vartype = u'USINT'
+bytepos = 1
+bitpos = 6
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Differential Lock State - Rear Axle 2 J1939 SPN 570'

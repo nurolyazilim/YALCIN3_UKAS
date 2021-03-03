@@ -1,0 +1,23 @@
+[GENERAL]
+module = 'model.indicatorModel.circularGauge'
+class = 'CircularGauge'
+filename = u'project\\TERA12\\Screens\\screen\\gauge_RearRightAngle\\property.txt'
+[ATTRIBUTES]
+name = u'gauge_RearRightAngle'
+nodesInfo = []
+body_language = 'C'
+x = 169
+y = 383
+radius = 74
+thick = 3
+minAngle = -90
+maxAngle = 90
+color (repr) = 'ColorOnly((176, 176, 176),)'
+bitmap (repr) = "Color(('null', 0, 0),)"
+bitmap_x = 0
+bitmap_y = 0
+minValue = 0
+maxValue = 1200
+currentValue = 600
+expression = 'vehicleAngleX'
+timer = 100

@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\lcd_is_mile\\property.txt'
+[ATTRIBUTES]
+name = 'lcd_is_mile'
+nodesInfo = []
+body_language = 'C'
+expression = ''
+x = 1273
+y = 642
+width = 23
+height = 23
+hwNumber = 1102
+currentValue = 0

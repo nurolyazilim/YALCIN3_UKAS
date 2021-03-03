@@ -1,0 +1,70 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_Open\\CAN_781\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_781'
+nodesInfo = []
+id = 1921
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MC2M_NMSGUI_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 4
+[CAN_VARIABLE_0]
+name = u'fuel_level_left'
+vartype = u'SINT'
+bytepos = 0
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'fuel_level_right'
+vartype = u'SINT'
+bytepos = 2
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'fuel_temp_left'
+vartype = u'SINT'
+bytepos = 4
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'fuel_temp_right'
+vartype = u'SINT'
+bytepos = 5
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

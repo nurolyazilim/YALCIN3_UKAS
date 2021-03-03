@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\Alarm_Icon_Group\\L10_AirFilterClogged_icon\\property.txt'
+[ATTRIBUTES]
+name = u'L10_AirFilterClogged_icon'
+nodesInfo = []
+body_language = 'C'
+x = 684
+y = 390
+width = 38
+height = 34
+layer = 0
+expression = 'MC2M_TERA_Icon_Status_L10'
+timer = 100
+currentValue = 1
+count = 2
+bitmap0 (repr) = "Bitmap(u'24B.png', ('null', 0, 0))"
+bitmap1 (repr) = "Bitmap(u'24A.png', ('null', 0, 0))"

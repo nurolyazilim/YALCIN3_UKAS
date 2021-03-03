@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\NMS_GUI\\screen\\multiscreen_3\\0\\dropbox_L_fb\\property.txt'
+[ATTRIBUTES]
+name = u'dropbox_L_fb'
+nodesInfo = []
+body_language = 'C'
+x = 535
+y = 470
+width = 80
+height = 80
+layer = 0
+expression = 'dropbox_l_image'
+timer = 100
+currentValue = 1
+count = 2
+bitmap0 (repr) = "Bitmap(u'dropbox_low.png', ('transparent', 0, 0))"
+bitmap1 (repr) = "Bitmap(u'dropbox_low_white.png', ('transparent', 0, 0))"

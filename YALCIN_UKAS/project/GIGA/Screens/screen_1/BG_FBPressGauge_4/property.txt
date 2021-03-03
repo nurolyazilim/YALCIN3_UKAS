@@ -1,0 +1,16 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleRect'
+class = 'SimpleRect'
+filename = u'project\\GIGA\\Screens\\screen_1\\BG_FBPressGauge_4\\property.txt'
+[ATTRIBUTES]
+name = u'BG_FBPressGauge_4'
+nodesInfo = []
+body_language = 'C'
+x = 224
+y = 205
+width = 92
+height = 26
+thick = 1
+layer = 1
+border (repr) = 'ColorOnly((255, 255, 255),)'
+fill (repr) = "ColorOnly(('null', 0, 0),)"

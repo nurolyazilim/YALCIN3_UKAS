@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\property.txt'
+[ATTRIBUTES]
+name = u'Dashboard_Screen'
+nodesInfo = [(u'AnalogueGauges', 'FolderModel'), (u'DigitalGauges', 'FolderModel')]
+documentation = 'write documentation here'
+private = False

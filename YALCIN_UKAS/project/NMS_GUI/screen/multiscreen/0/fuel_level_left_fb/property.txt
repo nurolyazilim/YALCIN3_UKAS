@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\NMS_GUI\\screen\\multiscreen\\0\\fuel_level_left_fb\\property.txt'
+[ATTRIBUTES]
+name = u'fuel_level_left_fb'
+nodesInfo = []
+body_language = 'C'
+x = 1087
+y = 84
+width = 50
+height = 20
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign('right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Arial Bold', 16)"
+separator = '.'
+decimals = 0
+currentValue = 123
+expression = 'MC2M_NMSGUI_fuel_level_left'
+timer = 200
+proportional = False
+editable = False

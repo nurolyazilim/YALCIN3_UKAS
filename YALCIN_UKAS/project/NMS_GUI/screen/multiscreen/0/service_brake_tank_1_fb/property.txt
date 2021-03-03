@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\NMS_GUI\\screen\\multiscreen\\0\\service_brake_tank_1_fb\\property.txt'
+[ATTRIBUTES]
+name = u'service_brake_tank_1_fb'
+nodesInfo = []
+body_language = 'C'
+x = 577
+y = 84
+width = 50
+height = 20
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign('right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Arial Bold', 16)"
+separator = '.'
+decimals = 1
+currentValue = 123
+expression = 'MC2M_NMSGUI_service_brake_tank_1'
+timer = 200
+proportional = False
+editable = False

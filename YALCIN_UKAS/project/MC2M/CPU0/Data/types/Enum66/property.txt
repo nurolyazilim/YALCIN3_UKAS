@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum66\\property.txt'
+[ATTRIBUTES]
+name = u'Enum66'
+nodesInfo = []
+definition = '(\n\tEnum66_BRAKE_PEDAL_IS_NOT_BEING_PRESSED := 0,\n\tEnum66_BRAKE_PEDAL_IS_BEING_PRESSED := 1,\n\tEnum66_ERROR := 2,\n\tEnum66_NOT_AVAILABLE := 3\n)'

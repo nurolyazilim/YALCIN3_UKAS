@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\AnalogueGauges\\EngineOilPressure\\property.txt'
+[ATTRIBUTES]
+name = u'EngineOilPressure'
+nodesInfo = [(u'EngineOilPressureFilter_data', 'GlobalDataModel'), (u'Data_EngineOilPressure', 'GlobalDataModel'), (u'mainEngineOilPressure', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

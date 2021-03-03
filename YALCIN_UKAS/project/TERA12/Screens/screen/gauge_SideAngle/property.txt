@@ -1,0 +1,23 @@
+[GENERAL]
+module = 'model.indicatorModel.circularGauge'
+class = 'CircularGauge'
+filename = u'project\\TERA12\\Screens\\screen\\gauge_SideAngle\\property.txt'
+[ATTRIBUTES]
+name = u'gauge_SideAngle'
+nodesInfo = []
+body_language = 'C'
+x = 584
+y = 380
+radius = 62
+thick = 3
+minAngle = -90
+maxAngle = 90
+color (repr) = 'ColorOnly((176, 176, 176),)'
+bitmap (repr) = "Color(('null', 0, 0),)"
+bitmap_x = 0
+bitmap_y = 0
+minValue = 0
+maxValue = 1200
+currentValue = 600
+expression = 'vehicleAngleY'
+timer = 100

@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\property.txt'
+[ATTRIBUTES]
+name = u'SubRoutines'
+nodesInfo = [(u'Dashboard_Screen', 'FolderModel'), (u'ECM', 'FolderModel'), (u'TCM', 'FolderModel'), (u'EBS', 'FolderModel'), (u'Diagnostics', 'FolderModel'), (u'Lamps_Backup', 'FolderModel'), (u'Wipers', 'FolderModel'), (u'Dropbox', 'FolderModel'), (u'Resistances', 'FolderModel'), (u'EngineProtection', 'FolderModel'), (u'ABS_4WD', 'FolderModel'), (u'DiffLock', 'FolderModel'), (u'J1939_CANOpen', 'FolderModel'), (u'WinchControl', 'FolderModel'), (u'BlackOutControl', 'FolderModel'), (u'OtherFunctions', 'FolderModel'), (u'OutSideTemperatur', 'FolderModel'), (u'InSideTemperatur', 'FolderModel'), (u'DoorsControl', 'FolderModel'), (u'VehiclePosition', 'FolderModel'), (u'FuelTankControl', 'FolderModel'), (u'EngineBrake', 'FolderModel'), (u'AselsanDiagnosticData', 'FolderModel'), (u'UKASControl', 'FolderModel'), (u'MobileyeControl', 'FolderModel'), (u'NMSGUI', 'FolderModel'), (u'VVRControl', 'FolderModel'), (u'RemooteRPM', 'FolderModel'), (u'JoystickControl', 'FolderModel')]
+documentation = 'write documentation here'
+private = False

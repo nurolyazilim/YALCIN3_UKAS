@@ -1,0 +1,26 @@
+[GENERAL]
+module = 'model.indicatorModel.multiText'
+class = 'MultiText'
+filename = u'project\\GIGA\\Screens\\screen_4\\Date_Time_Caption_Text\\property.txt'
+[ATTRIBUTES]
+name = 'Date_Time_Caption_Text'
+nodesInfo = []
+body_language = 'C'
+x = 8
+y = 64
+width = 168
+height = 40
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = 'GIGAMenuVar01'
+timer = 0
+currentValue = 1
+count = 2
+text0 = 'GIGA_ST_TEXT2'
+font0 (repr) = "FontName(u'Arial Regular', 15)"
+color0 (repr) = 'ColorOnly((85, 191, 255),)'
+text1 = 'GIGA_ST_TEXT2'
+font1 (repr) = "FontName(u'Arial Regular', 15)"
+color1 (repr) = 'ColorOnly((255, 255, 255),)'

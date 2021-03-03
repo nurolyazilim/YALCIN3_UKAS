@@ -1,0 +1,342 @@
+[GENERAL]
+module = 'model.IO_CFG.IO_CFG_Model'
+class = 'IO_CFG_Model'
+filename = u'project\\MC2M\\CPU0\\IO_CFG\\property.txt'
+[ATTRIBUTES]
+name = 'IO_CFG'
+nodesInfo = []
+parent_type = 'MC2M_2CPU\\CPU0'
+[RESOURCES]
+labels = [u'INP11', u'INP10', u'INP13', u'INP12', u'INP15', u'INP14', u'INP17', u'INP38', u'INP19', u'INP18', u'INP35', u'INP34', u'INP33', u'INP32', u'INP31', u'INP30', u'INP51', u'INP50', u'INP53', u'INP52', u'OUT27', u'OUT26', u'OUT25', u'OUT24', u'OUT23', u'INP39', u'OUT21', u'OUT20', u'INP09', u'OUT29', u'OUT28', u'OUT09', u'OUT08', u'INP40', u'INP36', u'OUT01', u'OUT00', u'OUT03', u'OUT02', u'INP08', u'OUT07', u'OUT06', u'INP02', u'INP29', u'INP37', u'INP01', u'INP06', u'INP07', u'INP04', u'INP05', u'INP20', u'INP21', u'INP22', u'INP23', u'INP24', u'INP25', u'INP26', u'INP27', u'INP48', u'INP49', u'INP46', u'INP47', u'INP44', u'INP45', u'INP42', u'INP43', u'INP03', u'OUT22', u'OUT30', u'OUT31', u'OUT33', u'INP28', u'OUT04', u'OUT18', u'OUT19', u'OUT12', u'OUT13', u'OUT10', u'OUT11', u'INP00', u'OUT17', u'OUT14', u'OUT15']
+[INP11]
+VARNAME = u'DIGIN_Light_P1_Park'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP10]
+VARNAME = u'AIN_Tank_Left_Level'
+SW_CFG = u'PIN_20mA_ANALOGIN'
+PARAM = u''
+[INP13]
+VARNAME = u'AIN_FuelTankLeft_Temp'
+SW_CFG = u'PIN_20mA_ANALOGIN'
+PARAM = u''
+[INP12]
+VARNAME = u'AIN_FootBrakePressureSensor_1'
+SW_CFG = u'PIN_20mA_ANALOGIN'
+PARAM = u''
+[INP15]
+VARNAME = u'DIGIN_LowBeamStatus'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP14]
+VARNAME = u'AIN_AccessoryPressureSensor'
+SW_CFG = u'PIN_20mA_ANALOGIN'
+PARAM = u''
+[INP17]
+VARNAME = u'DIGIN_WiperLow'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP38]
+VARNAME = u'DIGIN_WiperIntermittent'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP19]
+VARNAME = u'DIGIN_BackDoor_IN_Close'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP18]
+VARNAME = u'DIGIN_Unmanned_Mode'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP35]
+VARNAME = u'AIN_FootBrakePressureSensor_2'
+SW_CFG = u'PIN_20mA_ANALOGIN'
+PARAM = u''
+[INP34]
+VARNAME = u'DIGIN_DoorOpenSwitch'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP33]
+VARNAME = u'AIN_ParkBrakePressureSensor'
+SW_CFG = u'PIN_20mA_ANALOGIN'
+PARAM = u''
+[INP32]
+VARNAME = u'AIN_VVR_Temperature'
+SW_CFG = u'PIN_HIR_ANALOGIN'
+PARAM = u''
+[INP31]
+VARNAME = u'AIN_WebastoTankResistanceSensor'
+SW_CFG = u'PIN_20mA_ANALOGIN'
+PARAM = u''
+[INP30]
+VARNAME = u'AIN_VVR_Pressure'
+SW_CFG = u'PIN_20mA_ANALOGIN'
+PARAM = u''
+[INP51]
+VARNAME = u'DIGIN_IntakeAirHeaterActivated'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP50]
+VARNAME = u'DIGIN_Hazard'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP53]
+VARNAME = u'AIN_Brake_Joystick'
+SW_CFG = u'PIN_30V_ANALOGIN'
+PARAM = u''
+[INP52]
+VARNAME = u'DIGIN_EngineBrake'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[OUT27]
+VARNAME = u'DOUT_RearAxleDiffLock'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT26]
+VARNAME = u'DOUT_Dropbox_High'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT25]
+VARNAME = u'DOUT_Dropbox_Low'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT24]
+VARNAME = u'DOUT_Dropbox_Neutral'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT23]
+VARNAME = u'DOUT_BatteryCharge'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[INP39]
+VARNAME = u'DIGIN_WiperHigh'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[OUT21]
+VARNAME = u'DOUT_WiperMotor_2'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT20]
+VARNAME = u'DOUT_TurnSignalLamp_Right'
+SW_CFG = u'PIN_HI_DIGOUT_D'
+PARAM = u''
+[INP09]
+VARNAME = u'DIGIN_EngineCoolantLevelLow'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[OUT29]
+VARNAME = u'DOUT_WiperMotorLow_1'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT28]
+VARNAME = u'DOUT_FrontAxleDiffLock'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT09]
+VARNAME = u'DOUT_RearDoorControlValf_1'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT08]
+VARNAME = u'DOUT_InteriorVantilator'
+SW_CFG = u'PIN_HI_DIGOUT_D'
+PARAM = u''
+[INP40]
+VARNAME = u'DIGIN_TurnLeftSignal'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP36]
+VARNAME = u'DIGIN_Bypass_Switch'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[OUT01]
+VARNAME = u'DOUT_EngineProtection'
+SW_CFG = u'PIN_HI_DIGOUT_D'
+PARAM = u''
+[OUT00]
+VARNAME = u'DOUT_TurnSignalLamp_Left'
+SW_CFG = u'PIN_HI_DIGOUT_D'
+PARAM = u''
+[OUT03]
+VARNAME = u'DOUT_FuelWater_Evacuation'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT02]
+VARNAME = u'DOUT_Tank2_Valve_Draw'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[INP08]
+VARNAME = u'DIGIN_SteeringWheelRepPump'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[OUT07]
+VARNAME = u'DOUT_Backup_Alarm'
+SW_CFG = u'PIN_HI_DIGOUT_D'
+PARAM = u''
+[OUT06]
+VARNAME = u'DOUT_T90Enable'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[INP02]
+VARNAME = u'DIGIN_Feedback_4WD_DiffLock'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP29]
+VARNAME = u'DIGIN_AlternatorFailure'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP37]
+VARNAME = u'DIGIN_HighBeamStatus'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP01]
+VARNAME = u'DIGIN_VVR_OilFilter'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP06]
+VARNAME = u'DIGIN_Feedback_RearAxle'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP07]
+VARNAME = u'DIGIN_BackDoorHandle_Open'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP04]
+VARNAME = u'DIGIN_GunTowerDoor_1'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP05]
+VARNAME = u'DIGIN_AirFilterClogged'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP20]
+VARNAME = u'AIN_Tank_Right_Level'
+SW_CFG = u'PIN_HIR_ANALOGIN'
+PARAM = u''
+[INP21]
+VARNAME = u'DIGIN_HandBrakeActivated'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP22]
+VARNAME = u'DIGIN_Feedback_DropboxHigh'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP23]
+VARNAME = u'DIGIN_CentralLockSystemEnable'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP24]
+VARNAME = u'DIGIN_VVR_OilLevel'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP25]
+VARNAME = u'AIN_FuelTankRight_Temp'
+SW_CFG = u'PIN_LOR_ANALOGIN'
+PARAM = u''
+[INP26]
+VARNAME = u'DIGIN_TCM_104'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP27]
+VARNAME = u'DIGIN_BackDoor_OUT_Open'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP48]
+VARNAME = u'DIGIN_BackDoor_IN_Open'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP49]
+VARNAME = u'DIGIN_KeySwitchActivated'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP46]
+VARNAME = u'DIGIN_FrontAxleDiffLock'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP47]
+VARNAME = u'DIGIN_RearAxleDiffLock'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP44]
+VARNAME = u'DIGIN_WiperWasher'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP45]
+VARNAME = u'DIGIN_BlackOut'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP42]
+VARNAME = u'DIGIN_Back_HydDoorOpened'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP43]
+VARNAME = u'DIGIN_Back_HydDoorClosed'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[INP03]
+VARNAME = u'DIGIN_Feedback_DropboxLow'
+SW_CFG = u'PIN_LO_DIGITALIN'
+PARAM = u''
+[OUT22]
+VARNAME = u'DOUT_Washer'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT30]
+VARNAME = u'DOUT_ResistancesFront'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT31]
+VARNAME = u'DOUT_WiperMotorLow_2'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT33]
+VARNAME = u'ANOUT_BrakeProportional'
+SW_CFG = u'PIN_10V_ANOUT'
+PARAM = u''
+[INP28]
+VARNAME = u'DIGIN_BackDoor_OUT_Close'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[OUT04]
+VARNAME = u'DOUT_Brake_En'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT18]
+VARNAME = u'DOUT_ResistanceLED'
+SW_CFG = u'PIN_HI_DIGOUT_D'
+PARAM = u''
+[OUT19]
+VARNAME = u'DOUT_Dropbox_4WD_Off'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT12]
+VARNAME = u'DOUT_RearDoorControlValf_2'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT13]
+VARNAME = u'DOUT_Tank1_Valve_Draw'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT10]
+VARNAME = u'DOUT_WiperMotor_1'
+SW_CFG = u'PIN_HI_DIGOUT'
+PARAM = u''
+[OUT11]
+VARNAME = u'DOUT_HazardButtonLed'
+SW_CFG = u'PIN_HI_DIGOUT_D'
+PARAM = u''
+[INP00]
+VARNAME = u'DIGIN_TurnRightSignal'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[OUT17]
+VARNAME = u'DOUT_InteriorLamp_BO'
+SW_CFG = u'PIN_HI_DIGOUT_D'
+PARAM = u''
+[OUT14]
+VARNAME = u'PWMOUT_VVR_Pump'
+SW_CFG = u'PIN_HI_OPENLOOP_PWMOUT'
+PARAM = u'100'
+[OUT15]
+VARNAME = u'DOUT_SideWindowResistance'
+SW_CFG = u'PIN_HI_DIGOUT_D'
+PARAM = u''

@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\gauge_1\\property.txt'
+[ATTRIBUTES]
+name = 'gauge_1'
+nodesInfo = []
+body_language = 'C'
+expression = 'GIGAEngineTempValue  + GIGAGaugeOverride1'
+x = 413
+y = 414
+width = 120
+height = 220
+hwNumber = 1005
+currentValue = 0

@@ -1,0 +1,155 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\PTO_Power_Takeoff_Information\\property.txt'
+[ATTRIBUTES]
+name = 'PTO_Power_Takeoff_Information'
+nodesInfo = []
+id = 419361022
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 100
+alm_tout = 110
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'PTO_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 11
+[CAN_VARIABLE_0]
+name = 'PowerTakeoffOilTemperature'
+vartype = 'SINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 40
+mul = 1L
+div = 1L
+init = ''
+comment = 'Power Takeoff Oil Temperature J1939 SPN 90 [deg C]'
+[CAN_VARIABLE_1]
+name = 'EnginePTOGovernorEnableSwitch'
+vartype = 'Enum71'
+bytepos = 5
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine PTO Governor Enable Switch J1939 SPN 980'
+[CAN_VARIABLE_2]
+name = 'EngRmtPTOGvrnrPreprogrSpdCtrlSw'
+vartype = 'Enum71'
+bytepos = 5
+bitpos = 2
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine Remote PTO Governor Preprogrammed Speed Control Switch J1939 SPN 979'
+[CAN_VARIABLE_3]
+name = 'EngRmtPTOGvrnrVariableSpdCtrlSw'
+vartype = 'Enum71'
+bytepos = 5
+bitpos = 4
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine Remote PTO Governor Variable Speed Control Switch J1939 SPN 978'
+[CAN_VARIABLE_4]
+name = 'EnginePTOGovernorSetSwitch'
+vartype = 'Enum71'
+bytepos = 6
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine PTO Governor Set Switch J1939 SPN 984'
+[CAN_VARIABLE_5]
+name = 'EngPTOGvrnrCoastDecelerateSwitch'
+vartype = 'Enum71'
+bytepos = 6
+bitpos = 2
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine PTO Governor Coast/Decelerate Switch J1939 SPN 983'
+[CAN_VARIABLE_6]
+name = 'EnginePTOGovernorResumeSwitch'
+vartype = 'Enum71'
+bytepos = 6
+bitpos = 4
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine PTO Governor Resume Switch J1939 SPN 982'
+[CAN_VARIABLE_7]
+name = 'EngPTOGovernorAccelerateSwitch'
+vartype = 'Enum71'
+bytepos = 6
+bitpos = 6
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine PTO Governor Accelerate Switch J1939 SPN 981'
+[CAN_VARIABLE_8]
+name = 'AuxiliaryInputIgnoreSwitch'
+vartype = 'Enum71'
+bytepos = 7
+bitpos = 4
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Auxiliary Input Ignore Switch J1939 SPN 3448'
+[CAN_VARIABLE_9]
+name = 'PowerTakeoffSpeed'
+vartype = 'UINT'
+bytepos = 1
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 8L
+div = 1L
+init = ''
+comment = 'Power Takeoff Speed J1939 SPN 186 [rpm]'
+[CAN_VARIABLE_10]
+name = 'PowerTakeoffSetSpeed'
+vartype = 'UINT'
+bytepos = 3
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 8L
+div = 1L
+init = ''
+comment = 'Power Takeoff Set Speed J1939 SPN 187 [rpm]'

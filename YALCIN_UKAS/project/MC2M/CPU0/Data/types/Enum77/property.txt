@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum77\\property.txt'
+[ATTRIBUTES]
+name = 'Enum77'
+nodesInfo = []
+definition = '(\n\tEnum77_TORQUE_CONVERTER_LOCKUP_DISENGAGED := 0,\n\tEnum77_TORQUE_CONVERTER_LOCKUP_ENGAGED := 1,\n\tEnum77_ERROR := 2,\n\tEnum77_NOT_AVAILABLE := 3\n)'

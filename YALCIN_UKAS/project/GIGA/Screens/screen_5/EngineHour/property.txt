@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_5\\EngineHour\\property.txt'
+[ATTRIBUTES]
+name = u'EngineHour'
+nodesInfo = []
+body_language = 'C'
+x = 144
+y = 168
+width = 64
+height = 16
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = u'UDINT_TO_STRING(GIGAOdometerBackup/1000)'
+font (repr) = "FontName(u'Courier New Regular', 11)"
+timer = 0
+editable = False

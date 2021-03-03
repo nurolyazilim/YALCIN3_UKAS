@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\TERA12\\Screens\\screen\\EngineHour\\property.txt'
+[ATTRIBUTES]
+name = u'EngineHour'
+nodesInfo = []
+body_language = 'C'
+x = 334
+y = 585
+width = 133
+height = 15
+color (repr) = 'ColorOnly((255, 0, 0),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign('top',)"
+expression = '"SIMPLE TEXT"'
+font (repr) = "FontName(u'Courier New Regular', 13)"
+timer = 0
+editable = False

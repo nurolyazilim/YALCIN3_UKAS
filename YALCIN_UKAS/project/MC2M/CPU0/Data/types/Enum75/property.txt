@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum75\\property.txt'
+[ATTRIBUTES]
+name = u'Enum75'
+nodesInfo = []
+definition = '(\n\tEnum75_TRAILER_ABS_STATUS_INFORMATION_AVAILABLE_BUT_NOT_ACTIVE := 0,\n\tEnum75_TRAILER_ABS_ACTIVE := 1,\n\tEnum75_RESERVED := 2,\n\tEnum75_TRAILER_ABS_STATUS_INFORMATION_NOT_AVAILABLE_OR_PARAMETER_NOT_SUPPORTED := 3\n)'

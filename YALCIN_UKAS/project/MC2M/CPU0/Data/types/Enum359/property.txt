@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum359\\property.txt'
+[ATTRIBUTES]
+name = 'Enum359'
+nodesInfo = []
+definition = '(\n\tEnum359_PARKING_BRAKE_NOT_SET := 0,\n\tEnum359_PARKING_BRAKE_SET := 1,\n\tEnum359_ERROR := 2,\n\tEnum359_NOT_AVAILABLE := 3\n)'

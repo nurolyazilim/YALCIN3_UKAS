@@ -1,0 +1,8 @@
+1;DifflockFeedbackState;USINT;1;%M;16;5;;;;;;;;
+2;DifflockDoutState;USINT;1;%M;17;5;;;;;;;;
+3;Test_Dropbox_4WD_Off;BOOL;1;%P;70;5;;;;;;;;
+4;Test_RearAxleDiffLock;BOOL;1;%P;71;5;;;;;;;;
+5;Test_FrontAxleDiffLock;BOOL;1;%P;72;5;;;;;;;;
+Refresh = 100
+DiskSpace = 1
+Signature = 2E308A0D1E5341F5FCA7948CD5A0785A

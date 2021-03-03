@@ -1,0 +1,70 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_Open_UKAS\\CAN_154A\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_154A'
+nodesInfo = []
+id = 340
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 1000
+alm_tout = 1500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MC2M_MURPHY_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 4
+[CAN_VARIABLE_0]
+name = u'Hour'
+vartype = u'SINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'Minute'
+vartype = u'SINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'Second'
+vartype = u'SINT'
+bytepos = 2
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'SyncMessage'
+vartype = u'SINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0x55'
+comment = u''

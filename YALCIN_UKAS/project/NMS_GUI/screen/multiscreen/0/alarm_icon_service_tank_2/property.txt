@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\NMS_GUI\\screen\\multiscreen\\0\\alarm_icon_service_tank_2\\property.txt'
+[ATTRIBUTES]
+name = u'alarm_icon_service_tank_2'
+nodesInfo = []
+body_language = 'C'
+x = 366
+y = 253
+width = 27
+height = 30
+layer = 0
+expression = 'alarm_icon_service_tank_2'
+timer = 100
+currentValue = 0
+count = 2
+bitmap0 (repr) = "Color(('null', 0, 0),)"
+bitmap1 (repr) = "Bitmap(u'28A.png', ('transparent', 0, 0))"

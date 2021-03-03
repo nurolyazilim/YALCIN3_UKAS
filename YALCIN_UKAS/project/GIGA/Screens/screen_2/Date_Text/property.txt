@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_2\\Date_Text\\property.txt'
+[ATTRIBUTES]
+name = u'Date_Text'
+nodesInfo = []
+body_language = 'C'
+x = 159
+y = 112
+width = 140
+height = 28
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = u'DateOnScreen'
+font (repr) = "FontName(u'DS-Digital Normal', 22)"
+timer = 200
+editable = False

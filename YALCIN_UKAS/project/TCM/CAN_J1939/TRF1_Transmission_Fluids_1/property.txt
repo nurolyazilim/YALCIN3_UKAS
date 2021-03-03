@@ -1,0 +1,107 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\TCM\\CAN_J1939\\TRF1_Transmission_Fluids_1\\property.txt'
+[ATTRIBUTES]
+name = 'TRF1_Transmission_Fluids_1'
+nodesInfo = []
+id = 419363070
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 1000
+alm_tout = 1010
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'TRF1_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 7
+[CAN_VARIABLE_0]
+name = 'ClutchPressure'
+vartype = 'USINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 16L
+init = ''
+comment = 'Clutch Pressure J1939 SPN 123 [kPa]'
+[CAN_VARIABLE_1]
+name = 'TransmissionOilLevel'
+vartype = 'USINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 2L
+init = ''
+comment = 'Transmission Oil Level J1939 SPN 124 [%]'
+[CAN_VARIABLE_2]
+name = 'TransmissionFilterDiffPressure'
+vartype = 'USINT'
+bytepos = 2
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 2L
+init = ''
+comment = 'Transmission Filter Differential Pressure J1939 SPN 126 [kPa]'
+[CAN_VARIABLE_3]
+name = 'TransmissionOilPressure'
+vartype = 'USINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 16L
+init = ''
+comment = 'Transmission Oil Pressure J1939 SPN 127 [kPa]'
+[CAN_VARIABLE_4]
+name = 'TransmissionOilLevelHighLow'
+vartype = 'SINT'
+bytepos = 6
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 125
+mul = 2L
+div = 1L
+init = ''
+comment = 'Transmission Oil Level High / Low J1939 SPN 3027 [l]'
+[CAN_VARIABLE_5]
+name = 'TransmissionOilLevelCntdownTimer'
+vartype = 'Enum375'
+bytepos = 7
+bitpos = 0
+bitlength = 4
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Oil Level Countdown Timer J1939 SPN 3028'
+[CAN_VARIABLE_6]
+name = 'TransmissionOilTemperature'
+vartype = 'INT'
+bytepos = 4
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 8736
+mul = 32L
+div = 1L
+init = ''
+comment = 'Transmission Oil Temperature J1939 SPN 177 [deg C]'

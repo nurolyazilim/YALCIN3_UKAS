@@ -1,0 +1,107 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\OMNIA_LEFT\\CAN_Open\\CAN_Light_4E\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_Light_4E'
+nodesInfo = []
+id = 217959679
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 100
+alm_tout = 1500
+alm_off_cnt = 1
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'OMNIA_LEFT_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = u''
+[CAN_VARIABLES]
+count = 7
+[CAN_VARIABLE_0]
+name = u'Light_P1_Park'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 4
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'LowBeamStatus'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 5
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'LowBeam2Status'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 0
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'TurnLeftSignal'
+vartype = u'BOOL'
+bytepos = 1
+bitpos = 0
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_4]
+name = u'TurnRightSignal'
+vartype = u'BOOL'
+bytepos = 1
+bitpos = 1
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_5]
+name = u'HighBeamStatus'
+vartype = u'BOOL'
+bytepos = 1
+bitpos = 6
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_6]
+name = u'HighBeamFlashStatus'
+vartype = u'BOOL'
+bytepos = 1
+bitpos = 7
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

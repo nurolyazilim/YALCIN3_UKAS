@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum375\\property.txt'
+[ATTRIBUTES]
+name = u'Enum375'
+nodesInfo = []
+definition = '(\n\tEnum375_LESS_THAN_1_MINUTE := 0,\n\tEnum375_ONE_MINUTE := 1,\n\tEnum375_TWO_MINUTES := 2,\n\tEnum375_THREE_MINUTES := 3,\n\tEnum375_FOUR_MINUTES := 4,\n\tEnum375_FIVE_MINUTES := 5,\n\tEnum375_SIX_MINUTES := 6,\n\tEnum375_SEVEN_MINUTES := 7,\n\tEnum375_EIGHT_MINUTES := 8,\n\tEnum375_NINE_MINUTES := 9,\n\tEnum375_TEN_MINUTES := 10,\n\tEnum375_ELEVEN_MINUTES := 11,\n\tEnum375_TWELVE_MINUTES := 12,\n\tEnum375_THIRTEEN_MINUTES := 13,\n\tEnum375_ERROR := 14,\n\tEnum375_NOT_AVAILABLE := 15\n)'

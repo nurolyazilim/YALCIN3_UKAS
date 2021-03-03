@@ -1,0 +1,131 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\EEC3_Electronic_Engine_Controller_3\\property.txt'
+[ATTRIBUTES]
+name = 'EEC3_Electronic_Engine_Controller_3'
+nodesInfo = []
+id = 419356670
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 250
+alm_tout = 260
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'EEC3_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 9
+[CAN_VARIABLE_0]
+name = 'NominalFrictionPercentTorque'
+vartype = 'SINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 125
+mul = 1L
+div = 1L
+init = ''
+comment = 'Nominal Friction - Percent Torque J1939 SPN 514 [%]'
+[CAN_VARIABLE_1]
+name = 'EngsDsrdOprtngSpdAsymmtryAdjstmn'
+vartype = 'USINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = "Engine's Desired Operating Speed Asymmetry Adjustment J1939 SPN 519"
+[CAN_VARIABLE_2]
+name = 'EstEngParasiticLossesPercentTrq'
+vartype = 'SINT'
+bytepos = 4
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 125
+mul = 1L
+div = 1L
+init = ''
+comment = 'Estimated Engine Parasitic Losses - Percent Torque J1939 SPN 2978 [%]'
+[CAN_VARIABLE_3]
+name = 'Aftertreatment1IntakeDewPoint'
+vartype = 'Enum342'
+bytepos = 7
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Aftertreatment 1 Intake Dew Point J1939 SPN 3237'
+[CAN_VARIABLE_4]
+name = 'Aftertreatment1ExhaustDewPoint'
+vartype = 'Enum342'
+bytepos = 7
+bitpos = 2
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Aftertreatment 1 Exhaust Dew Point J1939 SPN 3238'
+[CAN_VARIABLE_5]
+name = 'Aftertreatment2IntakeDewPoint'
+vartype = 'Enum342'
+bytepos = 7
+bitpos = 4
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Aftertreatment 2 Intake Dew Point J1939 SPN 3239'
+[CAN_VARIABLE_6]
+name = 'Aftertreatment2ExhaustDewPoint'
+vartype = 'Enum342'
+bytepos = 7
+bitpos = 6
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Aftertreatment 2 Exhaust Dew Point J1939 SPN 3240'
+[CAN_VARIABLE_7]
+name = 'EnginesDesiredOperatingSpeed'
+vartype = 'UINT'
+bytepos = 1
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 8L
+div = 1L
+init = ''
+comment = "Engine's Desired Operating Speed J1939 SPN 515 [rpm]"
+[CAN_VARIABLE_8]
+name = 'Aftrtrtmnt1ExhaustGasMassFlow'
+vartype = 'UINT'
+bytepos = 5
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 1L
+init = ''
+comment = 'Aftertreatment 1 Exhaust Gas Mass Flow J1939 SPN 3236 [kg/h]'

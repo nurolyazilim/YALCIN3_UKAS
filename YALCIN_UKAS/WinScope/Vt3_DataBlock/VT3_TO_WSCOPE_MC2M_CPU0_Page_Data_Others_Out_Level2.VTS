@@ -1,0 +1,14 @@
+1;Stat_interiorVentilation_1;BOOL;1;%M;181;5;;;;;;;;iç fan 1
+2;Stat_interiorVentilation_2;BOOL;1;%M;196;5;;;;;;;;iç fan 2
+3;stat_VehicleOn;BOOL;1;%M;197;5;;;;;;;;
+4;tankResistanceLimit;SINT;1;%P;3;5;;;;;;;;tank ısıtma sıcaklık limiti
+5;stat_ResistanceShould;BOOL;1;%M;198;5;;;;;;;;tank ısıtma resistansı devreye girmeli
+6;fuelTank_1_Temperature;SINT;1;%M;199;5;;;;;;;;birinci tank sıcaklık değeri
+7;fuelTank_2_Temperature;SINT;1;%M;200;5;;;;;;;;ikinci tank sıcaklık değeri
+8;Stat_FireFighter;BOOL;1;%M;201;5;;;;;;;;CTIS & yangın söndürme Blackout
+9;FireFighterActiveFanTime;TIME;4;%P;16;5;;;;;;;;Yangında fanların çalışma süresi
+10;engineSpeedRPMConstant;SINT;1;%P;14;5;;;;;;;;Motorun çalışıp çalışmadığını öğrenmek için  motor hızı sabiti
+11;tankResistanceLimit2;SINT;1;%P;4;5;;;;;;;;İç buzzer
+Refresh = 100
+DiskSpace = 1
+Signature = 8885AA1133462A26EC6EC3C2A978CAD5

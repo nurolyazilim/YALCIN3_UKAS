@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_1\\FBPressValueUnit_3\\property.txt'
+[ATTRIBUTES]
+name = u'FBPressValueUnit_3'
+nodesInfo = []
+body_language = 'C'
+x = 270
+y = 162
+width = 30
+height = 18
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = "'bar'"
+font (repr) = "FontName(u'Arial Bold Italic', 16)"
+timer = 200
+editable = False

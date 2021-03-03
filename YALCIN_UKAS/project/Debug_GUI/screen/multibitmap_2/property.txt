@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\Debug_GUI\\screen\\multibitmap_2\\property.txt'
+[ATTRIBUTES]
+name = 'multibitmap_2'
+nodesInfo = []
+body_language = 'C'
+x = 592
+y = 632
+width = 24
+height = 16
+layer = 0
+expression = 'MC2M_GUI_EvacuationValveState_Fb'
+timer = 1000
+currentValue = 1
+count = 2
+bitmap0 (repr) = 'Color((255, 0, 0),)'
+bitmap1 (repr) = 'Color((0, 255, 0),)'

@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\TERA12\\FILTER\\property.txt'
+[ATTRIBUTES]
+name = u'FILTER'
+nodesInfo = [(u'ARRAY30UINT', 'TypedefModel'), (u'ARR_100_SINT', 'TypedefModel'), (u'Data_SensorFilter1', 'GlobalDataModel'), (u'mainSensor1', 'POU_PROGRAM'), (u'cycleFilter', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

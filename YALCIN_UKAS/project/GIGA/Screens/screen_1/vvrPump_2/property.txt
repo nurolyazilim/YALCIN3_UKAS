@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\GIGA\\Screens\\screen_1\\vvrPump_2\\property.txt'
+[ATTRIBUTES]
+name = 'vvrPump_2'
+nodesInfo = []
+body_language = 'C'
+x = 16
+y = 32
+width = 24
+height = 10
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Arial Regular', 9)"
+separator = '.'
+decimals = 0
+currentValue = 123
+expression = 'GIGA_CACTemp'
+timer = 1000
+proportional = True
+editable = False

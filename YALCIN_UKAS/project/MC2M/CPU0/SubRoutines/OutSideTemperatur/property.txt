@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\OutSideTemperatur\\property.txt'
+[ATTRIBUTES]
+name = u'OutSideTemperatur'
+nodesInfo = [(u'Data_OutSideTemp_SensorFilter', 'GlobalDataModel'), (u'Data_OutSideTemp_Calibration', 'GlobalDataModel'), (u'Data_OutSideTemp_MinMax', 'GlobalDataModel'), (u'outsideTemperatur', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

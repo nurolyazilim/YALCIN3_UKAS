@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.gaugeBar'
+class = 'GaugeBar'
+filename = u'project\\TERA12\\Screens\\screen\\gauge_Accessories\\property.txt'
+[ATTRIBUTES]
+name = u'gauge_Accessories'
+nodesInfo = []
+body_language = 'C'
+x = 326
+y = 430
+width = 17
+height = 73
+orientation (repr) = "Orientation(u'bottom-top',)"
+fill0 (repr) = 'Color((255, 128, 0),)'
+fill1 (repr) = 'Color((255, 255, 0),)'
+fill2 (repr) = 'Color((255, 0, 0),)'
+bg (repr) = "Color(('transparent', 0, 0),)"
+layer = 0
+minValue = 0
+zone1Value = 120
+zone2Value = 120
+maxValue = 120
+currentValue = 60
+expression = 'MC2M_TERA_AccessoryPressure'
+timer = 500

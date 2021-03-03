@@ -1,0 +1,82 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\TERA12\\FILTER\\Data_SensorFilter1\\property.txt'
+[ATTRIBUTES]
+name = u'Data_SensorFilter1'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 4
+[VAR_0]
+name = u'AverageQuantity_Sensor1'
+vartype = u'SINT'
+address = u''
+alias = False
+init = u'30'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'How many value of the array (10) oldval100'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'InputFiltered_Sensor1'
+vartype = u'UINT'
+address = u'%MW50'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Filtered Signal Value'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'TotalInput_Sensor1'
+vartype = u'UDINT'
+address = u'%MD52'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Total Value'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_3]
+name = u'InputArray_Sensor1'
+vartype = u'ARRAY30UINT'
+address = u'%M56'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Array of Signal'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

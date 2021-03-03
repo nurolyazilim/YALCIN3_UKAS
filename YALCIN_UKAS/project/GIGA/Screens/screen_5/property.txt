@@ -1,0 +1,16 @@
+[GENERAL]
+module = 'model.screenModel'
+class = 'ScreenModel'
+filename = u'project\\GIGA\\Screens\\screen_5\\property.txt'
+[ATTRIBUTES]
+name = u'screen_5'
+nodesInfo = [('multitext_3_2', 'MultiText'), ('simple_text_3_3', 'SimpleText'), ('simple_text_3_2', 'SimpleText'), ('simple_text_3_4', 'SimpleText'), ('simple_text_3_3_2', 'SimpleText'), ('simple_text_3_3_3', 'SimpleText'), ('simple_text_3_3_4', 'SimpleText'), ('simple_text_3_3_5', 'SimpleText'), ('simple_text_3_3_6', 'SimpleText'), (u'EngineHour', 'SimpleText'), ('simple_text_3_7', 'SimpleText'), (u'FBPressValue_3', 'Number'), ('simple_text_3_7_2', 'SimpleText'), ('simple_text_3_7_2_2', 'SimpleText'), (u'FBPressValue_3_2', 'Number'), (u'EngineHour_2', 'SimpleText'), ('simple_text_3_7_3', 'SimpleText'), (u'EngineHour_2_2', 'SimpleText'), ('simple_text_3_7_3_2', 'SimpleText'), ('multitext', 'MultiText'), ('multitext_2', 'MultiText'), ('multitext_2_2', 'MultiText'), ('multitext_2_3', 'MultiText'), ('multitext_2_4', 'MultiText'), ('multitext_2_4_2', 'MultiText'), ('multitext_2_4_3', 'MultiText'), ('multitext_2_4_4', 'MultiText'), ('multitext_2_4_5', 'MultiText'), (u'EngineHour_2_3', 'SimpleText')]
+body_language = 'ST'
+background (repr) = 'Color((0, 0, 0),)'
+grid_x = 8
+grid_y = 8
+grid_show = True
+grid_snap = True
+knob_selection_border_width = 0
+knob_selection_border_color (repr) = 'ColorOnly((0, 0, 255),)'
+palette_layer_1 = 0

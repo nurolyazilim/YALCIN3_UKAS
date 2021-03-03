@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_5\\EngineHour_2_3\\property.txt'
+[ATTRIBUTES]
+name = u'EngineHour_2_3'
+nodesInfo = []
+body_language = 'C'
+x = 240
+y = 136
+width = 64
+height = 16
+color (repr) = "ColorOnly(('transparent', 0, 0),)"
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = u'UINT_TO_STRING(MC2M_TERA_BackDoorTest_Prd)'
+font (repr) = "FontName(u'Courier New Regular', 11)"
+timer = 0
+editable = False

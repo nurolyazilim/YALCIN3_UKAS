@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum45\\property.txt'
+[ATTRIBUTES]
+name = u'Enum45'
+nodesInfo = []
+definition = '(\n\tEnum45_DEACTIVATE_WATER_PUMP := 0,\n\tEnum45_ACTIVATE_WATER_PUMP := 1,\n\tEnum45_RESERVED := 2,\n\tEnum45_DONT_CARETAKE_NO_ACTION := 3\n)'

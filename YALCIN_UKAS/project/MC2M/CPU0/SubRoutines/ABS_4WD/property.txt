@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\ABS_4WD\\property.txt'
+[ATTRIBUTES]
+name = u'ABS_4WD'
+nodesInfo = [(u'Data_ABS4WD', 'GlobalDataModel'), (u'mainABS4WD', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

@@ -1,0 +1,22 @@
+// file: C:\Users\Mert\Desktop\WORKSP~1\YALCIN~2\YALCIN~1\code\MC2M\CPU1\link.prm
+// date: Wed Aug 26 09:36:51 2020
+
+// project-specific section: filenames
+NAMES
+	"C:\Users\Mert\Desktop\WORKSP~1\YALCIN~2\YALCIN~1\code\MC2M\CPU1\vt3_code\vt3_IO.c.o"
+	"C:\Users\Mert\Desktop\WORKSP~1\YALCIN~2\YALCIN~1\code\MC2M\CPU1\vt3_code\vt3_alarms.c.o"
+	"C:\Users\Mert\Desktop\WORKSP~1\YALCIN~2\YALCIN~1\code\MC2M\CPU1\vt3_code\vt3_signature.c.o"
+	"C:\Users\Mert\Desktop\WORKSP~1\YALCIN~2\YALCIN~1\code\MC2M\CPU1\vt3_code\vt3_CAN__CanInterface.c.o"
+	"C:\Users\Mert\Desktop\WORKSP~1\YALCIN~2\YALCIN~1\code\MC2M\CPU1\vt3_code\vt3_CAN_common.c.o"
+	"C:\Users\Mert\Desktop\WORKSP~1\YALCIN~2\YALCIN~1\code\MC2M\CPU1\vt3_code\vt3_POU_common.c.o"
+	"C:\Users\Mert\Desktop\WORKSP~1\YALCIN~2\YALCIN~1\code\MC2M\CPU1\vt3_code\vt3_vars.c.o"
+	"C:\Users\Mert\Desktop\WORKSP~1\YALCIN~2\YALCIN~1\code\MC2M\CPU1\extra\vt3_extra.c.o"
+	"C:\PROGRA~2\vt3\RESOUR~1\targets\MC2M_2~1\CPU1\lib\MC2M_Slave.lib"
+	"C:\PROGRA~2\vt3\RESOUR~1\targets\MC2M_2~1\CPU1\lib\MC2M_XSlave.lib"
+	"C:\PROGRA~2\vt3\RESOUR~1\targets\MC2M_2~1\CPU1\lib\VT3_MC2M_Slave.lib"
+END
+
+// common section Standard_Linker.prm
+INCLUDE "C:\PROGRA~2\vt3\RESOUR~1\targets\MC2M_2~1\CPU1\lib\prm\Standard_linker.prm"
+
+// end of file

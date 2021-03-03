@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.can.canLineModel'
+class = 'CanLineModel'
+filename = u'project\\CAN_J1939_250\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_J1939_250'
+nodesInfo = []
+bitrate = 250

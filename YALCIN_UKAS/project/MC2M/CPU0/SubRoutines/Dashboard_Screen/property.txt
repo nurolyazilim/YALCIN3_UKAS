@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Dashboard_Screen\\property.txt'
+[ATTRIBUTES]
+name = u'Dashboard_Screen'
+nodesInfo = [(u'WarningLights', 'FolderModel'), (u'AnalogGauges', 'FolderModel'), (u'TERA_Screen', 'FolderModel')]
+documentation = 'write documentation here'
+private = False

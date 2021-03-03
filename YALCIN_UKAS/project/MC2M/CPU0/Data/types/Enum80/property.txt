@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum80\\property.txt'
+[ATTRIBUTES]
+name = u'Enum80'
+nodesInfo = []
+definition = '(\n\tEnum80_PROGRESSIVE_SHIFT_IS_NOT_DISABLED := 0,\n\tEnum80_PROGRESSIVE_SHIFT_IS_DISABLED := 1,\n\tEnum80_RESERVED := 2,\n\tEnum80_TAKE_NO_ACTION := 3\n)'

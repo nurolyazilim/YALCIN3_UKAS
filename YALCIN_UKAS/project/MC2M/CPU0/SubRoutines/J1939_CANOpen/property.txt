@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\J1939_CANOpen\\property.txt'
+[ATTRIBUTES]
+name = u'J1939_CANOpen'
+nodesInfo = [(u'Data_J1939_CANOpen', 'GlobalDataModel'), (u'mainJ1939toCANOpen', 'POU_PROGRAM'), (u'mainECM_TCM_ABS_DIAG', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

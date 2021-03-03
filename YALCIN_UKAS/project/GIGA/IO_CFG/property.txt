@@ -1,0 +1,18 @@
+[GENERAL]
+module = 'model.IO_CFG.IO_CFG_Model'
+class = 'IO_CFG_Model'
+filename = u'project\\GIGA\\IO_CFG\\property.txt'
+[ATTRIBUTES]
+name = 'IO_CFG'
+nodesInfo = []
+parent_type = 'GIGA_05600005_01'
+[RESOURCES]
+labels = [u'INPUTKEY', u'AINPUTLIGHT']
+[INPUTKEY]
+VARNAME = u'DIGIN_KEY_K15'
+SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[AINPUTLIGHT]
+VARNAME = u'AinLightInp'
+SW_CFG = u'PIN_ADC_ANALOGIN'
+PARAM = u''

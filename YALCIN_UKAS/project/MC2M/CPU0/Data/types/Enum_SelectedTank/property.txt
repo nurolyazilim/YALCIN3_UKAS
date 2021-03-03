@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum_SelectedTank\\property.txt'
+[ATTRIBUTES]
+name = u'Enum_SelectedTank'
+nodesInfo = []
+definition = u'(\r\n\tEnum_SelectedTank_T1 := 0,\r\n    Enum_SelectedTank_T2 :=1,\r\n    Enum_SelectedTank_ALL:=3\r\n)'

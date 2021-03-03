@@ -1,0 +1,26 @@
+[GENERAL]
+module = 'model.indicatorModel.multiText'
+class = 'MultiText'
+filename = u'project\\Debug_GUI\\screen\\multitext_3\\property.txt'
+[ATTRIBUTES]
+name = 'multitext_3'
+nodesInfo = []
+body_language = 'C'
+x = 456
+y = 544
+width = 40
+height = 24
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = 'MC2M_GUI_FuelWaterDetect'
+timer = 1000
+currentValue = 0
+count = 2
+text0 = 'IDS_TEXT49'
+font0 (repr) = "FontName(u'Arial Bold', 17)"
+color0 (repr) = 'ColorOnly((0, 127, 0),)'
+text1 = 'IDS_TEXT48'
+font1 (repr) = "FontName(u'Arial Bold', 14)"
+color1 (repr) = 'ColorOnly((255, 0, 0),)'

@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\TERA12\\Screens\\screen\\SWVersionText\\property.txt'
+[ATTRIBUTES]
+name = u'SWVersionText'
+nodesInfo = []
+body_language = 'C'
+x = 327
+y = 223
+width = 174
+height = 61
+color (repr) = 'ColorOnly((176, 176, 176),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign('left',)"
+valign (repr) = "VAlign('top',)"
+expression = '"SIMPLE TEXT"'
+font (repr) = "FontName(u'Courier New Regular', 12)"
+timer = 200
+editable = False

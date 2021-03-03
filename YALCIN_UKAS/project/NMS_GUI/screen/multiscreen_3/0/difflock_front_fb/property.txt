@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\NMS_GUI\\screen\\multiscreen_3\\0\\difflock_front_fb\\property.txt'
+[ATTRIBUTES]
+name = u'difflock_front_fb'
+nodesInfo = []
+body_language = 'C'
+x = 1037
+y = 457
+width = 100
+height = 93
+layer = 0
+expression = 'difflock_front_image'
+timer = 100
+currentValue = 0
+count = 2
+bitmap0 (repr) = "Bitmap(u'1EYIII_DIFFLOCK_ORTA_ARKA1.png', ('transparent', 0, 0))"
+bitmap1 (repr) = "Bitmap(u'1EYIII_DIFFLOCK_HEPSI1.png', ('transparent', 0, 0))"

@@ -1,0 +1,100 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\AnalogueGauges\\TransOilTemperature\\TransOilTemperatureFilter_data\\property.txt'
+[ATTRIBUTES]
+name = u'TransOilTemperatureFilter_data'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 5
+[VAR_0]
+name = u'AverageQuantityTransOilTemperature'
+vartype = u'SINT'
+address = u''
+alias = False
+init = u'20'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'How many value of the array (max=30)'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'TransOilTemperatureInputFiltered'
+vartype = u'UINT'
+address = u'%MW330'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Filtered Signal Value'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'TotalTransOilTemperatureInput'
+vartype = u'UDINT'
+address = u'%MD2720'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Total Value'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_3]
+name = u'TransOilTemperatureInputArray'
+vartype = u'ARRAY100UINT'
+address = u'%M2724'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Array of Signal'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_4]
+name = u'TransOilTemperature'
+vartype = u'UINT'
+address = u'%MW2924'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Normalized value from 0 to 100'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

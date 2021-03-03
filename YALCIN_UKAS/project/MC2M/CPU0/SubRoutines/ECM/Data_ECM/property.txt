@@ -1,0 +1,46 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\ECM\\Data_ECM\\property.txt'
+[ATTRIBUTES]
+name = u'Data_ECM'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 2
+[VAR_0]
+name = u'ServiceBrakeActivated'
+vartype = u'BOOL'
+address = u''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'EngineStartPermit'
+vartype = u'BOOL'
+address = u''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\lcd_hours\\property.txt'
+[ATTRIBUTES]
+name = 'lcd_hours'
+nodesInfo = []
+body_language = 'C'
+expression = 'ScreenOdometer'
+x = 1159
+y = 598
+width = 111
+height = 27
+hwNumber = 1100
+currentValue = 0

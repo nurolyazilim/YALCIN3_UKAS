@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\NMS_GUI\\screen\\multiscreen\\0\\fuel_level_left\\property.txt'
+[ATTRIBUTES]
+name = u'fuel_level_left'
+nodesInfo = []
+body_language = 'C'
+x = 763
+y = 54
+width = 242
+height = 32
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign('left',)"
+valign (repr) = "VAlign('top',)"
+expression = 'IDS_TEXT_NMSGUI_5'
+font (repr) = "FontName(u'Arial Bold', 18)"
+timer = 200
+editable = False

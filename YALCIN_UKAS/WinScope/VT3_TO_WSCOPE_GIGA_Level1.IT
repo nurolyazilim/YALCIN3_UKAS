@@ -1,0 +1,693 @@
+1;MainLoop;UDINT;4;%M;0;13;;;;;;;;
+2;colord;USINT;1;%M;4;13;;;;;;;;Ekranda Tarih
+3;SubMenuVar;USINT;1;%M;5;13;;;;;;;;boş string
+4;IgnitionOn;BOOL;1;%M;6;13;;;;;;;;boş string
+5;MenuVar;USINT;1;%M;7;13;;;;;;;;boş string
+6;Testvar;USINT;1;%M;8;13;;;;;;;;boş string
+7;Testvar2;USINT;1;%M;9;13;;;;;;;;boş string
+8;GIGAFuelAlarm;BOOL;1;%M;10;13;;;;;;;;boş string
+9;ActiveScreen;USINT;1;%M;11;13;;;;;;;;boş string
+10;GIGAMenuVar05;USINT;1;%M;12;13;;;;;;;;boş string
+11;Cmd_GIGAMenu_Active;BOOL;1;%M;13;13;;;;;;;;boş string
+12;Secret_Menu01;USINT;1;%M;14;13;;;;;;;;boş string
+13;GIGAMenuNo;USINT;1;%M;15;13;;;;;;;;boş string
+14;ScreenOdometer;UDINT;4;%M;16;13;;;;;;;;boş string
+15;GIGAMenuVar01;USINT;1;%M;20;13;;;;;;;;boş string
+16;GIGAMenuVar02;USINT;1;%M;21;13;;;;;;;;boş string
+17;GIGAMenuVar03;USINT;1;%M;22;13;;;;;;;;boş string
+18;GIGAMenuVar04;USINT;1;%M;23;13;;;;;;;;boş string
+19;Stat_GIGAMenu_Ctr1;UDINT;4;%M;24;13;;;;;;;;boş string
+20;MinuteUptOnScreen;STRING(5);10;%M;28;13;;;;;;;;boş string
+21;EngineOilPressureInputFiltered;UINT;2;%M;38;13;;;;;;;;Filtered Signal Value
+22;DateOnScreen2;STRING(10);15;%M;40;13;;;;;;;;Ekranda Tarih
+23;SubMenuVar2;USINT;1;%M;55;13;;;;;;;;boş string
+24;DayUptOnScreen;STRING(5);10;%M;56;13;;;;;;;;boş string
+25;EngineOilPressure;UINT;2;%M;66;13;;;;;;;;Normalized value from 0 to 100
+26;MonthUptOnScreen;STRING(5);10;%M;68;13;;;;;;;;boş string
+27;EngineSpeedInputFiltered;UINT;2;%M;78;13;;;;;;;;Filtered Signal Value
+28;YearUptOnScreen;STRING(5);10;%M;80;13;;;;;;;;boş string
+29;FuelLevelInputFiltered;UINT;2;%M;90;13;;;;;;;;Filtered Signal Value
+30;TotalEngineOilPressureInput;UDINT;4;%M;92;13;;;;;;;;Total Value
+31;EngineOilPressureInputArray;ARRAY100UINT;200;%M;96;13;;;;;;;;Array of Signal
+31.1;EngineOilPressureInputArray[0];UINT;2;%M;96;13;;;;;;;;
+31.2;EngineOilPressureInputArray[1];UINT;2;%M;98;13;;;;;;;;
+31.3;EngineOilPressureInputArray[2];UINT;2;%M;100;13;;;;;;;;
+31.4;EngineOilPressureInputArray[3];UINT;2;%M;102;13;;;;;;;;
+31.5;EngineOilPressureInputArray[4];UINT;2;%M;104;13;;;;;;;;
+31.6;EngineOilPressureInputArray[5];UINT;2;%M;106;13;;;;;;;;
+31.7;EngineOilPressureInputArray[6];UINT;2;%M;108;13;;;;;;;;
+31.8;EngineOilPressureInputArray[7];UINT;2;%M;110;13;;;;;;;;
+31.9;EngineOilPressureInputArray[8];UINT;2;%M;112;13;;;;;;;;
+31.10;EngineOilPressureInputArray[9];UINT;2;%M;114;13;;;;;;;;
+31.11;EngineOilPressureInputArray[10];UINT;2;%M;116;13;;;;;;;;
+31.12;EngineOilPressureInputArray[11];UINT;2;%M;118;13;;;;;;;;
+31.13;EngineOilPressureInputArray[12];UINT;2;%M;120;13;;;;;;;;
+31.14;EngineOilPressureInputArray[13];UINT;2;%M;122;13;;;;;;;;
+31.15;EngineOilPressureInputArray[14];UINT;2;%M;124;13;;;;;;;;
+31.16;EngineOilPressureInputArray[15];UINT;2;%M;126;13;;;;;;;;
+31.17;EngineOilPressureInputArray[16];UINT;2;%M;128;13;;;;;;;;
+31.18;EngineOilPressureInputArray[17];UINT;2;%M;130;13;;;;;;;;
+31.19;EngineOilPressureInputArray[18];UINT;2;%M;132;13;;;;;;;;
+31.20;EngineOilPressureInputArray[19];UINT;2;%M;134;13;;;;;;;;
+31.21;EngineOilPressureInputArray[20];UINT;2;%M;136;13;;;;;;;;
+31.22;EngineOilPressureInputArray[21];UINT;2;%M;138;13;;;;;;;;
+31.23;EngineOilPressureInputArray[22];UINT;2;%M;140;13;;;;;;;;
+31.24;EngineOilPressureInputArray[23];UINT;2;%M;142;13;;;;;;;;
+31.25;EngineOilPressureInputArray[24];UINT;2;%M;144;13;;;;;;;;
+31.26;EngineOilPressureInputArray[25];UINT;2;%M;146;13;;;;;;;;
+31.27;EngineOilPressureInputArray[26];UINT;2;%M;148;13;;;;;;;;
+31.28;EngineOilPressureInputArray[27];UINT;2;%M;150;13;;;;;;;;
+31.29;EngineOilPressureInputArray[28];UINT;2;%M;152;13;;;;;;;;
+31.30;EngineOilPressureInputArray[29];UINT;2;%M;154;13;;;;;;;;
+31.31;EngineOilPressureInputArray[30];UINT;2;%M;156;13;;;;;;;;
+31.32;EngineOilPressureInputArray[31];UINT;2;%M;158;13;;;;;;;;
+31.33;EngineOilPressureInputArray[32];UINT;2;%M;160;13;;;;;;;;
+31.34;EngineOilPressureInputArray[33];UINT;2;%M;162;13;;;;;;;;
+31.35;EngineOilPressureInputArray[34];UINT;2;%M;164;13;;;;;;;;
+31.36;EngineOilPressureInputArray[35];UINT;2;%M;166;13;;;;;;;;
+31.37;EngineOilPressureInputArray[36];UINT;2;%M;168;13;;;;;;;;
+31.38;EngineOilPressureInputArray[37];UINT;2;%M;170;13;;;;;;;;
+31.39;EngineOilPressureInputArray[38];UINT;2;%M;172;13;;;;;;;;
+31.40;EngineOilPressureInputArray[39];UINT;2;%M;174;13;;;;;;;;
+31.41;EngineOilPressureInputArray[40];UINT;2;%M;176;13;;;;;;;;
+31.42;EngineOilPressureInputArray[41];UINT;2;%M;178;13;;;;;;;;
+31.43;EngineOilPressureInputArray[42];UINT;2;%M;180;13;;;;;;;;
+31.44;EngineOilPressureInputArray[43];UINT;2;%M;182;13;;;;;;;;
+31.45;EngineOilPressureInputArray[44];UINT;2;%M;184;13;;;;;;;;
+31.46;EngineOilPressureInputArray[45];UINT;2;%M;186;13;;;;;;;;
+31.47;EngineOilPressureInputArray[46];UINT;2;%M;188;13;;;;;;;;
+31.48;EngineOilPressureInputArray[47];UINT;2;%M;190;13;;;;;;;;
+31.49;EngineOilPressureInputArray[48];UINT;2;%M;192;13;;;;;;;;
+31.50;EngineOilPressureInputArray[49];UINT;2;%M;194;13;;;;;;;;
+31.51;EngineOilPressureInputArray[50];UINT;2;%M;196;13;;;;;;;;
+31.52;EngineOilPressureInputArray[51];UINT;2;%M;198;13;;;;;;;;
+31.53;EngineOilPressureInputArray[52];UINT;2;%M;200;13;;;;;;;;
+31.54;EngineOilPressureInputArray[53];UINT;2;%M;202;13;;;;;;;;
+31.55;EngineOilPressureInputArray[54];UINT;2;%M;204;13;;;;;;;;
+31.56;EngineOilPressureInputArray[55];UINT;2;%M;206;13;;;;;;;;
+31.57;EngineOilPressureInputArray[56];UINT;2;%M;208;13;;;;;;;;
+31.58;EngineOilPressureInputArray[57];UINT;2;%M;210;13;;;;;;;;
+31.59;EngineOilPressureInputArray[58];UINT;2;%M;212;13;;;;;;;;
+31.60;EngineOilPressureInputArray[59];UINT;2;%M;214;13;;;;;;;;
+31.61;EngineOilPressureInputArray[60];UINT;2;%M;216;13;;;;;;;;
+31.62;EngineOilPressureInputArray[61];UINT;2;%M;218;13;;;;;;;;
+31.63;EngineOilPressureInputArray[62];UINT;2;%M;220;13;;;;;;;;
+31.64;EngineOilPressureInputArray[63];UINT;2;%M;222;13;;;;;;;;
+31.65;EngineOilPressureInputArray[64];UINT;2;%M;224;13;;;;;;;;
+31.66;EngineOilPressureInputArray[65];UINT;2;%M;226;13;;;;;;;;
+31.67;EngineOilPressureInputArray[66];UINT;2;%M;228;13;;;;;;;;
+31.68;EngineOilPressureInputArray[67];UINT;2;%M;230;13;;;;;;;;
+31.69;EngineOilPressureInputArray[68];UINT;2;%M;232;13;;;;;;;;
+31.70;EngineOilPressureInputArray[69];UINT;2;%M;234;13;;;;;;;;
+31.71;EngineOilPressureInputArray[70];UINT;2;%M;236;13;;;;;;;;
+31.72;EngineOilPressureInputArray[71];UINT;2;%M;238;13;;;;;;;;
+31.73;EngineOilPressureInputArray[72];UINT;2;%M;240;13;;;;;;;;
+31.74;EngineOilPressureInputArray[73];UINT;2;%M;242;13;;;;;;;;
+31.75;EngineOilPressureInputArray[74];UINT;2;%M;244;13;;;;;;;;
+31.76;EngineOilPressureInputArray[75];UINT;2;%M;246;13;;;;;;;;
+31.77;EngineOilPressureInputArray[76];UINT;2;%M;248;13;;;;;;;;
+31.78;EngineOilPressureInputArray[77];UINT;2;%M;250;13;;;;;;;;
+31.79;EngineOilPressureInputArray[78];UINT;2;%M;252;13;;;;;;;;
+31.80;EngineOilPressureInputArray[79];UINT;2;%M;254;13;;;;;;;;
+31.81;EngineOilPressureInputArray[80];UINT;2;%M;256;13;;;;;;;;
+31.82;EngineOilPressureInputArray[81];UINT;2;%M;258;13;;;;;;;;
+31.83;EngineOilPressureInputArray[82];UINT;2;%M;260;13;;;;;;;;
+31.84;EngineOilPressureInputArray[83];UINT;2;%M;262;13;;;;;;;;
+31.85;EngineOilPressureInputArray[84];UINT;2;%M;264;13;;;;;;;;
+31.86;EngineOilPressureInputArray[85];UINT;2;%M;266;13;;;;;;;;
+31.87;EngineOilPressureInputArray[86];UINT;2;%M;268;13;;;;;;;;
+31.88;EngineOilPressureInputArray[87];UINT;2;%M;270;13;;;;;;;;
+31.89;EngineOilPressureInputArray[88];UINT;2;%M;272;13;;;;;;;;
+31.90;EngineOilPressureInputArray[89];UINT;2;%M;274;13;;;;;;;;
+31.91;EngineOilPressureInputArray[90];UINT;2;%M;276;13;;;;;;;;
+31.92;EngineOilPressureInputArray[91];UINT;2;%M;278;13;;;;;;;;
+31.93;EngineOilPressureInputArray[92];UINT;2;%M;280;13;;;;;;;;
+31.94;EngineOilPressureInputArray[93];UINT;2;%M;282;13;;;;;;;;
+31.95;EngineOilPressureInputArray[94];UINT;2;%M;284;13;;;;;;;;
+31.96;EngineOilPressureInputArray[95];UINT;2;%M;286;13;;;;;;;;
+31.97;EngineOilPressureInputArray[96];UINT;2;%M;288;13;;;;;;;;
+31.98;EngineOilPressureInputArray[97];UINT;2;%M;290;13;;;;;;;;
+31.99;EngineOilPressureInputArray[98];UINT;2;%M;292;13;;;;;;;;
+31.100;EngineOilPressureInputArray[99];UINT;2;%M;294;13;;;;;;;;
+32;TotalEngineSpeedInput;UDINT;4;%M;296;13;;;;;;;;Total Value
+33;EngineSpeed;UINT;2;%M;300;13;;;;;;;;Normalized value from 0 to 100
+34;FuelLevel;UINT;2;%M;302;13;;;;;;;;Normalized value from 0 to 100
+35;TotalFuelLevelInput;UDINT;4;%M;304;13;;;;;;;;Total Value
+36;SpeedometerInputFiltered;UINT;2;%M;308;13;;;;;;;;Filtered Signal Value
+37;Speedometer;UINT;2;%M;310;13;;;;;;;;Normalized value from 0 to 100
+38;TotalSpeedometerInput;UDINT;4;%M;312;13;;;;;;;;Total Value
+39;EngineTempGaugeInputFiltered;UINT;2;%M;316;13;;;;;;;;Filtered Signal Value
+40;EngineTempGauge;UINT;2;%M;318;13;;;;;;;;Normalized value from 0 to 100
+41;HourUptOnScreen;STRING(5);10;%M;320;13;;;;;;;;boş string
+42;TransOilTemperatureInputFiltered;UINT;2;%M;330;13;;;;;;;;Filtered Signal Value
+43;DiagMessage01;STRING;261;%M;332;13;;;;;;;;boş string
+44;GIGAMenuVar06;USINT;1;%M;593;13;;;;;;;;boş string
+45;GIGAMenuVar07;USINT;1;%M;594;13;;;;;;;;boş string
+46;GIGAMenuVar08;USINT;1;%M;595;13;;;;;;;;boş string
+47;DiagMessage02;STRING;261;%M;596;13;;;;;;;;boş string
+48;DiagMessage03;STRING;261;%M;860;13;;;;;;;;boş string
+49;DiagMessage04;STRING;261;%M;1124;13;;;;;;;;boş string
+50;DiagMessage05;STRING;261;%M;1388;13;;;;;;;;boş string
+51;DiagMessage06;STRING;261;%M;1652;13;;;;;;;;boş string
+52;EngineSpeedInputArray;ARRAY100UINT;200;%M;1916;13;;;;;;;;Array of Signal
+52.1;EngineSpeedInputArray[0];UINT;2;%M;1916;13;;;;;;;;
+52.2;EngineSpeedInputArray[1];UINT;2;%M;1918;13;;;;;;;;
+52.3;EngineSpeedInputArray[2];UINT;2;%M;1920;13;;;;;;;;
+52.4;EngineSpeedInputArray[3];UINT;2;%M;1922;13;;;;;;;;
+52.5;EngineSpeedInputArray[4];UINT;2;%M;1924;13;;;;;;;;
+52.6;EngineSpeedInputArray[5];UINT;2;%M;1926;13;;;;;;;;
+52.7;EngineSpeedInputArray[6];UINT;2;%M;1928;13;;;;;;;;
+52.8;EngineSpeedInputArray[7];UINT;2;%M;1930;13;;;;;;;;
+52.9;EngineSpeedInputArray[8];UINT;2;%M;1932;13;;;;;;;;
+52.10;EngineSpeedInputArray[9];UINT;2;%M;1934;13;;;;;;;;
+52.11;EngineSpeedInputArray[10];UINT;2;%M;1936;13;;;;;;;;
+52.12;EngineSpeedInputArray[11];UINT;2;%M;1938;13;;;;;;;;
+52.13;EngineSpeedInputArray[12];UINT;2;%M;1940;13;;;;;;;;
+52.14;EngineSpeedInputArray[13];UINT;2;%M;1942;13;;;;;;;;
+52.15;EngineSpeedInputArray[14];UINT;2;%M;1944;13;;;;;;;;
+52.16;EngineSpeedInputArray[15];UINT;2;%M;1946;13;;;;;;;;
+52.17;EngineSpeedInputArray[16];UINT;2;%M;1948;13;;;;;;;;
+52.18;EngineSpeedInputArray[17];UINT;2;%M;1950;13;;;;;;;;
+52.19;EngineSpeedInputArray[18];UINT;2;%M;1952;13;;;;;;;;
+52.20;EngineSpeedInputArray[19];UINT;2;%M;1954;13;;;;;;;;
+52.21;EngineSpeedInputArray[20];UINT;2;%M;1956;13;;;;;;;;
+52.22;EngineSpeedInputArray[21];UINT;2;%M;1958;13;;;;;;;;
+52.23;EngineSpeedInputArray[22];UINT;2;%M;1960;13;;;;;;;;
+52.24;EngineSpeedInputArray[23];UINT;2;%M;1962;13;;;;;;;;
+52.25;EngineSpeedInputArray[24];UINT;2;%M;1964;13;;;;;;;;
+52.26;EngineSpeedInputArray[25];UINT;2;%M;1966;13;;;;;;;;
+52.27;EngineSpeedInputArray[26];UINT;2;%M;1968;13;;;;;;;;
+52.28;EngineSpeedInputArray[27];UINT;2;%M;1970;13;;;;;;;;
+52.29;EngineSpeedInputArray[28];UINT;2;%M;1972;13;;;;;;;;
+52.30;EngineSpeedInputArray[29];UINT;2;%M;1974;13;;;;;;;;
+52.31;EngineSpeedInputArray[30];UINT;2;%M;1976;13;;;;;;;;
+52.32;EngineSpeedInputArray[31];UINT;2;%M;1978;13;;;;;;;;
+52.33;EngineSpeedInputArray[32];UINT;2;%M;1980;13;;;;;;;;
+52.34;EngineSpeedInputArray[33];UINT;2;%M;1982;13;;;;;;;;
+52.35;EngineSpeedInputArray[34];UINT;2;%M;1984;13;;;;;;;;
+52.36;EngineSpeedInputArray[35];UINT;2;%M;1986;13;;;;;;;;
+52.37;EngineSpeedInputArray[36];UINT;2;%M;1988;13;;;;;;;;
+52.38;EngineSpeedInputArray[37];UINT;2;%M;1990;13;;;;;;;;
+52.39;EngineSpeedInputArray[38];UINT;2;%M;1992;13;;;;;;;;
+52.40;EngineSpeedInputArray[39];UINT;2;%M;1994;13;;;;;;;;
+52.41;EngineSpeedInputArray[40];UINT;2;%M;1996;13;;;;;;;;
+52.42;EngineSpeedInputArray[41];UINT;2;%M;1998;13;;;;;;;;
+52.43;EngineSpeedInputArray[42];UINT;2;%M;2000;13;;;;;;;;
+52.44;EngineSpeedInputArray[43];UINT;2;%M;2002;13;;;;;;;;
+52.45;EngineSpeedInputArray[44];UINT;2;%M;2004;13;;;;;;;;
+52.46;EngineSpeedInputArray[45];UINT;2;%M;2006;13;;;;;;;;
+52.47;EngineSpeedInputArray[46];UINT;2;%M;2008;13;;;;;;;;
+52.48;EngineSpeedInputArray[47];UINT;2;%M;2010;13;;;;;;;;
+52.49;EngineSpeedInputArray[48];UINT;2;%M;2012;13;;;;;;;;
+52.50;EngineSpeedInputArray[49];UINT;2;%M;2014;13;;;;;;;;
+52.51;EngineSpeedInputArray[50];UINT;2;%M;2016;13;;;;;;;;
+52.52;EngineSpeedInputArray[51];UINT;2;%M;2018;13;;;;;;;;
+52.53;EngineSpeedInputArray[52];UINT;2;%M;2020;13;;;;;;;;
+52.54;EngineSpeedInputArray[53];UINT;2;%M;2022;13;;;;;;;;
+52.55;EngineSpeedInputArray[54];UINT;2;%M;2024;13;;;;;;;;
+52.56;EngineSpeedInputArray[55];UINT;2;%M;2026;13;;;;;;;;
+52.57;EngineSpeedInputArray[56];UINT;2;%M;2028;13;;;;;;;;
+52.58;EngineSpeedInputArray[57];UINT;2;%M;2030;13;;;;;;;;
+52.59;EngineSpeedInputArray[58];UINT;2;%M;2032;13;;;;;;;;
+52.60;EngineSpeedInputArray[59];UINT;2;%M;2034;13;;;;;;;;
+52.61;EngineSpeedInputArray[60];UINT;2;%M;2036;13;;;;;;;;
+52.62;EngineSpeedInputArray[61];UINT;2;%M;2038;13;;;;;;;;
+52.63;EngineSpeedInputArray[62];UINT;2;%M;2040;13;;;;;;;;
+52.64;EngineSpeedInputArray[63];UINT;2;%M;2042;13;;;;;;;;
+52.65;EngineSpeedInputArray[64];UINT;2;%M;2044;13;;;;;;;;
+52.66;EngineSpeedInputArray[65];UINT;2;%M;2046;13;;;;;;;;
+52.67;EngineSpeedInputArray[66];UINT;2;%M;2048;13;;;;;;;;
+52.68;EngineSpeedInputArray[67];UINT;2;%M;2050;13;;;;;;;;
+52.69;EngineSpeedInputArray[68];UINT;2;%M;2052;13;;;;;;;;
+52.70;EngineSpeedInputArray[69];UINT;2;%M;2054;13;;;;;;;;
+52.71;EngineSpeedInputArray[70];UINT;2;%M;2056;13;;;;;;;;
+52.72;EngineSpeedInputArray[71];UINT;2;%M;2058;13;;;;;;;;
+52.73;EngineSpeedInputArray[72];UINT;2;%M;2060;13;;;;;;;;
+52.74;EngineSpeedInputArray[73];UINT;2;%M;2062;13;;;;;;;;
+52.75;EngineSpeedInputArray[74];UINT;2;%M;2064;13;;;;;;;;
+52.76;EngineSpeedInputArray[75];UINT;2;%M;2066;13;;;;;;;;
+52.77;EngineSpeedInputArray[76];UINT;2;%M;2068;13;;;;;;;;
+52.78;EngineSpeedInputArray[77];UINT;2;%M;2070;13;;;;;;;;
+52.79;EngineSpeedInputArray[78];UINT;2;%M;2072;13;;;;;;;;
+52.80;EngineSpeedInputArray[79];UINT;2;%M;2074;13;;;;;;;;
+52.81;EngineSpeedInputArray[80];UINT;2;%M;2076;13;;;;;;;;
+52.82;EngineSpeedInputArray[81];UINT;2;%M;2078;13;;;;;;;;
+52.83;EngineSpeedInputArray[82];UINT;2;%M;2080;13;;;;;;;;
+52.84;EngineSpeedInputArray[83];UINT;2;%M;2082;13;;;;;;;;
+52.85;EngineSpeedInputArray[84];UINT;2;%M;2084;13;;;;;;;;
+52.86;EngineSpeedInputArray[85];UINT;2;%M;2086;13;;;;;;;;
+52.87;EngineSpeedInputArray[86];UINT;2;%M;2088;13;;;;;;;;
+52.88;EngineSpeedInputArray[87];UINT;2;%M;2090;13;;;;;;;;
+52.89;EngineSpeedInputArray[88];UINT;2;%M;2092;13;;;;;;;;
+52.90;EngineSpeedInputArray[89];UINT;2;%M;2094;13;;;;;;;;
+52.91;EngineSpeedInputArray[90];UINT;2;%M;2096;13;;;;;;;;
+52.92;EngineSpeedInputArray[91];UINT;2;%M;2098;13;;;;;;;;
+52.93;EngineSpeedInputArray[92];UINT;2;%M;2100;13;;;;;;;;
+52.94;EngineSpeedInputArray[93];UINT;2;%M;2102;13;;;;;;;;
+52.95;EngineSpeedInputArray[94];UINT;2;%M;2104;13;;;;;;;;
+52.96;EngineSpeedInputArray[95];UINT;2;%M;2106;13;;;;;;;;
+52.97;EngineSpeedInputArray[96];UINT;2;%M;2108;13;;;;;;;;
+52.98;EngineSpeedInputArray[97];UINT;2;%M;2110;13;;;;;;;;
+52.99;EngineSpeedInputArray[98];UINT;2;%M;2112;13;;;;;;;;
+52.100;EngineSpeedInputArray[99];UINT;2;%M;2114;13;;;;;;;;
+53;FuelLevelInputArray;ARRAY100UINT;200;%M;2116;13;;;;;;;;Array of Signal
+53.1;FuelLevelInputArray[0];UINT;2;%M;2116;13;;;;;;;;
+53.2;FuelLevelInputArray[1];UINT;2;%M;2118;13;;;;;;;;
+53.3;FuelLevelInputArray[2];UINT;2;%M;2120;13;;;;;;;;
+53.4;FuelLevelInputArray[3];UINT;2;%M;2122;13;;;;;;;;
+53.5;FuelLevelInputArray[4];UINT;2;%M;2124;13;;;;;;;;
+53.6;FuelLevelInputArray[5];UINT;2;%M;2126;13;;;;;;;;
+53.7;FuelLevelInputArray[6];UINT;2;%M;2128;13;;;;;;;;
+53.8;FuelLevelInputArray[7];UINT;2;%M;2130;13;;;;;;;;
+53.9;FuelLevelInputArray[8];UINT;2;%M;2132;13;;;;;;;;
+53.10;FuelLevelInputArray[9];UINT;2;%M;2134;13;;;;;;;;
+53.11;FuelLevelInputArray[10];UINT;2;%M;2136;13;;;;;;;;
+53.12;FuelLevelInputArray[11];UINT;2;%M;2138;13;;;;;;;;
+53.13;FuelLevelInputArray[12];UINT;2;%M;2140;13;;;;;;;;
+53.14;FuelLevelInputArray[13];UINT;2;%M;2142;13;;;;;;;;
+53.15;FuelLevelInputArray[14];UINT;2;%M;2144;13;;;;;;;;
+53.16;FuelLevelInputArray[15];UINT;2;%M;2146;13;;;;;;;;
+53.17;FuelLevelInputArray[16];UINT;2;%M;2148;13;;;;;;;;
+53.18;FuelLevelInputArray[17];UINT;2;%M;2150;13;;;;;;;;
+53.19;FuelLevelInputArray[18];UINT;2;%M;2152;13;;;;;;;;
+53.20;FuelLevelInputArray[19];UINT;2;%M;2154;13;;;;;;;;
+53.21;FuelLevelInputArray[20];UINT;2;%M;2156;13;;;;;;;;
+53.22;FuelLevelInputArray[21];UINT;2;%M;2158;13;;;;;;;;
+53.23;FuelLevelInputArray[22];UINT;2;%M;2160;13;;;;;;;;
+53.24;FuelLevelInputArray[23];UINT;2;%M;2162;13;;;;;;;;
+53.25;FuelLevelInputArray[24];UINT;2;%M;2164;13;;;;;;;;
+53.26;FuelLevelInputArray[25];UINT;2;%M;2166;13;;;;;;;;
+53.27;FuelLevelInputArray[26];UINT;2;%M;2168;13;;;;;;;;
+53.28;FuelLevelInputArray[27];UINT;2;%M;2170;13;;;;;;;;
+53.29;FuelLevelInputArray[28];UINT;2;%M;2172;13;;;;;;;;
+53.30;FuelLevelInputArray[29];UINT;2;%M;2174;13;;;;;;;;
+53.31;FuelLevelInputArray[30];UINT;2;%M;2176;13;;;;;;;;
+53.32;FuelLevelInputArray[31];UINT;2;%M;2178;13;;;;;;;;
+53.33;FuelLevelInputArray[32];UINT;2;%M;2180;13;;;;;;;;
+53.34;FuelLevelInputArray[33];UINT;2;%M;2182;13;;;;;;;;
+53.35;FuelLevelInputArray[34];UINT;2;%M;2184;13;;;;;;;;
+53.36;FuelLevelInputArray[35];UINT;2;%M;2186;13;;;;;;;;
+53.37;FuelLevelInputArray[36];UINT;2;%M;2188;13;;;;;;;;
+53.38;FuelLevelInputArray[37];UINT;2;%M;2190;13;;;;;;;;
+53.39;FuelLevelInputArray[38];UINT;2;%M;2192;13;;;;;;;;
+53.40;FuelLevelInputArray[39];UINT;2;%M;2194;13;;;;;;;;
+53.41;FuelLevelInputArray[40];UINT;2;%M;2196;13;;;;;;;;
+53.42;FuelLevelInputArray[41];UINT;2;%M;2198;13;;;;;;;;
+53.43;FuelLevelInputArray[42];UINT;2;%M;2200;13;;;;;;;;
+53.44;FuelLevelInputArray[43];UINT;2;%M;2202;13;;;;;;;;
+53.45;FuelLevelInputArray[44];UINT;2;%M;2204;13;;;;;;;;
+53.46;FuelLevelInputArray[45];UINT;2;%M;2206;13;;;;;;;;
+53.47;FuelLevelInputArray[46];UINT;2;%M;2208;13;;;;;;;;
+53.48;FuelLevelInputArray[47];UINT;2;%M;2210;13;;;;;;;;
+53.49;FuelLevelInputArray[48];UINT;2;%M;2212;13;;;;;;;;
+53.50;FuelLevelInputArray[49];UINT;2;%M;2214;13;;;;;;;;
+53.51;FuelLevelInputArray[50];UINT;2;%M;2216;13;;;;;;;;
+53.52;FuelLevelInputArray[51];UINT;2;%M;2218;13;;;;;;;;
+53.53;FuelLevelInputArray[52];UINT;2;%M;2220;13;;;;;;;;
+53.54;FuelLevelInputArray[53];UINT;2;%M;2222;13;;;;;;;;
+53.55;FuelLevelInputArray[54];UINT;2;%M;2224;13;;;;;;;;
+53.56;FuelLevelInputArray[55];UINT;2;%M;2226;13;;;;;;;;
+53.57;FuelLevelInputArray[56];UINT;2;%M;2228;13;;;;;;;;
+53.58;FuelLevelInputArray[57];UINT;2;%M;2230;13;;;;;;;;
+53.59;FuelLevelInputArray[58];UINT;2;%M;2232;13;;;;;;;;
+53.60;FuelLevelInputArray[59];UINT;2;%M;2234;13;;;;;;;;
+53.61;FuelLevelInputArray[60];UINT;2;%M;2236;13;;;;;;;;
+53.62;FuelLevelInputArray[61];UINT;2;%M;2238;13;;;;;;;;
+53.63;FuelLevelInputArray[62];UINT;2;%M;2240;13;;;;;;;;
+53.64;FuelLevelInputArray[63];UINT;2;%M;2242;13;;;;;;;;
+53.65;FuelLevelInputArray[64];UINT;2;%M;2244;13;;;;;;;;
+53.66;FuelLevelInputArray[65];UINT;2;%M;2246;13;;;;;;;;
+53.67;FuelLevelInputArray[66];UINT;2;%M;2248;13;;;;;;;;
+53.68;FuelLevelInputArray[67];UINT;2;%M;2250;13;;;;;;;;
+53.69;FuelLevelInputArray[68];UINT;2;%M;2252;13;;;;;;;;
+53.70;FuelLevelInputArray[69];UINT;2;%M;2254;13;;;;;;;;
+53.71;FuelLevelInputArray[70];UINT;2;%M;2256;13;;;;;;;;
+53.72;FuelLevelInputArray[71];UINT;2;%M;2258;13;;;;;;;;
+53.73;FuelLevelInputArray[72];UINT;2;%M;2260;13;;;;;;;;
+53.74;FuelLevelInputArray[73];UINT;2;%M;2262;13;;;;;;;;
+53.75;FuelLevelInputArray[74];UINT;2;%M;2264;13;;;;;;;;
+53.76;FuelLevelInputArray[75];UINT;2;%M;2266;13;;;;;;;;
+53.77;FuelLevelInputArray[76];UINT;2;%M;2268;13;;;;;;;;
+53.78;FuelLevelInputArray[77];UINT;2;%M;2270;13;;;;;;;;
+53.79;FuelLevelInputArray[78];UINT;2;%M;2272;13;;;;;;;;
+53.80;FuelLevelInputArray[79];UINT;2;%M;2274;13;;;;;;;;
+53.81;FuelLevelInputArray[80];UINT;2;%M;2276;13;;;;;;;;
+53.82;FuelLevelInputArray[81];UINT;2;%M;2278;13;;;;;;;;
+53.83;FuelLevelInputArray[82];UINT;2;%M;2280;13;;;;;;;;
+53.84;FuelLevelInputArray[83];UINT;2;%M;2282;13;;;;;;;;
+53.85;FuelLevelInputArray[84];UINT;2;%M;2284;13;;;;;;;;
+53.86;FuelLevelInputArray[85];UINT;2;%M;2286;13;;;;;;;;
+53.87;FuelLevelInputArray[86];UINT;2;%M;2288;13;;;;;;;;
+53.88;FuelLevelInputArray[87];UINT;2;%M;2290;13;;;;;;;;
+53.89;FuelLevelInputArray[88];UINT;2;%M;2292;13;;;;;;;;
+53.90;FuelLevelInputArray[89];UINT;2;%M;2294;13;;;;;;;;
+53.91;FuelLevelInputArray[90];UINT;2;%M;2296;13;;;;;;;;
+53.92;FuelLevelInputArray[91];UINT;2;%M;2298;13;;;;;;;;
+53.93;FuelLevelInputArray[92];UINT;2;%M;2300;13;;;;;;;;
+53.94;FuelLevelInputArray[93];UINT;2;%M;2302;13;;;;;;;;
+53.95;FuelLevelInputArray[94];UINT;2;%M;2304;13;;;;;;;;
+53.96;FuelLevelInputArray[95];UINT;2;%M;2306;13;;;;;;;;
+53.97;FuelLevelInputArray[96];UINT;2;%M;2308;13;;;;;;;;
+53.98;FuelLevelInputArray[97];UINT;2;%M;2310;13;;;;;;;;
+53.99;FuelLevelInputArray[98];UINT;2;%M;2312;13;;;;;;;;
+53.100;FuelLevelInputArray[99];UINT;2;%M;2314;13;;;;;;;;
+54;SpeedometerInputArray;ARRAY100UINT;200;%M;2316;13;;;;;;;;Array of Signal
+54.1;SpeedometerInputArray[0];UINT;2;%M;2316;13;;;;;;;;
+54.2;SpeedometerInputArray[1];UINT;2;%M;2318;13;;;;;;;;
+54.3;SpeedometerInputArray[2];UINT;2;%M;2320;13;;;;;;;;
+54.4;SpeedometerInputArray[3];UINT;2;%M;2322;13;;;;;;;;
+54.5;SpeedometerInputArray[4];UINT;2;%M;2324;13;;;;;;;;
+54.6;SpeedometerInputArray[5];UINT;2;%M;2326;13;;;;;;;;
+54.7;SpeedometerInputArray[6];UINT;2;%M;2328;13;;;;;;;;
+54.8;SpeedometerInputArray[7];UINT;2;%M;2330;13;;;;;;;;
+54.9;SpeedometerInputArray[8];UINT;2;%M;2332;13;;;;;;;;
+54.10;SpeedometerInputArray[9];UINT;2;%M;2334;13;;;;;;;;
+54.11;SpeedometerInputArray[10];UINT;2;%M;2336;13;;;;;;;;
+54.12;SpeedometerInputArray[11];UINT;2;%M;2338;13;;;;;;;;
+54.13;SpeedometerInputArray[12];UINT;2;%M;2340;13;;;;;;;;
+54.14;SpeedometerInputArray[13];UINT;2;%M;2342;13;;;;;;;;
+54.15;SpeedometerInputArray[14];UINT;2;%M;2344;13;;;;;;;;
+54.16;SpeedometerInputArray[15];UINT;2;%M;2346;13;;;;;;;;
+54.17;SpeedometerInputArray[16];UINT;2;%M;2348;13;;;;;;;;
+54.18;SpeedometerInputArray[17];UINT;2;%M;2350;13;;;;;;;;
+54.19;SpeedometerInputArray[18];UINT;2;%M;2352;13;;;;;;;;
+54.20;SpeedometerInputArray[19];UINT;2;%M;2354;13;;;;;;;;
+54.21;SpeedometerInputArray[20];UINT;2;%M;2356;13;;;;;;;;
+54.22;SpeedometerInputArray[21];UINT;2;%M;2358;13;;;;;;;;
+54.23;SpeedometerInputArray[22];UINT;2;%M;2360;13;;;;;;;;
+54.24;SpeedometerInputArray[23];UINT;2;%M;2362;13;;;;;;;;
+54.25;SpeedometerInputArray[24];UINT;2;%M;2364;13;;;;;;;;
+54.26;SpeedometerInputArray[25];UINT;2;%M;2366;13;;;;;;;;
+54.27;SpeedometerInputArray[26];UINT;2;%M;2368;13;;;;;;;;
+54.28;SpeedometerInputArray[27];UINT;2;%M;2370;13;;;;;;;;
+54.29;SpeedometerInputArray[28];UINT;2;%M;2372;13;;;;;;;;
+54.30;SpeedometerInputArray[29];UINT;2;%M;2374;13;;;;;;;;
+54.31;SpeedometerInputArray[30];UINT;2;%M;2376;13;;;;;;;;
+54.32;SpeedometerInputArray[31];UINT;2;%M;2378;13;;;;;;;;
+54.33;SpeedometerInputArray[32];UINT;2;%M;2380;13;;;;;;;;
+54.34;SpeedometerInputArray[33];UINT;2;%M;2382;13;;;;;;;;
+54.35;SpeedometerInputArray[34];UINT;2;%M;2384;13;;;;;;;;
+54.36;SpeedometerInputArray[35];UINT;2;%M;2386;13;;;;;;;;
+54.37;SpeedometerInputArray[36];UINT;2;%M;2388;13;;;;;;;;
+54.38;SpeedometerInputArray[37];UINT;2;%M;2390;13;;;;;;;;
+54.39;SpeedometerInputArray[38];UINT;2;%M;2392;13;;;;;;;;
+54.40;SpeedometerInputArray[39];UINT;2;%M;2394;13;;;;;;;;
+54.41;SpeedometerInputArray[40];UINT;2;%M;2396;13;;;;;;;;
+54.42;SpeedometerInputArray[41];UINT;2;%M;2398;13;;;;;;;;
+54.43;SpeedometerInputArray[42];UINT;2;%M;2400;13;;;;;;;;
+54.44;SpeedometerInputArray[43];UINT;2;%M;2402;13;;;;;;;;
+54.45;SpeedometerInputArray[44];UINT;2;%M;2404;13;;;;;;;;
+54.46;SpeedometerInputArray[45];UINT;2;%M;2406;13;;;;;;;;
+54.47;SpeedometerInputArray[46];UINT;2;%M;2408;13;;;;;;;;
+54.48;SpeedometerInputArray[47];UINT;2;%M;2410;13;;;;;;;;
+54.49;SpeedometerInputArray[48];UINT;2;%M;2412;13;;;;;;;;
+54.50;SpeedometerInputArray[49];UINT;2;%M;2414;13;;;;;;;;
+54.51;SpeedometerInputArray[50];UINT;2;%M;2416;13;;;;;;;;
+54.52;SpeedometerInputArray[51];UINT;2;%M;2418;13;;;;;;;;
+54.53;SpeedometerInputArray[52];UINT;2;%M;2420;13;;;;;;;;
+54.54;SpeedometerInputArray[53];UINT;2;%M;2422;13;;;;;;;;
+54.55;SpeedometerInputArray[54];UINT;2;%M;2424;13;;;;;;;;
+54.56;SpeedometerInputArray[55];UINT;2;%M;2426;13;;;;;;;;
+54.57;SpeedometerInputArray[56];UINT;2;%M;2428;13;;;;;;;;
+54.58;SpeedometerInputArray[57];UINT;2;%M;2430;13;;;;;;;;
+54.59;SpeedometerInputArray[58];UINT;2;%M;2432;13;;;;;;;;
+54.60;SpeedometerInputArray[59];UINT;2;%M;2434;13;;;;;;;;
+54.61;SpeedometerInputArray[60];UINT;2;%M;2436;13;;;;;;;;
+54.62;SpeedometerInputArray[61];UINT;2;%M;2438;13;;;;;;;;
+54.63;SpeedometerInputArray[62];UINT;2;%M;2440;13;;;;;;;;
+54.64;SpeedometerInputArray[63];UINT;2;%M;2442;13;;;;;;;;
+54.65;SpeedometerInputArray[64];UINT;2;%M;2444;13;;;;;;;;
+54.66;SpeedometerInputArray[65];UINT;2;%M;2446;13;;;;;;;;
+54.67;SpeedometerInputArray[66];UINT;2;%M;2448;13;;;;;;;;
+54.68;SpeedometerInputArray[67];UINT;2;%M;2450;13;;;;;;;;
+54.69;SpeedometerInputArray[68];UINT;2;%M;2452;13;;;;;;;;
+54.70;SpeedometerInputArray[69];UINT;2;%M;2454;13;;;;;;;;
+54.71;SpeedometerInputArray[70];UINT;2;%M;2456;13;;;;;;;;
+54.72;SpeedometerInputArray[71];UINT;2;%M;2458;13;;;;;;;;
+54.73;SpeedometerInputArray[72];UINT;2;%M;2460;13;;;;;;;;
+54.74;SpeedometerInputArray[73];UINT;2;%M;2462;13;;;;;;;;
+54.75;SpeedometerInputArray[74];UINT;2;%M;2464;13;;;;;;;;
+54.76;SpeedometerInputArray[75];UINT;2;%M;2466;13;;;;;;;;
+54.77;SpeedometerInputArray[76];UINT;2;%M;2468;13;;;;;;;;
+54.78;SpeedometerInputArray[77];UINT;2;%M;2470;13;;;;;;;;
+54.79;SpeedometerInputArray[78];UINT;2;%M;2472;13;;;;;;;;
+54.80;SpeedometerInputArray[79];UINT;2;%M;2474;13;;;;;;;;
+54.81;SpeedometerInputArray[80];UINT;2;%M;2476;13;;;;;;;;
+54.82;SpeedometerInputArray[81];UINT;2;%M;2478;13;;;;;;;;
+54.83;SpeedometerInputArray[82];UINT;2;%M;2480;13;;;;;;;;
+54.84;SpeedometerInputArray[83];UINT;2;%M;2482;13;;;;;;;;
+54.85;SpeedometerInputArray[84];UINT;2;%M;2484;13;;;;;;;;
+54.86;SpeedometerInputArray[85];UINT;2;%M;2486;13;;;;;;;;
+54.87;SpeedometerInputArray[86];UINT;2;%M;2488;13;;;;;;;;
+54.88;SpeedometerInputArray[87];UINT;2;%M;2490;13;;;;;;;;
+54.89;SpeedometerInputArray[88];UINT;2;%M;2492;13;;;;;;;;
+54.90;SpeedometerInputArray[89];UINT;2;%M;2494;13;;;;;;;;
+54.91;SpeedometerInputArray[90];UINT;2;%M;2496;13;;;;;;;;
+54.92;SpeedometerInputArray[91];UINT;2;%M;2498;13;;;;;;;;
+54.93;SpeedometerInputArray[92];UINT;2;%M;2500;13;;;;;;;;
+54.94;SpeedometerInputArray[93];UINT;2;%M;2502;13;;;;;;;;
+54.95;SpeedometerInputArray[94];UINT;2;%M;2504;13;;;;;;;;
+54.96;SpeedometerInputArray[95];UINT;2;%M;2506;13;;;;;;;;
+54.97;SpeedometerInputArray[96];UINT;2;%M;2508;13;;;;;;;;
+54.98;SpeedometerInputArray[97];UINT;2;%M;2510;13;;;;;;;;
+54.99;SpeedometerInputArray[98];UINT;2;%M;2512;13;;;;;;;;
+54.100;SpeedometerInputArray[99];UINT;2;%M;2514;13;;;;;;;;
+55;TotalEngineTempGaugeInput;UDINT;4;%M;2516;13;;;;;;;;Total Value
+56;EngineTempGaugeInputArray;ARRAY100UINT;200;%M;2520;13;;;;;;;;Array of Signal
+56.1;EngineTempGaugeInputArray[0];UINT;2;%M;2520;13;;;;;;;;
+56.2;EngineTempGaugeInputArray[1];UINT;2;%M;2522;13;;;;;;;;
+56.3;EngineTempGaugeInputArray[2];UINT;2;%M;2524;13;;;;;;;;
+56.4;EngineTempGaugeInputArray[3];UINT;2;%M;2526;13;;;;;;;;
+56.5;EngineTempGaugeInputArray[4];UINT;2;%M;2528;13;;;;;;;;
+56.6;EngineTempGaugeInputArray[5];UINT;2;%M;2530;13;;;;;;;;
+56.7;EngineTempGaugeInputArray[6];UINT;2;%M;2532;13;;;;;;;;
+56.8;EngineTempGaugeInputArray[7];UINT;2;%M;2534;13;;;;;;;;
+56.9;EngineTempGaugeInputArray[8];UINT;2;%M;2536;13;;;;;;;;
+56.10;EngineTempGaugeInputArray[9];UINT;2;%M;2538;13;;;;;;;;
+56.11;EngineTempGaugeInputArray[10];UINT;2;%M;2540;13;;;;;;;;
+56.12;EngineTempGaugeInputArray[11];UINT;2;%M;2542;13;;;;;;;;
+56.13;EngineTempGaugeInputArray[12];UINT;2;%M;2544;13;;;;;;;;
+56.14;EngineTempGaugeInputArray[13];UINT;2;%M;2546;13;;;;;;;;
+56.15;EngineTempGaugeInputArray[14];UINT;2;%M;2548;13;;;;;;;;
+56.16;EngineTempGaugeInputArray[15];UINT;2;%M;2550;13;;;;;;;;
+56.17;EngineTempGaugeInputArray[16];UINT;2;%M;2552;13;;;;;;;;
+56.18;EngineTempGaugeInputArray[17];UINT;2;%M;2554;13;;;;;;;;
+56.19;EngineTempGaugeInputArray[18];UINT;2;%M;2556;13;;;;;;;;
+56.20;EngineTempGaugeInputArray[19];UINT;2;%M;2558;13;;;;;;;;
+56.21;EngineTempGaugeInputArray[20];UINT;2;%M;2560;13;;;;;;;;
+56.22;EngineTempGaugeInputArray[21];UINT;2;%M;2562;13;;;;;;;;
+56.23;EngineTempGaugeInputArray[22];UINT;2;%M;2564;13;;;;;;;;
+56.24;EngineTempGaugeInputArray[23];UINT;2;%M;2566;13;;;;;;;;
+56.25;EngineTempGaugeInputArray[24];UINT;2;%M;2568;13;;;;;;;;
+56.26;EngineTempGaugeInputArray[25];UINT;2;%M;2570;13;;;;;;;;
+56.27;EngineTempGaugeInputArray[26];UINT;2;%M;2572;13;;;;;;;;
+56.28;EngineTempGaugeInputArray[27];UINT;2;%M;2574;13;;;;;;;;
+56.29;EngineTempGaugeInputArray[28];UINT;2;%M;2576;13;;;;;;;;
+56.30;EngineTempGaugeInputArray[29];UINT;2;%M;2578;13;;;;;;;;
+56.31;EngineTempGaugeInputArray[30];UINT;2;%M;2580;13;;;;;;;;
+56.32;EngineTempGaugeInputArray[31];UINT;2;%M;2582;13;;;;;;;;
+56.33;EngineTempGaugeInputArray[32];UINT;2;%M;2584;13;;;;;;;;
+56.34;EngineTempGaugeInputArray[33];UINT;2;%M;2586;13;;;;;;;;
+56.35;EngineTempGaugeInputArray[34];UINT;2;%M;2588;13;;;;;;;;
+56.36;EngineTempGaugeInputArray[35];UINT;2;%M;2590;13;;;;;;;;
+56.37;EngineTempGaugeInputArray[36];UINT;2;%M;2592;13;;;;;;;;
+56.38;EngineTempGaugeInputArray[37];UINT;2;%M;2594;13;;;;;;;;
+56.39;EngineTempGaugeInputArray[38];UINT;2;%M;2596;13;;;;;;;;
+56.40;EngineTempGaugeInputArray[39];UINT;2;%M;2598;13;;;;;;;;
+56.41;EngineTempGaugeInputArray[40];UINT;2;%M;2600;13;;;;;;;;
+56.42;EngineTempGaugeInputArray[41];UINT;2;%M;2602;13;;;;;;;;
+56.43;EngineTempGaugeInputArray[42];UINT;2;%M;2604;13;;;;;;;;
+56.44;EngineTempGaugeInputArray[43];UINT;2;%M;2606;13;;;;;;;;
+56.45;EngineTempGaugeInputArray[44];UINT;2;%M;2608;13;;;;;;;;
+56.46;EngineTempGaugeInputArray[45];UINT;2;%M;2610;13;;;;;;;;
+56.47;EngineTempGaugeInputArray[46];UINT;2;%M;2612;13;;;;;;;;
+56.48;EngineTempGaugeInputArray[47];UINT;2;%M;2614;13;;;;;;;;
+56.49;EngineTempGaugeInputArray[48];UINT;2;%M;2616;13;;;;;;;;
+56.50;EngineTempGaugeInputArray[49];UINT;2;%M;2618;13;;;;;;;;
+56.51;EngineTempGaugeInputArray[50];UINT;2;%M;2620;13;;;;;;;;
+56.52;EngineTempGaugeInputArray[51];UINT;2;%M;2622;13;;;;;;;;
+56.53;EngineTempGaugeInputArray[52];UINT;2;%M;2624;13;;;;;;;;
+56.54;EngineTempGaugeInputArray[53];UINT;2;%M;2626;13;;;;;;;;
+56.55;EngineTempGaugeInputArray[54];UINT;2;%M;2628;13;;;;;;;;
+56.56;EngineTempGaugeInputArray[55];UINT;2;%M;2630;13;;;;;;;;
+56.57;EngineTempGaugeInputArray[56];UINT;2;%M;2632;13;;;;;;;;
+56.58;EngineTempGaugeInputArray[57];UINT;2;%M;2634;13;;;;;;;;
+56.59;EngineTempGaugeInputArray[58];UINT;2;%M;2636;13;;;;;;;;
+56.60;EngineTempGaugeInputArray[59];UINT;2;%M;2638;13;;;;;;;;
+56.61;EngineTempGaugeInputArray[60];UINT;2;%M;2640;13;;;;;;;;
+56.62;EngineTempGaugeInputArray[61];UINT;2;%M;2642;13;;;;;;;;
+56.63;EngineTempGaugeInputArray[62];UINT;2;%M;2644;13;;;;;;;;
+56.64;EngineTempGaugeInputArray[63];UINT;2;%M;2646;13;;;;;;;;
+56.65;EngineTempGaugeInputArray[64];UINT;2;%M;2648;13;;;;;;;;
+56.66;EngineTempGaugeInputArray[65];UINT;2;%M;2650;13;;;;;;;;
+56.67;EngineTempGaugeInputArray[66];UINT;2;%M;2652;13;;;;;;;;
+56.68;EngineTempGaugeInputArray[67];UINT;2;%M;2654;13;;;;;;;;
+56.69;EngineTempGaugeInputArray[68];UINT;2;%M;2656;13;;;;;;;;
+56.70;EngineTempGaugeInputArray[69];UINT;2;%M;2658;13;;;;;;;;
+56.71;EngineTempGaugeInputArray[70];UINT;2;%M;2660;13;;;;;;;;
+56.72;EngineTempGaugeInputArray[71];UINT;2;%M;2662;13;;;;;;;;
+56.73;EngineTempGaugeInputArray[72];UINT;2;%M;2664;13;;;;;;;;
+56.74;EngineTempGaugeInputArray[73];UINT;2;%M;2666;13;;;;;;;;
+56.75;EngineTempGaugeInputArray[74];UINT;2;%M;2668;13;;;;;;;;
+56.76;EngineTempGaugeInputArray[75];UINT;2;%M;2670;13;;;;;;;;
+56.77;EngineTempGaugeInputArray[76];UINT;2;%M;2672;13;;;;;;;;
+56.78;EngineTempGaugeInputArray[77];UINT;2;%M;2674;13;;;;;;;;
+56.79;EngineTempGaugeInputArray[78];UINT;2;%M;2676;13;;;;;;;;
+56.80;EngineTempGaugeInputArray[79];UINT;2;%M;2678;13;;;;;;;;
+56.81;EngineTempGaugeInputArray[80];UINT;2;%M;2680;13;;;;;;;;
+56.82;EngineTempGaugeInputArray[81];UINT;2;%M;2682;13;;;;;;;;
+56.83;EngineTempGaugeInputArray[82];UINT;2;%M;2684;13;;;;;;;;
+56.84;EngineTempGaugeInputArray[83];UINT;2;%M;2686;13;;;;;;;;
+56.85;EngineTempGaugeInputArray[84];UINT;2;%M;2688;13;;;;;;;;
+56.86;EngineTempGaugeInputArray[85];UINT;2;%M;2690;13;;;;;;;;
+56.87;EngineTempGaugeInputArray[86];UINT;2;%M;2692;13;;;;;;;;
+56.88;EngineTempGaugeInputArray[87];UINT;2;%M;2694;13;;;;;;;;
+56.89;EngineTempGaugeInputArray[88];UINT;2;%M;2696;13;;;;;;;;
+56.90;EngineTempGaugeInputArray[89];UINT;2;%M;2698;13;;;;;;;;
+56.91;EngineTempGaugeInputArray[90];UINT;2;%M;2700;13;;;;;;;;
+56.92;EngineTempGaugeInputArray[91];UINT;2;%M;2702;13;;;;;;;;
+56.93;EngineTempGaugeInputArray[92];UINT;2;%M;2704;13;;;;;;;;
+56.94;EngineTempGaugeInputArray[93];UINT;2;%M;2706;13;;;;;;;;
+56.95;EngineTempGaugeInputArray[94];UINT;2;%M;2708;13;;;;;;;;
+56.96;EngineTempGaugeInputArray[95];UINT;2;%M;2710;13;;;;;;;;
+56.97;EngineTempGaugeInputArray[96];UINT;2;%M;2712;13;;;;;;;;
+56.98;EngineTempGaugeInputArray[97];UINT;2;%M;2714;13;;;;;;;;
+56.99;EngineTempGaugeInputArray[98];UINT;2;%M;2716;13;;;;;;;;
+56.100;EngineTempGaugeInputArray[99];UINT;2;%M;2718;13;;;;;;;;
+57;TotalTransOilTemperatureInput;UDINT;4;%M;2720;13;;;;;;;;Total Value
+58;TransOilTemperatureInputArray;ARRAY100UINT;200;%M;2724;13;;;;;;;;Array of Signal
+58.1;TransOilTemperatureInputArray[0];UINT;2;%M;2724;13;;;;;;;;
+58.2;TransOilTemperatureInputArray[1];UINT;2;%M;2726;13;;;;;;;;
+58.3;TransOilTemperatureInputArray[2];UINT;2;%M;2728;13;;;;;;;;
+58.4;TransOilTemperatureInputArray[3];UINT;2;%M;2730;13;;;;;;;;
+58.5;TransOilTemperatureInputArray[4];UINT;2;%M;2732;13;;;;;;;;
+58.6;TransOilTemperatureInputArray[5];UINT;2;%M;2734;13;;;;;;;;
+58.7;TransOilTemperatureInputArray[6];UINT;2;%M;2736;13;;;;;;;;
+58.8;TransOilTemperatureInputArray[7];UINT;2;%M;2738;13;;;;;;;;
+58.9;TransOilTemperatureInputArray[8];UINT;2;%M;2740;13;;;;;;;;
+58.10;TransOilTemperatureInputArray[9];UINT;2;%M;2742;13;;;;;;;;
+58.11;TransOilTemperatureInputArray[10];UINT;2;%M;2744;13;;;;;;;;
+58.12;TransOilTemperatureInputArray[11];UINT;2;%M;2746;13;;;;;;;;
+58.13;TransOilTemperatureInputArray[12];UINT;2;%M;2748;13;;;;;;;;
+58.14;TransOilTemperatureInputArray[13];UINT;2;%M;2750;13;;;;;;;;
+58.15;TransOilTemperatureInputArray[14];UINT;2;%M;2752;13;;;;;;;;
+58.16;TransOilTemperatureInputArray[15];UINT;2;%M;2754;13;;;;;;;;
+58.17;TransOilTemperatureInputArray[16];UINT;2;%M;2756;13;;;;;;;;
+58.18;TransOilTemperatureInputArray[17];UINT;2;%M;2758;13;;;;;;;;
+58.19;TransOilTemperatureInputArray[18];UINT;2;%M;2760;13;;;;;;;;
+58.20;TransOilTemperatureInputArray[19];UINT;2;%M;2762;13;;;;;;;;
+58.21;TransOilTemperatureInputArray[20];UINT;2;%M;2764;13;;;;;;;;
+58.22;TransOilTemperatureInputArray[21];UINT;2;%M;2766;13;;;;;;;;
+58.23;TransOilTemperatureInputArray[22];UINT;2;%M;2768;13;;;;;;;;
+58.24;TransOilTemperatureInputArray[23];UINT;2;%M;2770;13;;;;;;;;
+58.25;TransOilTemperatureInputArray[24];UINT;2;%M;2772;13;;;;;;;;
+58.26;TransOilTemperatureInputArray[25];UINT;2;%M;2774;13;;;;;;;;
+58.27;TransOilTemperatureInputArray[26];UINT;2;%M;2776;13;;;;;;;;
+58.28;TransOilTemperatureInputArray[27];UINT;2;%M;2778;13;;;;;;;;
+58.29;TransOilTemperatureInputArray[28];UINT;2;%M;2780;13;;;;;;;;
+58.30;TransOilTemperatureInputArray[29];UINT;2;%M;2782;13;;;;;;;;
+58.31;TransOilTemperatureInputArray[30];UINT;2;%M;2784;13;;;;;;;;
+58.32;TransOilTemperatureInputArray[31];UINT;2;%M;2786;13;;;;;;;;
+58.33;TransOilTemperatureInputArray[32];UINT;2;%M;2788;13;;;;;;;;
+58.34;TransOilTemperatureInputArray[33];UINT;2;%M;2790;13;;;;;;;;
+58.35;TransOilTemperatureInputArray[34];UINT;2;%M;2792;13;;;;;;;;
+58.36;TransOilTemperatureInputArray[35];UINT;2;%M;2794;13;;;;;;;;
+58.37;TransOilTemperatureInputArray[36];UINT;2;%M;2796;13;;;;;;;;
+58.38;TransOilTemperatureInputArray[37];UINT;2;%M;2798;13;;;;;;;;
+58.39;TransOilTemperatureInputArray[38];UINT;2;%M;2800;13;;;;;;;;
+58.40;TransOilTemperatureInputArray[39];UINT;2;%M;2802;13;;;;;;;;
+58.41;TransOilTemperatureInputArray[40];UINT;2;%M;2804;13;;;;;;;;
+58.42;TransOilTemperatureInputArray[41];UINT;2;%M;2806;13;;;;;;;;
+58.43;TransOilTemperatureInputArray[42];UINT;2;%M;2808;13;;;;;;;;
+58.44;TransOilTemperatureInputArray[43];UINT;2;%M;2810;13;;;;;;;;
+58.45;TransOilTemperatureInputArray[44];UINT;2;%M;2812;13;;;;;;;;
+58.46;TransOilTemperatureInputArray[45];UINT;2;%M;2814;13;;;;;;;;
+58.47;TransOilTemperatureInputArray[46];UINT;2;%M;2816;13;;;;;;;;
+58.48;TransOilTemperatureInputArray[47];UINT;2;%M;2818;13;;;;;;;;
+58.49;TransOilTemperatureInputArray[48];UINT;2;%M;2820;13;;;;;;;;
+58.50;TransOilTemperatureInputArray[49];UINT;2;%M;2822;13;;;;;;;;
+58.51;TransOilTemperatureInputArray[50];UINT;2;%M;2824;13;;;;;;;;
+58.52;TransOilTemperatureInputArray[51];UINT;2;%M;2826;13;;;;;;;;
+58.53;TransOilTemperatureInputArray[52];UINT;2;%M;2828;13;;;;;;;;
+58.54;TransOilTemperatureInputArray[53];UINT;2;%M;2830;13;;;;;;;;
+58.55;TransOilTemperatureInputArray[54];UINT;2;%M;2832;13;;;;;;;;
+58.56;TransOilTemperatureInputArray[55];UINT;2;%M;2834;13;;;;;;;;
+58.57;TransOilTemperatureInputArray[56];UINT;2;%M;2836;13;;;;;;;;
+58.58;TransOilTemperatureInputArray[57];UINT;2;%M;2838;13;;;;;;;;
+58.59;TransOilTemperatureInputArray[58];UINT;2;%M;2840;13;;;;;;;;
+58.60;TransOilTemperatureInputArray[59];UINT;2;%M;2842;13;;;;;;;;
+58.61;TransOilTemperatureInputArray[60];UINT;2;%M;2844;13;;;;;;;;
+58.62;TransOilTemperatureInputArray[61];UINT;2;%M;2846;13;;;;;;;;
+58.63;TransOilTemperatureInputArray[62];UINT;2;%M;2848;13;;;;;;;;
+58.64;TransOilTemperatureInputArray[63];UINT;2;%M;2850;13;;;;;;;;
+58.65;TransOilTemperatureInputArray[64];UINT;2;%M;2852;13;;;;;;;;
+58.66;TransOilTemperatureInputArray[65];UINT;2;%M;2854;13;;;;;;;;
+58.67;TransOilTemperatureInputArray[66];UINT;2;%M;2856;13;;;;;;;;
+58.68;TransOilTemperatureInputArray[67];UINT;2;%M;2858;13;;;;;;;;
+58.69;TransOilTemperatureInputArray[68];UINT;2;%M;2860;13;;;;;;;;
+58.70;TransOilTemperatureInputArray[69];UINT;2;%M;2862;13;;;;;;;;
+58.71;TransOilTemperatureInputArray[70];UINT;2;%M;2864;13;;;;;;;;
+58.72;TransOilTemperatureInputArray[71];UINT;2;%M;2866;13;;;;;;;;
+58.73;TransOilTemperatureInputArray[72];UINT;2;%M;2868;13;;;;;;;;
+58.74;TransOilTemperatureInputArray[73];UINT;2;%M;2870;13;;;;;;;;
+58.75;TransOilTemperatureInputArray[74];UINT;2;%M;2872;13;;;;;;;;
+58.76;TransOilTemperatureInputArray[75];UINT;2;%M;2874;13;;;;;;;;
+58.77;TransOilTemperatureInputArray[76];UINT;2;%M;2876;13;;;;;;;;
+58.78;TransOilTemperatureInputArray[77];UINT;2;%M;2878;13;;;;;;;;
+58.79;TransOilTemperatureInputArray[78];UINT;2;%M;2880;13;;;;;;;;
+58.80;TransOilTemperatureInputArray[79];UINT;2;%M;2882;13;;;;;;;;
+58.81;TransOilTemperatureInputArray[80];UINT;2;%M;2884;13;;;;;;;;
+58.82;TransOilTemperatureInputArray[81];UINT;2;%M;2886;13;;;;;;;;
+58.83;TransOilTemperatureInputArray[82];UINT;2;%M;2888;13;;;;;;;;
+58.84;TransOilTemperatureInputArray[83];UINT;2;%M;2890;13;;;;;;;;
+58.85;TransOilTemperatureInputArray[84];UINT;2;%M;2892;13;;;;;;;;
+58.86;TransOilTemperatureInputArray[85];UINT;2;%M;2894;13;;;;;;;;
+58.87;TransOilTemperatureInputArray[86];UINT;2;%M;2896;13;;;;;;;;
+58.88;TransOilTemperatureInputArray[87];UINT;2;%M;2898;13;;;;;;;;
+58.89;TransOilTemperatureInputArray[88];UINT;2;%M;2900;13;;;;;;;;
+58.90;TransOilTemperatureInputArray[89];UINT;2;%M;2902;13;;;;;;;;
+58.91;TransOilTemperatureInputArray[90];UINT;2;%M;2904;13;;;;;;;;
+58.92;TransOilTemperatureInputArray[91];UINT;2;%M;2906;13;;;;;;;;
+58.93;TransOilTemperatureInputArray[92];UINT;2;%M;2908;13;;;;;;;;
+58.94;TransOilTemperatureInputArray[93];UINT;2;%M;2910;13;;;;;;;;
+58.95;TransOilTemperatureInputArray[94];UINT;2;%M;2912;13;;;;;;;;
+58.96;TransOilTemperatureInputArray[95];UINT;2;%M;2914;13;;;;;;;;
+58.97;TransOilTemperatureInputArray[96];UINT;2;%M;2916;13;;;;;;;;
+58.98;TransOilTemperatureInputArray[97];UINT;2;%M;2918;13;;;;;;;;
+58.99;TransOilTemperatureInputArray[98];UINT;2;%M;2920;13;;;;;;;;
+58.100;TransOilTemperatureInputArray[99];UINT;2;%M;2922;13;;;;;;;;
+59;TransOilTemperature;UINT;2;%M;2924;13;;;;;;;;Normalized value from 0 to 100
+60;DiagMessage07;STRING;261;%M;2928;13;;;;;;;;boş string
+61;DiagMessage08;STRING;261;%M;3192;13;;;;;;;;boş string
+62;DiagMessage09;STRING;261;%M;3456;13;;;;;;;;boş string
+63;ScreenBrightHUptOnScreen;STRING(5);10;%M;3720;13;;;;;;;;boş string
+64;ScreenBrightLUptOnScreen;STRING(5);10;%M;3732;13;;;;;;;;boş string
+65;PanelBrightHUptOnScreen;STRING(5);10;%M;3744;13;;;;;;;;boş string
+66;PanelBrightLUptOnScreen;STRING(5);10;%M;3756;13;;;;;;;;boş string
+67;tmp_DIGIN_KEY_K15;BOOL;1;%P;0;13;;;;;;;;
+68;MC2M_GIGA_ServiceBrake1;USINT;1;%P;1;13;;;;;;;;
+69;MC2M_GIGA_ServiceBrake2;USINT;1;%P;2;13;;;;;;;;
+70;MC2M_GIGA_ParkingBrakePressure;USINT;1;%P;3;13;;;;;;;;
+71;BacklightSetVarH;UINT;2;%P;4;13;;;;;;;;
+72;BacklightSetVarL;UINT;2;%P;6;13;;;;;;;;
+73;BacklightScreenSetVarH;UINT;2;%P;8;13;;;;;;;;
+74;BacklightScreenSetVarL;UINT;2;%P;10;13;;;;;;;;
+75;ScreenBrightH;UINT;2;%P;12;13;;;;;;;;boş string
+76;ScreenBrightL;UINT;2;%P;14;13;;;;;;;;boş string
+77;PanelBrightH;UINT;2;%P;16;13;;;;;;;;boş string
+78;PanelBrightL;UINT;2;%P;18;13;;;;;;;;boş string
+79;MC2M_GIGA_AccessoryPressure;USINT;1;%P;20;13;;;;;;;;
+80;giga_button_test_var;BOOL;1;%P;21;13;;;;;;;;
+81;Vt3_languageSetVar;UINT;2;%P;22;13;;;;;;;;
+82;GIGAEngineSpeedGaugeValue_Mid;INT;2;%P;24;13;;;;;;;;
+83;GIGAEngineSpeedGaugeValue_Max;INT;2;%P;26;13;;;;;;;;
+84;TotalTripMeter;REAL;4;%R;0;13;;;;;;;;Toplam Trip - Metre
+85;TotalOdometer;REAL;4;%R;4;13;;;;;;;;Toplam Trip - Metre
+86;TotalTripMeter2;REAL;4;%R;8;13;;;;;;;;Toplam Trip - Metre
+87;TotalOdometer2;REAL;4;%R;12;13;;;;;;;;Toplam Trip - Metre
+88;TotalTripMeterX;REAL;4;%R;16;13;;;;;;;;Toplam Trip - Metre
+89;GIGAOdometerBackup;UDINT;4;%R;20;13;;;;;;;;Toplam Trip - Metre
+90;DIGIN_KEY_K15;BOOL;1;%I;140;13;;;;;;;;INPUTKEY input, configured as PIN_HI_DIGITALIN
+91;AinLightInp;UINT;2;%I;156;13;;;;;;;;AINPUTLIGHT input, configured as PIN_ADC_ANALOGIN
+DefaultLevelWrite = 50
+Signature = A38812AF0ED71809680280811D97E177

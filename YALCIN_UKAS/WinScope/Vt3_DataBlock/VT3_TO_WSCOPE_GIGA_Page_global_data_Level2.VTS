@@ -1,0 +1,62 @@
+1;MainLoop;UDINT;4;%M;0;13;;;;;;;;
+2;TotalTripMeter;REAL;4;%R;0;13;;;;;;;;Toplam Trip - Metre
+3;TotalTripMeter2;REAL;4;%R;8;13;;;;;;;;Toplam Trip - Metre
+4;TotalOdometer;REAL;4;%R;4;13;;;;;;;;Toplam Trip - Metre
+5;TotalOdometer2;REAL;4;%R;12;13;;;;;;;;Toplam Trip - Metre
+6;TotalTripMeterX;REAL;4;%R;16;13;;;;;;;;Toplam Trip - Metre
+7;GIGAOdometerBackup;UDINT;4;%R;20;13;;;;;;;;Toplam Trip - Metre
+8;IgnitionOn;BOOL;1;%M;6;13;;;;;;;;boş string
+9;MenuVar;USINT;1;%M;7;13;;;;;;;;boş string
+10;Testvar;USINT;1;%M;8;13;;;;;;;;boş string
+11;Testvar2;USINT;1;%M;9;13;;;;;;;;boş string
+12;ScreenOdometer;UDINT;4;%M;16;13;;;;;;;;boş string
+13;GIGAMenuNo;USINT;1;%M;15;13;;;;;;;;boş string
+14;GIGAMenuVar01;USINT;1;%M;20;13;;;;;;;;boş string
+15;GIGAMenuVar02;USINT;1;%M;21;13;;;;;;;;boş string
+16;GIGAMenuVar03;USINT;1;%M;22;13;;;;;;;;boş string
+17;GIGAMenuVar04;USINT;1;%M;23;13;;;;;;;;boş string
+18;GIGAMenuVar05;USINT;1;%M;12;13;;;;;;;;boş string
+19;GIGAMenuVar06;USINT;1;%M;593;13;;;;;;;;boş string
+20;GIGAMenuVar07;USINT;1;%M;594;13;;;;;;;;boş string
+21;GIGAMenuVar08;USINT;1;%M;595;13;;;;;;;;boş string
+22;GIGAFuelAlarm;BOOL;1;%M;10;13;;;;;;;;boş string
+23;ActiveScreen;USINT;1;%M;11;13;;;;;;;;boş string
+24;Stat_GIGAMenu_Ctr1;UDINT;4;%M;24;13;;;;;;;;boş string
+25;Cmd_GIGAMenu_Active;BOOL;1;%M;13;13;;;;;;;;boş string
+26;MinuteUptOnScreen;STRING(5);10;%M;28;13;;;;;;;;boş string
+27;DateOnScreen2;STRING(10);15;%M;40;13;;;;;;;;Ekranda Tarih
+28;colord;USINT;1;%M;4;13;;;;;;;;Ekranda Tarih
+29;HourUptOnScreen;STRING(5);10;%M;320;13;;;;;;;;boş string
+30;DayUptOnScreen;STRING(5);10;%M;56;13;;;;;;;;boş string
+31;MonthUptOnScreen;STRING(5);10;%M;68;13;;;;;;;;boş string
+32;YearUptOnScreen;STRING(5);10;%M;80;13;;;;;;;;boş string
+33;ScreenBrightHUptOnScreen;STRING(5);10;%M;3720;13;;;;;;;;boş string
+34;ScreenBrightLUptOnScreen;STRING(5);10;%M;3732;13;;;;;;;;boş string
+35;PanelBrightHUptOnScreen;STRING(5);10;%M;3744;13;;;;;;;;boş string
+36;PanelBrightLUptOnScreen;STRING(5);10;%M;3756;13;;;;;;;;boş string
+37;ScreenBrightH;UINT;2;%P;12;13;;;;;;;;boş string
+38;ScreenBrightL;UINT;2;%P;14;13;;;;;;;;boş string
+39;PanelBrightH;UINT;2;%P;16;13;;;;;;;;boş string
+40;PanelBrightL;UINT;2;%P;18;13;;;;;;;;boş string
+41;SubMenuVar;USINT;1;%M;5;13;;;;;;;;boş string
+42;SubMenuVar2;USINT;1;%M;55;13;;;;;;;;boş string
+43;DiagMessage01;STRING;261;%M;332;13;;;;;;;;boş string
+44;DiagMessage02;STRING;261;%M;596;13;;;;;;;;boş string
+45;DiagMessage03;STRING;261;%M;860;13;;;;;;;;boş string
+46;DiagMessage04;STRING;261;%M;1124;13;;;;;;;;boş string
+47;DiagMessage05;STRING;261;%M;1388;13;;;;;;;;boş string
+48;DiagMessage06;STRING;261;%M;1652;13;;;;;;;;boş string
+49;DiagMessage07;STRING;261;%M;2928;13;;;;;;;;boş string
+50;DiagMessage08;STRING;261;%M;3192;13;;;;;;;;boş string
+51;DiagMessage09;STRING;261;%M;3456;13;;;;;;;;boş string
+52;Secret_Menu01;USINT;1;%M;14;13;;;;;;;;boş string
+53;tmp_DIGIN_KEY_K15;BOOL;1;%P;0;13;;;;;;;;
+54;BacklightSetVarH;UINT;2;%P;4;13;;;;;;;;
+55;BacklightSetVarL;UINT;2;%P;6;13;;;;;;;;
+56;BacklightScreenSetVarH;UINT;2;%P;8;13;;;;;;;;
+57;BacklightScreenSetVarL;UINT;2;%P;10;13;;;;;;;;
+58;giga_button_test_var;BOOL;1;%P;21;13;;;;;;;;
+59;Vt3_languageSetVar;UINT;2;%P;22;13;;;;;;;;
+Refresh = 100
+DiskSpace = 1
+Signature = 09C3E13E60F642B1DD34D39CE5611C33

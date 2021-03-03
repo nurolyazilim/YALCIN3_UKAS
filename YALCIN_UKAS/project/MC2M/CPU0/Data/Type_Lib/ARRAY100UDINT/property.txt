@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\Type_Lib\\ARRAY100UDINT\\property.txt'
+[ATTRIBUTES]
+name = u'ARRAY100UDINT'
+nodesInfo = []
+definition = u'ARRAY [0..100] OF UDINT\r\n\r\n\r\n'

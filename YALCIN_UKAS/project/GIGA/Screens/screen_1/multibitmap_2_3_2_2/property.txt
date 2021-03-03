@@ -1,0 +1,18 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\GIGA\\Screens\\screen_1\\multibitmap_2_3_2_2\\property.txt'
+[ATTRIBUTES]
+name = 'multibitmap_2_3_2_2'
+nodesInfo = []
+body_language = 'C'
+x = 3
+y = 177
+width = 30
+height = 22
+layer = 0
+expression = '0'
+timer = 200
+currentValue = 0
+count = 1
+bitmap0 (repr) = "Bitmap(u'IconaOrologio.bmp', (255, 255, 255))"

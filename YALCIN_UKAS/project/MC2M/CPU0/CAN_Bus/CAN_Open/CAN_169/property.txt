@@ -1,0 +1,94 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_Open\\CAN_169\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_169'
+nodesInfo = []
+id = 361
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 1500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MC2M_TERA_DIAG_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 6
+[CAN_VARIABLE_0]
+name = u'TotalEngineHours_Old'
+vartype = u'UDINT'
+bytepos = 0
+bitpos = 0
+bitlength = 32
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'EngineCoolantLevel'
+vartype = u'USINT'
+bytepos = 4
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'VvrPump'
+vartype = u'INT'
+bytepos = 5
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'VVRPumpTrigger'
+vartype = u'SINT'
+bytepos = 6
+bitpos = 0
+bitlength = 4
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_4]
+name = u'CACTemp'
+vartype = u'INT'
+bytepos = 6
+bitpos = 4
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_5]
+name = u'RadiatorTemp'
+vartype = u'INT'
+bytepos = 7
+bitpos = 4
+bitlength = 4
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

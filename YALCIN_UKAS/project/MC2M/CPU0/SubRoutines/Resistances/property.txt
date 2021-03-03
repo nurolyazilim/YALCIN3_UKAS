@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Resistances\\property.txt'
+[ATTRIBUTES]
+name = u'Resistances'
+nodesInfo = [(u'Data_Resistances', 'GlobalDataModel'), (u'mainResistances', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

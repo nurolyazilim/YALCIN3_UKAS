@@ -1,0 +1,82 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\BarGauges\\FootBrakeSensor_2\\Data_SensorFilter3\\property.txt'
+[ATTRIBUTES]
+name = u'Data_SensorFilter3'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 4
+[VAR_0]
+name = u'AverageQuantity_Sensor3'
+vartype = u'SINT'
+address = u''
+alias = False
+init = u'100'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'How many value of the array (max=30)'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'InputFiltered_Sensor3'
+vartype = u'UINT'
+address = u'%MW208'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Filtered Signal Value'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'TotalInput_Sensor3'
+vartype = u'UDINT'
+address = u'%MD420'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Total Value'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_3]
+name = u'InputArray_Sensor3'
+vartype = u'ARRAY100UINT'
+address = u'%M1180'
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Array of Signal'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

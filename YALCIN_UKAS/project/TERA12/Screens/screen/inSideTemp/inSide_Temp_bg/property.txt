@@ -1,0 +1,18 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\inSideTemp\\inSide_Temp_bg\\property.txt'
+[ATTRIBUTES]
+name = u'inSide_Temp_bg'
+nodesInfo = []
+body_language = 'C'
+x = 288
+y = 14
+width = 100
+height = 78
+layer = 0
+expression = '0'
+timer = 100
+currentValue = 0
+count = 1
+bitmap0 (repr) = "Bitmap(u'insideTemp.png', ('null', 0, 0))"

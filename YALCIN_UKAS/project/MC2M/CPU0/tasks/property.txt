@@ -1,0 +1,14 @@
+[GENERAL]
+module = 'model.taskTableModel'
+class = 'TaskTableModel'
+filename = u'project\\MC2M\\CPU0\\tasks\\property.txt'
+[ATTRIBUTES]
+name = 'tasks'
+nodesInfo = []
+[TASKS]
+count = 1
+[TASK_0]
+priority = 10
+period = 100
+delay = 0
+program = u'cycle'

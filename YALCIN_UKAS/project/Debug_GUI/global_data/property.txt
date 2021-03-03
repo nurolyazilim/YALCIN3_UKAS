@@ -1,0 +1,82 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\Debug_GUI\\global_data\\property.txt'
+[ATTRIBUTES]
+name = 'global_data'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 4
+[VAR_0]
+name = u'ParkerPumpRPM_Min'
+vartype = u'UDINT'
+address = u''
+alias = False
+init = u'1277'
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'ParkerPumpRPM_Max'
+vartype = u'UDINT'
+address = u''
+alias = False
+init = u'3000'
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'PumpRPM_Change'
+vartype = u'BOOL'
+address = u''
+alias = False
+init = u'FALSE'
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_3]
+name = u'PumpRPM_Fb'
+vartype = u'UDINT'
+address = u''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

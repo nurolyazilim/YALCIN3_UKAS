@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\FuelTankControl\\property.txt'
+[ATTRIBUTES]
+name = u'FuelTankControl'
+nodesInfo = [(u'Data_FuelTank', 'GlobalDataModel'), (u'FuelTankControl', 'POU_PROGRAM'), (u'FuelGauge', 'FolderModel')]
+documentation = 'write documentation here'
+private = False

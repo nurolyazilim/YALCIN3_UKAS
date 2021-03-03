@@ -1,0 +1,107 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\EEC1_Electronic_Engine_Controller_1\\property.txt'
+[ATTRIBUTES]
+name = 'EEC1_Electronic_Engine_Controller_1'
+nodesInfo = []
+id = 217056510
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 100
+alm_tout = 1500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'EEC1_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 7
+[CAN_VARIABLE_0]
+name = 'EngineTorqueMode'
+vartype = 'USINT'
+bytepos = 0
+bitpos = 0
+bitlength = 4
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine Torque Mode J1939 SPN 899'
+[CAN_VARIABLE_1]
+name = 'DriversDemandEnginePercentTorque'
+vartype = 'SINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 125
+mul = 1L
+div = 1L
+init = ''
+comment = "Driver's Demand Engine - Percent Torque J1939 SPN 512 [%]"
+[CAN_VARIABLE_2]
+name = 'ActualEnginePercentTorque'
+vartype = 'SINT'
+bytepos = 2
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 125
+mul = 1L
+div = 1L
+init = ''
+comment = 'Actual Engine - Percent Torque J1939 SPN 513 [%]'
+[CAN_VARIABLE_3]
+name = 'SrcAddrOfCtrllingDevForEngCtrl'
+vartype = 'USINT'
+bytepos = 5
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Source Address of Controlling Device for Engine Control J1939 SPN 1483'
+[CAN_VARIABLE_4]
+name = 'EngineStarterMode'
+vartype = 'Enum86'
+bytepos = 6
+bitpos = 0
+bitlength = 4
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine Starter Mode J1939 SPN 1675'
+[CAN_VARIABLE_5]
+name = 'EngineDemandPercentTorque'
+vartype = 'SINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 125
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine Demand - Percent Torque J1939 SPN 2432 [%]'
+[CAN_VARIABLE_6]
+name = 'EngineSpeed'
+vartype = 'UINT'
+bytepos = 3
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 8L
+div = 1L
+init = ''
+comment = 'Engine Speed J1939 SPN 190 [rpm]'

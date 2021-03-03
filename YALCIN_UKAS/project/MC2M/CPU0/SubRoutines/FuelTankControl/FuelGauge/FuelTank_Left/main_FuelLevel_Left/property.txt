@@ -1,0 +1,32 @@
+[GENERAL]
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\FuelTankControl\\FuelGauge\\FuelTank_Left\\main_FuelLevel_Left\\property.txt'
+[ATTRIBUTES]
+name = u'main_FuelLevel_Left'
+nodesInfo = []
+pou_type = 'PROGRAM'
+body_language = 'ST'
+pou_comment = 'comment'
+last_excel_import_export_filename = ''
+linker_address = -1
+[VARIABLES]
+count = 1
+[VAR_0]
+name = u'i'
+vartype = u'SINT'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = True
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''

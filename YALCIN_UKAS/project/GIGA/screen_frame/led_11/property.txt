@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\led_11\\property.txt'
+[ATTRIBUTES]
+name = 'led_11'
+nodesInfo = []
+body_language = 'C'
+expression = 'L11_Difflock_Front  AND IgnitionOn OR GIGALedOverride'
+x = 533
+y = 267
+width = 40
+height = 40
+hwNumber = 10
+currentValue = 0

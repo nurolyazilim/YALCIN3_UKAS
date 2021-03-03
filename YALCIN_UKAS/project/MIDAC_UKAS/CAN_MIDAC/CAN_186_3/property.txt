@@ -1,0 +1,58 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MIDAC_UKAS\\CAN_MIDAC\\CAN_186_3\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_186_3'
+nodesInfo = []
+id = 390
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 150
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MURPHY_MC2M_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 3
+[CAN_VARIABLE_0]
+name = u'DIGIN19_InteriorLamps'
+vartype = u'BOOL'
+bytepos = 2
+bitpos = 3
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u'DIGIN19_InteriorLamps'
+[CAN_VARIABLE_1]
+name = u'DIGIN25_InteriorVentilation_1'
+vartype = u'BOOL'
+bytepos = 3
+bitpos = 1
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u'DIGIN25_InteriorVentilation_1'
+[CAN_VARIABLE_2]
+name = u'DIGIN26_InteriorVentilation_2'
+vartype = u'BOOL'
+bytepos = 3
+bitpos = 2
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u'DIGIN26_InteriorVentilation_2'

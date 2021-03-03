@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\OMNIA_RIGHT\\CAN_Open\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_Open'
+nodesInfo = [(u'CAN_Wiper_4F', 'CanMsgJ1939Model')]
+connection = u'CAN_Open'
+port_number = 0
+j1939_source_address = 79
+whitelist = []

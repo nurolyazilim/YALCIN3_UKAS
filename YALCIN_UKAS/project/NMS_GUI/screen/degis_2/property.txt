@@ -1,0 +1,24 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.touch'
+class = 'Touch'
+filename = u'project\\NMS_GUI\\screen\\degis_2\\property.txt'
+[ATTRIBUTES]
+name = u'degis_2'
+nodesInfo = []
+body_language = 'ST'
+x = 0
+y = 48
+width = 152
+height = 48
+label = ''
+font (repr) = "FontName(u'Courier New Regular', 40)"
+color_enabled (repr) = 'ColorOnly((0, 0, 0),)'
+color_disabled (repr) = "ColorOnly(('transparent', 0, 0),)"
+color_pressed (repr) = "ColorOnly(('transparent', 0, 0),)"
+bitmap_enabled (repr) = "Bitmap(u'button2_available.png', (0, 0, 0))"
+bitmap_disabled (repr) = "Color(('null', 0, 0),)"
+bitmap_pressed (repr) = "Bitmap(u'button2_unavailable.png', (0, 0, 0))"
+bistable = True
+radio = False
+enabled = True
+pressed = False

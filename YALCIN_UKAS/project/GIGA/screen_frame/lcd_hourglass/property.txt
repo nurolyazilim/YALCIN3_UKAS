@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\lcd_hourglass\\property.txt'
+[ATTRIBUTES]
+name = 'lcd_hourglass'
+nodesInfo = []
+body_language = 'C'
+expression = ''
+x = 1275
+y = 600
+width = 23
+height = 23
+hwNumber = 1103
+currentValue = 0

@@ -1,0 +1,64 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\AnalogueGauges\\Speedometer\\Data_SpeedometerGauge\\property.txt'
+[ATTRIBUTES]
+name = u'Data_SpeedometerGauge'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 3
+[VAR_0]
+name = u'GIGASpeedGaugeValue_Min'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'30'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'GIGASpeedGaugeValue_Mid'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'1210'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'GIGASpeedGaugeValue_Max'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'2430'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

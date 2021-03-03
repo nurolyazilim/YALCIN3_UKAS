@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_2\\Update_Day_Text\\property.txt'
+[ATTRIBUTES]
+name = u'Update_Day_Text'
+nodesInfo = []
+body_language = 'C'
+x = 157
+y = 177
+width = 24
+height = 24
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = u'DayUptOnScreen'
+font (repr) = "FontName(u'DS-Digital Normal', 22)"
+timer = 200
+editable = False

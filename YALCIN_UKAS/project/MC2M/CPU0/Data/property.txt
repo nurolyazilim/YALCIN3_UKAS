@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\Data\\property.txt'
+[ATTRIBUTES]
+name = u'Data'
+nodesInfo = [(u'types', 'FolderModel'), (u'Type_Lib', 'FolderModel'), ('global_data', 'GlobalDataModel')]
+documentation = 'write documentation here'
+private = False

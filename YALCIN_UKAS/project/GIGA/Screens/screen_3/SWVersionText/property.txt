@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_3\\SWVersionText\\property.txt'
+[ATTRIBUTES]
+name = u'SWVersionText'
+nodesInfo = []
+body_language = 'C'
+x = 20
+y = 56
+width = 280
+height = 128
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 1
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'top',)"
+expression = 'SWVersion_Stat?SWVersionOnScreen:nullString'
+font (repr) = "FontName(u'Arial Regular', 14)"
+timer = 200
+editable = False

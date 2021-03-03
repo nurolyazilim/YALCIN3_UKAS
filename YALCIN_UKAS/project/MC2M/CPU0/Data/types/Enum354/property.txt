@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum354\\property.txt'
+[ATTRIBUTES]
+name = u'Enum354'
+nodesInfo = []
+definition = '(\n\tEnum354_ENGINE_ALARM_OUTPUT_COMMAND_NOT_ACTIVE := 0,\n\tEnum354_ENGINE_ALARM_OUTPUT_COMMAND_ACTIVE := 1,\n\tEnum354_RESERVED := 2,\n\tEnum354_NOT_AVAILABLE := 3\n)'

@@ -1,0 +1,5 @@
+1;GIGAEngineSpeedGaugeValue_Mid;INT;2;%P;24;13;;;;;;;;
+2;GIGAEngineSpeedGaugeValue_Max;INT;2;%P;26;13;;;;;;;;
+Refresh = 100
+DiskSpace = 1
+Signature = 8FFB23064DBDEEE3393D1B9A01E75FC3

@@ -1,0 +1,23 @@
+[GENERAL]
+module = 'model.indicatorModel.circularGauge'
+class = 'CircularGauge'
+filename = u'project\\TERA12\\Screens\\screen\\gauge_RPM\\property.txt'
+[ATTRIBUTES]
+name = u'gauge_RPM'
+nodesInfo = []
+body_language = 'C'
+x = 625
+y = 173
+radius = 139
+thick = 6
+minAngle = 224
+maxAngle = -45
+color (repr) = 'ColorOnly((176, 176, 176),)'
+bitmap (repr) = "Color(('null', 0, 0),)"
+bitmap_x = 0
+bitmap_y = 0
+minValue = 0
+maxValue = 2600
+currentValue = 0
+expression = 'InputFiltered_Sensor1'
+timer = 10

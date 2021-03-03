@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\gauge_0\\property.txt'
+[ATTRIBUTES]
+name = 'gauge_0'
+nodesInfo = []
+body_language = 'C'
+expression = 'GIGAEngineOilPressure + GIGAGaugeOverride0'
+x = 251
+y = 414
+width = 120
+height = 220
+hwNumber = 1002
+currentValue = 0

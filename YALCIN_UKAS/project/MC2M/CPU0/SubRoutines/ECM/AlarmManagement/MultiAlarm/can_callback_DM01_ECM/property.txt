@@ -1,0 +1,69 @@
+[GENERAL]
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\ECM\\AlarmManagement\\MultiAlarm\\can_callback_DM01_ECM\\property.txt'
+[ATTRIBUTES]
+name = u'can_callback_DM01_ECM'
+nodesInfo = []
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = 'comment'
+last_excel_import_export_filename = ''
+return_type = 'BOOL'
+linker_address = -1
+[VARIABLES]
+count = 3
+[VAR_0]
+name = u'dlc'
+vartype = u'UINT'
+address = ''
+alias = False
+init = u''
+inp = True
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_1]
+name = u'data'
+vartype = u'POINTER TO BYTE'
+address = ''
+alias = False
+init = u''
+inp = True
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_2]
+name = u'lamp_command'
+vartype = u'BYTE'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''

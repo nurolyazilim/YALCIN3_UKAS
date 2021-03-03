@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\Debug_GUI\\screen\\simple_text_2_2_2_2\\property.txt'
+[ATTRIBUTES]
+name = 'simple_text_2_2_2_2'
+nodesInfo = []
+body_language = 'C'
+x = 512
+y = 440
+width = 40
+height = 24
+color (repr) = 'ColorOnly((127, 31, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = '"RPM"'
+font (repr) = "FontName(u'Arial Bold', 17)"
+timer = 200
+editable = False

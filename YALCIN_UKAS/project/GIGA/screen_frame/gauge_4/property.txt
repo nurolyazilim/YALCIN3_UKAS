@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\gauge_4\\property.txt'
+[ATTRIBUTES]
+name = 'gauge_4'
+nodesInfo = []
+body_language = 'C'
+expression = 'GIGAFuelLevel  + GIGAGaugeOverride4'
+x = 920
+y = 646
+width = 130
+height = 100
+hwNumber = 1004
+currentValue = 0

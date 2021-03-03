@@ -1,0 +1,26 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\TERA12\\Screens\\screen\\Date_Text\\property.txt'
+[ATTRIBUTES]
+name = u'Date_Text'
+nodesInfo = []
+body_language = 'ST'
+x = 287
+y = 400
+width = 127
+height = 23
+color (repr) = 'ColorOnly((255, 159, 0),)'
+background (repr) = 'ColorOnly((51, 51, 51),)'
+layer = 0
+halign (repr) = "HAlign(u'left',)"
+valign (repr) = "VAlign('top',)"
+expression = '"SIMPLE TEXT"'
+font (repr) = "FontName(u'Courier New Regular', 19)"
+timer = 1000
+editable = True
+kbd_align (repr) = "KbdAlign(u'left',)"
+kbd_bmp (repr) = "Bitmap(u'keypad_Date.png', ('transparent', 0, 0))"
+bg_focus (repr) = 'ColorOnly((0, 0, 0),)'
+input_mask = '99/B9/2099'
+password = False

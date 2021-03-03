@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Lamps_Backup\\property.txt'
+[ATTRIBUTES]
+name = u'Lamps_Backup'
+nodesInfo = [(u'Data_Lamps_In', 'GlobalDataModel'), (u'Data_Lamps_Out', 'GlobalDataModel'), (u'mainLamps', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum84\\property.txt'
+[ATTRIBUTES]
+name = u'Enum84'
+nodesInfo = []
+definition = '(\n\tEnum84_ACCELERATOR_PEDAL_2_NOT_IN_LOW_IDLE_CONDITION := 0,\n\tEnum84_ACCELERATOR_PEDAL_2_IN_LOW_IDLE_CONDITION := 1,\n\tEnum84_ERROR := 2,\n\tEnum84_NOT_AVAILABLE := 3\n)'

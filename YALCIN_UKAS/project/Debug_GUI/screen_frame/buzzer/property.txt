@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\Debug_GUI\\screen_frame\\buzzer\\property.txt'
+[ATTRIBUTES]
+name = 'buzzer'
+nodesInfo = []
+body_language = 'C'
+expression = ''
+x = 0
+y = 0
+width = 64
+height = 32
+hwNumber = 1202
+currentValue = 0

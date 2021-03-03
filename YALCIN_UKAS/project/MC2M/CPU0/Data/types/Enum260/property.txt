@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum260\\property.txt'
+[ATTRIBUTES]
+name = 'Enum260'
+nodesInfo = []
+definition = '(\n\tEnum260_TRANSMISSION_MODE_3_NOT_ACTIVE := 0,\n\tEnum260_TRANSMISSION_MODE_3_ACTIVE := 1,\n\tEnum260_ERROR := 2,\n\tEnum260_NOT_AVAILABLE := 3\n)'

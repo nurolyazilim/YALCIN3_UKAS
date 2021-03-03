@@ -1,0 +1,18 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\Fuel_Group\\multibitmap\\property.txt'
+[ATTRIBUTES]
+name = 'multibitmap'
+nodesInfo = []
+body_language = 'C'
+x = 380
+y = 137
+width = 38
+height = 34
+layer = 0
+expression = '0'
+timer = 100
+currentValue = 0
+count = 1
+bitmap0 (repr) = "Bitmap(u'fuel_punto.png', ('null', 0, 0))"

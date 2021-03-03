@@ -1,0 +1,10 @@
+[GENERAL]
+module = 'model.elog.alarmTableModel'
+class = 'AlarmTableModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Diagnostics\\Alarm_J1939\\property.txt'
+[ATTRIBUTES]
+name = u'Alarm_J1939'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[ALARMS]
+COUNT = 0

@@ -1,0 +1,24 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.touch'
+class = 'Touch'
+filename = u'project\\Debug_GUI\\screen\\touch_DebugActive\\property.txt'
+[ATTRIBUTES]
+name = 'touch_DebugActive'
+nodesInfo = []
+body_language = 'ST'
+x = 48
+y = 56
+width = 72
+height = 56
+label = u''
+font (repr) = "FontName(u'Arial Bold', 14)"
+color_enabled (repr) = 'ColorOnly((0, 0, 0),)'
+color_disabled (repr) = 'ColorOnly((176, 176, 176),)'
+color_pressed (repr) = 'ColorOnly((0, 0, 0),)'
+bitmap_enabled (repr) = "Bitmap(u'Off.png', (192, 192, 192))"
+bitmap_disabled (repr) = "Color(('null', 0, 0),)"
+bitmap_pressed (repr) = "Bitmap(u'On.png', (192, 192, 192))"
+bistable = True
+radio = False
+enabled = True
+pressed = False

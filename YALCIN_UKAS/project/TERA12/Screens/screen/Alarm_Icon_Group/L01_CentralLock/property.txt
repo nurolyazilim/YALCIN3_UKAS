@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\Alarm_Icon_Group\\L01_CentralLock\\property.txt'
+[ATTRIBUTES]
+name = u'L01_CentralLock'
+nodesInfo = []
+body_language = 'C'
+x = 750
+y = 409
+width = 44
+height = 61
+layer = 0
+expression = 'MC2M_TERA_Icon_Status_L01'
+timer = 100
+currentValue = 0
+count = 2
+bitmap0 (repr) = "Bitmap(u'centralLock_Off.png', ('null', 0, 0))"
+bitmap1 (repr) = "Bitmap(u'centralLock_On.png', ('null', 0, 0))"

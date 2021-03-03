@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\Debug_GUI\\screen\\simple_text_2_3\\property.txt'
+[ATTRIBUTES]
+name = 'simple_text_2_3'
+nodesInfo = []
+body_language = 'C'
+x = 328
+y = 544
+width = 136
+height = 24
+color (repr) = 'ColorOnly((0, 0, 0),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'left',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = u'"Yak\u0131tta Su Uyar\u0131s\u0131 :"'
+font (repr) = "FontName(u'Arial Bold', 15)"
+timer = 200
+editable = False

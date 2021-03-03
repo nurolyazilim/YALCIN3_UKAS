@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_5\\simple_text_3_3_5\\property.txt'
+[ATTRIBUTES]
+name = 'simple_text_3_3_5'
+nodesInfo = []
+body_language = 'C'
+x = 240
+y = 80
+width = 56
+height = 16
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = 'DiagMessage04'
+font (repr) = "FontName(u'Courier New Regular', 11)"
+timer = 200
+editable = False

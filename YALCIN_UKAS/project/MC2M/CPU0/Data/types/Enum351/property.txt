@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum351\\property.txt'
+[ATTRIBUTES]
+name = u'Enum351'
+nodesInfo = []
+definition = '(\n\tEnum351_PRESSURE_NORMAL := 0,\n\tEnum351_PRESSURE_TOO_HIGH_COMPRESSOR_CLUTCH_MAY_BE_DISENGAGED := 1,\n\tEnum351_ERROR := 2,\n\tEnum351_NOT_AVAILABLE := 3\n)'

@@ -1,0 +1,10 @@
+[GENERAL]
+module = 'model.indicatorModel.indicatorGroup'
+class = 'IndicatorGroup'
+filename = u'project\\TERA12\\Screens\\screen\\outSideTemp\\property.txt'
+[ATTRIBUTES]
+name = u'outSideTemp'
+nodesInfo = [(u'outSide_Temp_bg', 'MultiBitmap'), (u'OutSide_Temp', 'SimpleText'), (u'C_text', 'SimpleText'), (u'o_text', 'SimpleText')]
+body_language = 'C'
+type = ''
+timer = 100

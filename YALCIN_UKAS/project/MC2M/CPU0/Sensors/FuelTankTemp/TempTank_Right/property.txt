@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\FuelTankTemp\\TempTank_Right\\property.txt'
+[ATTRIBUTES]
+name = u'TempTank_Right'
+nodesInfo = [(u'DATA_FuelTempLevel_Right', 'GlobalDataModel'), (u'main_FuelTempLevel_Right', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

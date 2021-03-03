@@ -1,0 +1,24 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.touch'
+class = 'Touch'
+filename = u'project\\NMS_GUI\\screen\\multiscreen\\0\\service_brake_tank_2_send\\property.txt'
+[ATTRIBUTES]
+name = u'service_brake_tank_2_send'
+nodesInfo = []
+body_language = 'C'
+x = 309
+y = 211
+width = 40
+height = 40
+label = ''
+font (repr) = "FontName(u'Courier New Regular', 30)"
+color_enabled (repr) = 'ColorOnly((0, 0, 0),)'
+color_disabled (repr) = 'ColorOnly((128, 128, 128),)'
+color_pressed (repr) = 'ColorOnly((0, 0, 0),)'
+bitmap_enabled (repr) = "Bitmap(u'send_off_40.png', ('transparent', 0, 0))"
+bitmap_disabled (repr) = "Color(('null', 0, 0),)"
+bitmap_pressed (repr) = "Bitmap(u'send_on_40.png', ('transparent', 0, 0))"
+bistable = False
+radio = False
+enabled = False
+pressed = False

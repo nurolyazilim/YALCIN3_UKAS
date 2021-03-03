@@ -1,0 +1,26 @@
+[GENERAL]
+module = 'model.indicatorModel.multiText'
+class = 'MultiText'
+filename = u'project\\GIGA\\Screens\\screen_2\\Return_Text_2\\property.txt'
+[ATTRIBUTES]
+name = 'Return_Text_2'
+nodesInfo = []
+body_language = 'C'
+x = 232
+y = 216
+width = 80
+height = 17
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = 'GIGAMenuVar03'
+timer = 0
+currentValue = 1
+count = 2
+text0 = 'GIGA_ST_TEXT1'
+font0 (repr) = "FontName(u'Arial Regular', 15)"
+color0 (repr) = 'ColorOnly((255, 255, 255),)'
+text1 = 'GIGA_ST_TEXT1'
+font1 (repr) = "FontName(u'Arial Regular', 15)"
+color1 (repr) = 'ColorOnly((255, 95, 85),)'

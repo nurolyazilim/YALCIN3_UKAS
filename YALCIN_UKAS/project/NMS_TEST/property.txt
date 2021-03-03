@@ -1,0 +1,7 @@
+[GENERAL]
+module = 'model.deviceJ1939Model'
+class = 'DeviceJ1939Model'
+filename = u'project\\NMS_TEST\\property.txt'
+[ATTRIBUTES]
+name = u'NMS_TEST'
+nodesInfo = [('CAN_interface', 'CanInterfaceModel')]

@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\JoystickControl\\property.txt'
+[ATTRIBUTES]
+name = u'JoystickControl'
+nodesInfo = [(u'mainJoystick', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum_TransOilLevel\\property.txt'
+[ATTRIBUTES]
+name = u'Enum_TransOilLevel'
+nodesInfo = []
+definition = u'(\r\n\tEnum_TransOilSwitch_EMPTY := 0,\r\n\tEnum_TransOilSwitch_FULL_OR_NOT_EMPTY := 1,\r\n\tEnum_TransOilSwitch_ERROR := 2,\r\n\tEnum_TransOilSwitch_NOT_AVAIABLE := 3\r\n)'

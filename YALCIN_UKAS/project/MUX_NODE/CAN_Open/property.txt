@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\MUX_NODE\\CAN_Open\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_Open'
+nodesInfo = [(u'CAN_181', 'CanMsgModel'), (u'CAN_182', 'CanMsgModel'), (u'CAN_281', 'CanMsgModel'), (u'CAN_282', 'CanMsgModel'), (u'CAN_381', 'CanMsgModel'), (u'CAN_382', 'CanMsgModel'), (u'CAN_81', 'CanMsgModel')]
+connection = u'CAN_Open'
+port_number = 0
+j1939_source_address = 1
+whitelist = []

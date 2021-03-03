@@ -1,0 +1,23 @@
+[GENERAL]
+module = 'model.indicatorModel.multiText'
+class = 'MultiText'
+filename = u'project\\GIGA\\Screens\\screen_1\\multitext\\property.txt'
+[ATTRIBUTES]
+name = 'multitext'
+nodesInfo = []
+body_language = 'C'
+x = 129
+y = 143
+width = 90
+height = 12
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = ''
+timer = 0
+currentValue = 0
+count = 1
+text0 = 'IDS_TEXT17'
+font0 (repr) = "FontName(u'Courier New Regular', 9)"
+color0 (repr) = 'ColorOnly((85, 191, 255),)'

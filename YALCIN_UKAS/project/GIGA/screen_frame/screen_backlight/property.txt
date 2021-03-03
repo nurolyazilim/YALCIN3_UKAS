@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\screen_backlight\\property.txt'
+[ATTRIBUTES]
+name = 'screen_backlight'
+nodesInfo = []
+body_language = 'C'
+expression = 'BacklightScreen'
+x = 1448
+y = 39
+width = 120
+height = 60
+hwNumber = 1200
+currentValue = 1000

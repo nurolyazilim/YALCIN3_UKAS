@@ -1,0 +1,26 @@
+[GENERAL]
+module = 'model.indicatorModel.multiText'
+class = 'MultiText'
+filename = u'project\\Debug_GUI\\screen\\multitext_DebugActive_Fb\\property.txt'
+[ATTRIBUTES]
+name = 'multitext_DebugActive_Fb'
+nodesInfo = []
+body_language = 'C'
+x = 112
+y = 72
+width = 56
+height = 24
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = 'MC2M_GUI_DebugActive_Fb'
+timer = 1000
+currentValue = 1
+count = 2
+text0 = 'IDS_TEXT45'
+font0 (repr) = "FontName(u'Arial Bold', 18)"
+color0 (repr) = 'ColorOnly((255, 0, 0),)'
+text1 = 'IDS_TEXT47'
+font1 (repr) = "FontName(u'Arial Bold', 18)"
+color1 (repr) = 'ColorOnly((0, 127, 85),)'

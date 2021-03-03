@@ -1,0 +1,47 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\VDHR_High_Resolution_Vehicle_Distance\\property.txt'
+[ATTRIBUTES]
+name = 'VDHR_High_Resolution_Vehicle_Distance'
+nodesInfo = []
+id = 419348990
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 1000
+alm_tout = 1010
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'VDHR_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 2
+[CAN_VARIABLE_0]
+name = 'HighResolutionTotalVehicleDist'
+vartype = 'UDINT'
+bytepos = 0
+bitpos = 0
+bitlength = 32
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 5L
+init = ''
+comment = 'High Resolution Total Vehicle Distance J1939 SPN 917 [m]'
+[CAN_VARIABLE_1]
+name = 'HighResolutionTripDistance'
+vartype = 'UDINT'
+bytepos = 4
+bitpos = 0
+bitlength = 32
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 5L
+init = ''
+comment = 'High Resolution Trip Distance J1939 SPN 918 [m]'

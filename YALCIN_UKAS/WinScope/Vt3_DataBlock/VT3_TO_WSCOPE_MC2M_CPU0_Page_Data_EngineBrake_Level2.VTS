@@ -1,0 +1,4 @@
+1;test_brake;BOOL;1;%P;75;5;;;;;;;;
+Refresh = 100
+DiskSpace = 1
+Signature = A0C8F184B56D693B255AA68082A96005

@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum53\\property.txt'
+[ATTRIBUTES]
+name = u'Enum53'
+nodesInfo = []
+definition = '(\n\tEnum53_DEACTIVATE_AUXILIARY_HEATER := 0,\n\tEnum53_OFF_DUE_TO_ADR_PER_EUROPEAN_REGULATIONS_FOR_TRANSPORT_OF_HAZARDOUS_MATERIALS := 1,\n\tEnum53_ECONOMY_MODE := 2,\n\tEnum53_NORMAL_MODE := 3,\n\tEnum53_RESERVED := 14,\n\tEnum53_DONT_CARETAKE_NO_ACTION := 15\n)'

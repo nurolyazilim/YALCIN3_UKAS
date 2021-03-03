@@ -1,0 +1,7 @@
+[GENERAL]
+module = 'model.deviceJ1939Model'
+class = 'DeviceJ1939Model'
+filename = u'project\\IO_MODE\\property.txt'
+[ATTRIBUTES]
+name = u'IO_MODE'
+nodesInfo = [(u'CAN_Open', 'CanInterfaceModel')]

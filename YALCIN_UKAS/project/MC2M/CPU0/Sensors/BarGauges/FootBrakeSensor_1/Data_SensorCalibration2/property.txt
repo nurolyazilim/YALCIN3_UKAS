@@ -1,0 +1,82 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\BarGauges\\FootBrakeSensor_1\\Data_SensorCalibration2\\property.txt'
+[ATTRIBUTES]
+name = u'Data_SensorCalibration2'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 4
+[VAR_0]
+name = u'MinSensorValue_2'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'4000'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'Sensor Value'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'MinScreenValue_2'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'0'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'1 bar = 10'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'MaxSensorValue_2'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'20000'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'Sensor Value'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_3]
+name = u'MaxScreenValue_2'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'160'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'1 bar = 10'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

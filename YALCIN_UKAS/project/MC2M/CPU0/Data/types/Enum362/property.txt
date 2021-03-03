@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum362\\property.txt'
+[ATTRIBUTES]
+name = 'Enum362'
+nodesInfo = []
+definition = '(\n\tEnum362_CRUISE_CONTROL_SWITCHED_OFF := 0,\n\tEnum362_CRUISE_CONTROL_SWITCHED_ON := 1,\n\tEnum362_ERROR := 2,\n\tEnum362_NOT_AVAILABLE := 3\n)'

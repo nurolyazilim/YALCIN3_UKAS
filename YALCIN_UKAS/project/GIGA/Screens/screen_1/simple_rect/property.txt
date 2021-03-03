@@ -1,0 +1,16 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleRect'
+class = 'SimpleRect'
+filename = u'project\\GIGA\\Screens\\screen_1\\simple_rect\\property.txt'
+[ATTRIBUTES]
+name = 'simple_rect'
+nodesInfo = []
+body_language = 'C'
+x = 0
+y = 205
+width = 122
+height = 32
+thick = 1
+layer = 1
+border (repr) = 'ColorOnly((85, 191, 255),)'
+fill (repr) = "ColorOnly(('transparent', 0, 0),)"

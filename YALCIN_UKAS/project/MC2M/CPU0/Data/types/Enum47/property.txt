@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum47\\property.txt'
+[ATTRIBUTES]
+name = u'Enum47'
+nodesInfo = []
+definition = '(\n\tEnum47_OPERATOR_SEAT_NOT_FACING_FORWARD := 0,\n\tEnum47_OPERATOR_SEAT_IS_FACING_FORWARD := 1,\n\tEnum47_ERROR := 2,\n\tEnum47_NOT_AVAILABLE := 3\n)'

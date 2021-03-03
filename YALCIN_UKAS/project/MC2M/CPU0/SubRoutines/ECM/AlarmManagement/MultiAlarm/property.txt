@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\ECM\\AlarmManagement\\MultiAlarm\\property.txt'
+[ATTRIBUTES]
+name = u'MultiAlarm'
+nodesInfo = [(u'ECM_DM_data', 'GlobalDataModel'), (u'ECM_global_data_program', 'GlobalDataModel'), (u'can_callback_DM01_ECM', 'POU_FUNCTION'), (u'DM01_ECM_decode', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\GIGA\\Screens\\screen_1\\FBPressValue_3_2\\property.txt'
+[ATTRIBUTES]
+name = u'FBPressValue_3_2'
+nodesInfo = []
+body_language = 'C'
+x = 8
+y = 16
+width = 32
+height = 16
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Courier New Regular', 11)"
+separator = '.'
+decimals = 0
+currentValue = 1000
+expression = 'GIGA_HyraulicLevel'
+timer = 200
+proportional = False
+editable = False

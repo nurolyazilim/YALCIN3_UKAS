@@ -1,0 +1,35 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\WFI_Water_in_Fuel_Indicator\\property.txt'
+[ATTRIBUTES]
+name = 'WFI_Water_in_Fuel_Indicator'
+nodesInfo = []
+id = 419364862
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 10000
+alm_tout = 15000
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'WFI_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 1
+[CAN_VARIABLE_0]
+name = 'WaterInFuelIndicator'
+vartype = 'Enum346'
+bytepos = 0
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Water In Fuel Indicator J1939 SPN 97'

@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\MC2M\\CPU1\\CAN_interface\\property.txt'
+[ATTRIBUTES]
+name = 'CAN_interface'
+nodesInfo = []
+connection = u'CAN_Open'
+port_number = 0
+j1939_source_address = 133
+whitelist = [u'GIGA_MC2M_GIGAOdometerBackup', u'GIGA_MC2M_ResetTrip', u'Horn_Switch_Off', u'Horn_Switch_On', u'Horn_Switch_On_2', u'MC2M_TERA_DIAG_OUT21AN', u'MC2M_TERA_InSideTemperature']

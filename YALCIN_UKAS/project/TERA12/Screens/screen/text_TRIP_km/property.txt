@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\TERA12\\Screens\\screen\\text_TRIP_km\\property.txt'
+[ATTRIBUTES]
+name = u'text_TRIP_km'
+nodesInfo = []
+body_language = 'C'
+x = 645
+y = 253
+width = 33
+height = 23
+color (repr) = 'ColorOnly((176, 176, 176),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'left',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = '"SIMPLE TEXT"'
+font (repr) = "FontName(u'Courier New Regular', 17)"
+timer = 200
+editable = False

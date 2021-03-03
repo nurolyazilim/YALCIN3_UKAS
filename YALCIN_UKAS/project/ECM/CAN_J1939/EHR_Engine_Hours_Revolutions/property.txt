@@ -1,0 +1,47 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\EHR_Engine_Hours_Revolutions\\property.txt'
+[ATTRIBUTES]
+name = u'EHR_Engine_Hours_Revolutions'
+nodesInfo = []
+id = 419358206
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 0
+alm_tout = 1010
+alm_off_cnt = 1
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = u'EHR_'
+mux = False
+muxpos = 0
+muxid = 0
+private_source_address = u''
+[CAN_VARIABLES]
+count = 2
+[CAN_VARIABLE_0]
+name = u'TotalEngineHours'
+vartype = u'UDINT'
+bytepos = 0
+bitpos = 0
+bitlength = 32
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Total Engine Hours J1939 SPN 247'
+[CAN_VARIABLE_1]
+name = u'TotalEngineRevolutions'
+vartype = u'UDINT'
+bytepos = 4
+bitpos = 0
+bitlength = 32
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Total Engine Revolutions J1939 SPN 249'

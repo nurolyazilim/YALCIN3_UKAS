@@ -1,0 +1,26 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\TERA12\\Screens\\screen\\Time_Text\\property.txt'
+[ATTRIBUTES]
+name = u'Time_Text'
+nodesInfo = []
+body_language = 'C'
+x = 457
+y = 400
+width = 62
+height = 23
+color (repr) = 'ColorOnly((255, 159, 0),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'left',)"
+valign (repr) = "VAlign('top',)"
+expression = '"SIMPLE TEXT"'
+font (repr) = "FontName(u'Courier New Regular', 19)"
+timer = 1000
+editable = True
+kbd_align (repr) = "KbdAlign(u'right',)"
+kbd_bmp (repr) = "Bitmap(u'keypad_Time.png', ('transparent', 0, 0))"
+bg_focus (repr) = 'ColorOnly((0, 0, 0),)'
+input_mask = '99:99'
+password = False

@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\GIGA\\Screens\\screen_6\\multibitmap\\property.txt'
+[ATTRIBUTES]
+name = 'multibitmap'
+nodesInfo = []
+body_language = 'C'
+x = 178
+y = 79
+width = 128
+height = 104
+layer = 0
+expression = 'GIGAMenuNo'
+timer = 0
+currentValue = 6
+count = 8
+bitmap0 (repr) = "Bitmap(u'40BB.png', (0, 0, 0))"
+bitmap1 (repr) = "Bitmap(u'40DDD.png', (0, 0, 0))"
+bitmap2 (repr) = "Bitmap(u'40EE.png', (0, 0, 0))"
+bitmap3 (repr) = "Bitmap(u'logging.png', (0, 0, 0))"
+bitmap4 (repr) = "Bitmap(u'TRflag.png', (0, 0, 0))"
+bitmap5 (repr) = "Bitmap(u'ENflag.png', (0, 0, 0))"
+bitmap6 (repr) = "Bitmap(u'Qtrflag.png', (0, 0, 0))"
+bitmap7 (repr) = "Bitmap(u'40FF.png', (0, 0, 0))"

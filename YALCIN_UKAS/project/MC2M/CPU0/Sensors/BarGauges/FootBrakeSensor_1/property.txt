@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\BarGauges\\FootBrakeSensor_1\\property.txt'
+[ATTRIBUTES]
+name = u'FootBrakeSensor_1'
+nodesInfo = [(u'Data_SensorCalibration2', 'GlobalDataModel'), (u'Data_SensorFilter2', 'GlobalDataModel'), (u'mainSensor2', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

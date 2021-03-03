@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\led_10\\property.txt'
+[ATTRIBUTES]
+name = 'led_10'
+nodesInfo = []
+body_language = 'C'
+expression = 'L10_Difflock_Dropbox AND IgnitionOn OR GIGALedOverride'
+x = 479
+y = 298
+width = 40
+height = 40
+hwNumber = 9
+currentValue = 0

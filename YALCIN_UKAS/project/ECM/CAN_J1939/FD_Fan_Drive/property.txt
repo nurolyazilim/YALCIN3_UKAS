@@ -1,0 +1,59 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\FD_Fan_Drive\\property.txt'
+[ATTRIBUTES]
+name = 'FD_Fan_Drive'
+nodesInfo = []
+id = 419347966
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 1000
+alm_tout = 1010
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'FD_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 3
+[CAN_VARIABLE_0]
+name = 'EstimatedPercentFanSpeed'
+vartype = 'USINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 2L
+init = ''
+comment = 'Estimated Percent Fan Speed J1939 SPN 975 [%]'
+[CAN_VARIABLE_1]
+name = 'FanDriveState'
+vartype = 'Enum334'
+bytepos = 1
+bitpos = 0
+bitlength = 4
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Fan Drive State J1939 SPN 977'
+[CAN_VARIABLE_2]
+name = 'FanSpeed'
+vartype = 'UINT'
+bytepos = 2
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 8L
+div = 1L
+init = ''
+comment = 'Fan Speed J1939 SPN 1639 [rpm]'

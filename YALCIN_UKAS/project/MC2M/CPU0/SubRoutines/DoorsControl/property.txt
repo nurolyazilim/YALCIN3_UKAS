@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\DoorsControl\\property.txt'
+[ATTRIBUTES]
+name = u'DoorsControl'
+nodesInfo = [(u'Data_DoorControl_Out', 'GlobalDataModel'), (u'Data_DoorControl_In', 'GlobalDataModel'), (u'doorsControl', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

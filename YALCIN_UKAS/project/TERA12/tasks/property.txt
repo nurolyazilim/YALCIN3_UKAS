@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.taskTableModel'
+class = 'TaskTableModel'
+filename = u'project\\TERA12\\tasks\\property.txt'
+[ATTRIBUTES]
+name = 'tasks'
+nodesInfo = []
+[TASKS]
+count = 2
+[TASK_0]
+priority = 10
+period = 100
+delay = 0
+program = u'cycle'
+[TASK_1]
+priority = 9
+period = 10
+delay = 0
+program = u'cycleFilter'

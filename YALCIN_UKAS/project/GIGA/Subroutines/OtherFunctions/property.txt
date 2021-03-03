@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\OtherFunctions\\property.txt'
+[ATTRIBUTES]
+name = u'OtherFunctions'
+nodesInfo = [(u'mainIgnitionOff', 'POU_PROGRAM'), (u'mainFunctions', 'POU_PROGRAM'), (u'SetDateTime1', 'POU_PROGRAM'), (u'GIGAMenu1', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

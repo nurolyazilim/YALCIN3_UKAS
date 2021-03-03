@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\led_19\\property.txt'
+[ATTRIBUTES]
+name = 'led_19'
+nodesInfo = []
+body_language = 'C'
+expression = 'MC2M_TERA_Icon_Status_L07 OR GIGALedOverride'
+x = 1039
+y = 200
+width = 40
+height = 40
+hwNumber = 18
+currentValue = 0

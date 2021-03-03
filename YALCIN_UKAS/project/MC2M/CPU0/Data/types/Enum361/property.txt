@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum361\\property.txt'
+[ATTRIBUTES]
+name = 'Enum361'
+nodesInfo = []
+definition = '(\n\tEnum361_PARK_BRAKE_RELEASE_INHIBIT_NOT_REQUESTED := 0,\n\tEnum361_PARK_BRAKE_RELEASE_INHIBIT_REQUESTED := 1,\n\tEnum361_SAE_RESERVED := 2,\n\tEnum361_UNAVAILABLE := 3\n)'

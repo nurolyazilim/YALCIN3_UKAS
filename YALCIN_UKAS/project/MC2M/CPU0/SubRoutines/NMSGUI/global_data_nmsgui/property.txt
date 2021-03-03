@@ -1,0 +1,10 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\NMSGUI\\global_data_nmsgui\\property.txt'
+[ATTRIBUTES]
+name = u'global_data_nmsgui'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 0

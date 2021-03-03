@@ -1,0 +1,118 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_Open_UKAS\\CAN_102_Aselsan\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_102_Aselsan'
+nodesInfo = []
+id = 258
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 150
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MC2M_ASELSAN2_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 8
+[CAN_VARIABLE_0]
+name = u'Transmission_Current_Gear'
+vartype = u'USINT'
+bytepos = 0
+bitpos = 0
+bitlength = 4
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u'RealGear=Value-1, Geri Vites= -1, Bos Vites =0'
+[CAN_VARIABLE_1]
+name = u'Critic_TCM_Error'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 4
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'Critic_ECM_Error'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 5
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'Motor_Control_Error'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 6
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_4]
+name = u'Engine_Speed'
+vartype = u'UINT'
+bytepos = 1
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_5]
+name = u'Engine_Temp'
+vartype = u'USINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_6]
+name = u'Engine_Oil_Press'
+vartype = u'USINT'
+bytepos = 4
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_7]
+name = u'Engine_Coolant_Level'
+vartype = u'USINT'
+bytepos = 5
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u'%0 ile %100 aras\u0131nda bir de\u011fer'

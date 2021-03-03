@@ -1,0 +1,10 @@
+[GENERAL]
+module = 'model.screenFrameModel'
+class = 'ScreenFrameModel'
+filename = u'project\\GIGA\\screen_frame\\property.txt'
+[ATTRIBUTES]
+name = 'screen_frame'
+nodesInfo = [('key_F1', 'PhysicalKey'), ('key_F2', 'PhysicalKey'), ('gauge_0', 'PhysicalIndicator'), ('gauge_1', 'PhysicalIndicator'), ('gauge_2', 'PhysicalIndicator'), ('gauge_3', 'PhysicalIndicator'), ('gauge_4', 'PhysicalIndicator'), ('gauge_5', 'PhysicalIndicator'), ('led_1', 'PhysicalIndicator'), ('led_2', 'PhysicalIndicator'), ('led_3', 'PhysicalIndicator'), ('led_4', 'PhysicalIndicator'), ('led_5', 'PhysicalIndicator'), ('led_6', 'PhysicalIndicator'), ('led_7', 'PhysicalIndicator'), ('led_8', 'PhysicalIndicator'), ('led_9', 'PhysicalIndicator'), ('led_10', 'PhysicalIndicator'), ('led_11', 'PhysicalIndicator'), ('led_12', 'PhysicalIndicator'), ('led_13', 'PhysicalIndicator'), ('led_14', 'PhysicalIndicator'), ('led_15', 'PhysicalIndicator'), ('led_16', 'PhysicalIndicator'), ('led_17', 'PhysicalIndicator'), ('led_18', 'PhysicalIndicator'), ('led_19', 'PhysicalIndicator'), ('led_20', 'PhysicalIndicator'), ('led_21', 'PhysicalIndicator'), ('led_22', 'PhysicalIndicator'), ('led_23', 'PhysicalIndicator'), ('led_24', 'PhysicalIndicator'), ('led_25', 'PhysicalIndicator'), ('led_27', 'PhysicalIndicator'), ('led_28', 'PhysicalIndicator'), ('led_29', 'PhysicalIndicator'), ('led_30', 'PhysicalIndicator'), ('led_31', 'PhysicalIndicator'), ('led_32', 'PhysicalIndicator'), ('led_33', 'PhysicalIndicator'), ('lcd_hours', 'PhysicalIndicator'), ('lcd_odometer', 'PhysicalIndicator'), ('lcd_is_mile', 'PhysicalIndicator'), ('lcd_hourglass', 'PhysicalIndicator'), ('lcd_backlight', 'PhysicalIndicator'), ('screen_backlight', 'PhysicalIndicator'), ('instruments_backlight', 'PhysicalIndicator'), ('buzzer_frequency', 'PhysicalIndicator'), ('buzzer_level', 'PhysicalIndicator')]
+anchor_x = 646
+anchor_y = 354
+body_language = 'ST'

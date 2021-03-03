@@ -1,0 +1,64 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\AnalogueGauges\\TransOilTemperature\\Data_TransOilTemperature\\property.txt'
+[ATTRIBUTES]
+name = u'Data_TransOilTemperature'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 3
+[VAR_0]
+name = u'GIGATransOilTemperatureGaugeValue_Min'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'70'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'GIGATransOilTemperatureGaugeValue_Mid'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'630'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'GIGATransOilTemperatureGaugeValue_Max'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'1200'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

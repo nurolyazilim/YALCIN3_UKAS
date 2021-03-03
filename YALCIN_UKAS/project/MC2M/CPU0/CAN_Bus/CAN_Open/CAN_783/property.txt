@@ -1,0 +1,94 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_Open\\CAN_783\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_783'
+nodesInfo = []
+id = 1923
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MC2M_NMSGUI_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 6
+[CAN_VARIABLE_0]
+name = u'difflock_mid_fb'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 0
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'difflock_rear_fb'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 1
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'difflock_front_fb'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 2
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'dropbox_h_fb'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 3
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_4]
+name = u'dropbox_n_fb'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 4
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_5]
+name = u'dropbox_l_fb'
+vartype = u'BOOL'
+bytepos = 0
+bitpos = 5
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

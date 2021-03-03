@@ -1,0 +1,26 @@
+[GENERAL]
+module = 'model.indicatorModel.multiText'
+class = 'MultiText'
+filename = u'project\\Debug_GUI\\screen\\multitext_Selenoid2Return\\property.txt'
+[ATTRIBUTES]
+name = 'multitext_Selenoid2Return'
+nodesInfo = []
+body_language = 'C'
+x = 568
+y = 552
+width = 56
+height = 24
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = 'MC2M_GUI_Selenoid2_Return_Fb'
+timer = 1000
+currentValue = 0
+count = 2
+text0 = 'IDS_TEXT45'
+font0 (repr) = "FontName(u'Arial Bold', 14)"
+color0 (repr) = 'ColorOnly((255, 0, 0),)'
+text1 = 'IDS_TEXT47'
+font1 (repr) = "FontName(u'Arial Bold', 14)"
+color1 (repr) = 'ColorOnly((0, 127, 85),)'

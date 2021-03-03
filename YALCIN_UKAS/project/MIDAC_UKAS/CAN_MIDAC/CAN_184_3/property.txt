@@ -1,0 +1,34 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MIDAC_UKAS\\CAN_MIDAC\\CAN_184_3\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_184_3'
+nodesInfo = []
+id = 388
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 150
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MURPHY_MC2M_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 1
+[CAN_VARIABLE_0]
+name = u'Horn_switch_On'
+vartype = u'USINT'
+bytepos = 6
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u'Horn_switch_On'

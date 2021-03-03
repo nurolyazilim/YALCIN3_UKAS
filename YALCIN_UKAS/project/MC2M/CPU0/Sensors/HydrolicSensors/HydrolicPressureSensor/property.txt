@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\HydrolicSensors\\HydrolicPressureSensor\\property.txt'
+[ATTRIBUTES]
+name = u'HydrolicPressureSensor'
+nodesInfo = [(u'Sensor_HydrolicPressure_Filter_data', 'GlobalDataModel'), (u'Data_HydrolicPressure_Calibration', 'GlobalDataModel'), (u'Data_HydrolicPressure_Sensor', 'GlobalDataModel'), (u'main_HydrolicPressureSensor', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

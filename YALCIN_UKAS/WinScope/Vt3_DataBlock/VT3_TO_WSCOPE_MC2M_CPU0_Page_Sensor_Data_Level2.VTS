@@ -1,0 +1,7 @@
+1;AngX_ACT;INT;2;%M;210;5;;;;;;;;X Hesaplanan Açı
+2;AngY_ACT;INT;2;%M;214;5;;;;;;;;Y Hesaplanan Açı
+3;AMUCBO_AngleXOffSet;INT;2;%P;40;5;;;;;;;;Y Hesaplanan Açı
+4;AMUCBO_AngleYOffSet;INT;2;%P;42;5;;;;;;;;Y Hesaplanan Açı
+Refresh = 100
+DiskSpace = 1
+Signature = 71CCD0D471674DDDC951E85393A4E5FE

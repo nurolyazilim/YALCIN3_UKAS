@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Diagnostics\\property.txt'
+[ATTRIBUTES]
+name = u'Diagnostics'
+nodesInfo = [(u'Alarm_data', 'GlobalDataModel'), (u'Alarm_J1939', 'AlarmTableModel'), (u'Data_Limit', 'GlobalDataModel'), (u'mainDiagnostics', 'POU_PROGRAM'), (u'mainMC2MDiagnostics', 'POU_PROGRAM'), (u'DropboxDiffLockAlarm', 'AlarmTableModel'), (u'EL_format_local2', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

@@ -1,0 +1,106 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_Open_UKAS\\CAN_153A\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_153A'
+nodesInfo = []
+id = 339
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 150
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MC2M_MURPHY_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 7
+[CAN_VARIABLE_0]
+name = u'AngleX'
+vartype = u'INT'
+bytepos = 0
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'AngleY'
+vartype = u'INT'
+bytepos = 2
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'ServiceBrakeActivated'
+vartype = u'BOOL'
+bytepos = 4
+bitpos = 0
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'ParkingBrakeActivated'
+vartype = u'BOOL'
+bytepos = 4
+bitpos = 1
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_4]
+name = u'RemoteAcceleratorPedalPosition1'
+vartype = u'USINT'
+bytepos = 5
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_5]
+name = u'RemCruiseControlStates'
+vartype = u'USINT'
+bytepos = 6
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_6]
+name = u'RemCruiseControlSetSpeed'
+vartype = u'USINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

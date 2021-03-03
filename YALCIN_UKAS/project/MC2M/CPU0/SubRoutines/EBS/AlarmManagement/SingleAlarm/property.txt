@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\EBS\\AlarmManagement\\SingleAlarm\\property.txt'
+[ATTRIBUTES]
+name = u'SingleAlarm'
+nodesInfo = []
+documentation = 'write documentation here'
+private = False

@@ -1,0 +1,13 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalKey'
+class = 'PhysicalKey'
+filename = u'project\\GIGA\\screen_frame\\key_F1\\property.txt'
+[ATTRIBUTES]
+name = 'key_F1'
+nodesInfo = []
+body_language = 'C'
+x = 370
+y = 721
+width = 40
+height = 40
+hwNumber = 0

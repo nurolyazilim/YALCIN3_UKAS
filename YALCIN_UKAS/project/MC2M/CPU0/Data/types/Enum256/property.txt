@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum256\\property.txt'
+[ATTRIBUTES]
+name = 'Enum256'
+nodesInfo = []
+definition = '(\n\tEnum256_TRANSMISSION_NOT_READY_FOR_BRAKE_RELEASE := 0,\n\tEnum256_TRANSMISSION_READY_FOR_BRAKE_RELEASE := 1,\n\tEnum256_RESERVED := 2,\n\tEnum256_DONT_CARE := 3\n)'

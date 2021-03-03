@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum69\\property.txt'
+[ATTRIBUTES]
+name = u'Enum69'
+nodesInfo = []
+definition = '(\n\tEnum69_ASR_HILL_HOLDER_SWITCH_PASSIVE := 0,\n\tEnum69_ASR_HILL_HOLDER_SWITCH_ACTIVE := 1,\n\tEnum69_ERROR := 2,\n\tEnum69_NOT_AVAILABLE := 3\n)'

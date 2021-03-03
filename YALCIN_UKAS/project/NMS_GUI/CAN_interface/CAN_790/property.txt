@@ -1,0 +1,70 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\NMS_GUI\\CAN_interface\\CAN_790\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_790'
+nodesInfo = []
+id = 1936
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'NMSGUI_MC2M_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 4
+[CAN_VARIABLE_0]
+name = u'service_brake_tank_1'
+vartype = u'UINT'
+bytepos = 0
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'service_brake_tank_2'
+vartype = u'UINT'
+bytepos = 2
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'park_brake_tank'
+vartype = u'UINT'
+bytepos = 4
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'accessory_tank'
+vartype = u'UINT'
+bytepos = 6
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

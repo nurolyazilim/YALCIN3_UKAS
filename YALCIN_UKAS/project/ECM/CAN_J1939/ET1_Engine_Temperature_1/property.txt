@@ -1,0 +1,95 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\ET1_Engine_Temperature_1\\property.txt'
+[ATTRIBUTES]
+name = 'ET1_Engine_Temperature_1'
+nodesInfo = []
+id = 419360510
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 1000
+alm_tout = 1010
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'ET1_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 6
+[CAN_VARIABLE_0]
+name = u'EngineCoolantTemperature'
+vartype = u'SINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 40
+mul = 1
+div = 1
+init = ''
+comment = u'Engine Coolant Temperature J1939 SPN 110 [deg C]'
+[CAN_VARIABLE_1]
+name = u'EngineFuelTemperature1'
+vartype = u'SINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 40
+mul = 1
+div = 1
+init = ''
+comment = u'Engine Fuel Temperature 1 J1939 SPN 174 [deg C]'
+[CAN_VARIABLE_2]
+name = u'EngineIntercoolerTemperature'
+vartype = u'SINT'
+bytepos = 6
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 40
+mul = 1
+div = 1
+init = ''
+comment = u'Engine Intercooler Temperature J1939 SPN 52 [deg C]'
+[CAN_VARIABLE_3]
+name = u'EngIntercoolerThermostatOpening'
+vartype = u'USINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 5
+div = 2
+init = ''
+comment = u'Engine Intercooler Thermostat Opening J1939 SPN 1134 [%]'
+[CAN_VARIABLE_4]
+name = u'EngineOilTemperature1'
+vartype = u'INT'
+bytepos = 2
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 8736
+mul = 32
+div = 1
+init = ''
+comment = u'Engine Oil Temperature 1 J1939 SPN 175 [deg C]'
+[CAN_VARIABLE_5]
+name = u'EngineTurbochargerOilTemperature'
+vartype = u'INT'
+bytepos = 4
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 8736
+mul = 32
+div = 1
+init = ''
+comment = u'Engine Turbocharger Oil Temperature J1939 SPN 176 [deg C]'

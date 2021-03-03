@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum358\\property.txt'
+[ATTRIBUTES]
+name = u'Enum358'
+nodesInfo = []
+definition = '(\n\tEnum358_LOW_SPEED_RANGE := 0,\n\tEnum358_HIGH_SPEED_RANGE := 1,\n\tEnum358_ERROR := 2,\n\tEnum358_NOT_AVAILABLE := 3\n)'

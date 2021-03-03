@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\TERA12\\screen_frame\\screen_backlight\\property.txt'
+[ATTRIBUTES]
+name = 'screen_backlight'
+nodesInfo = []
+body_language = 'C'
+expression = 'ScreenLight'
+x = 320
+y = 560
+width = 470
+height = 60
+hwNumber = 1200
+currentValue = 200

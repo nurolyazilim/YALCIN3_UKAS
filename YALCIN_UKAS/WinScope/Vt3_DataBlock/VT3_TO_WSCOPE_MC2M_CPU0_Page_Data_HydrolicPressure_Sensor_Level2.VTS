@@ -1,0 +1,6 @@
+1;PresGaugeValue_Min;INT;2;%P;6;5;;;;;;;;Minimum Voltage for 0%
+2;PresGaugeValue_Mid;INT;2;%P;8;5;;;;;;;;Maximum Voltage for 50%
+3;PresGaugeValue_Max;INT;2;%P;10;5;;;;;;;;Maximum Voltage for 100%
+Refresh = 100
+DiskSpace = 1
+Signature = F0DCAF7C06ADC6C4F247C776CCAC14DE

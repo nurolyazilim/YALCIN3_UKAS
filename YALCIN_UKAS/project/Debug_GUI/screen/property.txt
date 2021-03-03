@@ -1,0 +1,16 @@
+[GENERAL]
+module = 'model.screenModel'
+class = 'ScreenModel'
+filename = u'project\\Debug_GUI\\screen\\property.txt'
+[ATTRIBUTES]
+name = 'screen'
+nodesInfo = [('multibitmap', 'MultiBitmap'), ('number', 'Number'), ('simple_text', 'SimpleText'), ('number_2', 'Number'), ('simple_text_2', 'SimpleText'), ('touch_selenoid1Draw', 'Touch'), ('touch_Selenoid2Draw', 'Touch'), ('touch_Selenoid1Return', 'Touch'), ('touch_Selenoid2Return', 'Touch'), ('number_2_2', 'Number'), ('simple_text_2_2', 'SimpleText'), ('touch_ParkerPump', 'Touch'), ('multitext_ParkerPump', 'MultiText'), ('touch_DebugActive', 'Touch'), ('multitext_DebugActive_Fb', 'MultiText'), ('simple_text_3_2', 'SimpleText'), ('simple_text_2_3', 'SimpleText'), ('multitext_3', 'MultiText'), ('multitext_Selenoid2Draw', 'MultiText'), ('multitext_Selenoid2Return', 'MultiText'), ('multitext_selenoid1Draw_Fb', 'MultiText'), ('multitext_Selenoid1Return_Fb', 'MultiText'), ('touch_EvacuationValve', 'Touch'), ('multitext_EvacuationValve', 'MultiText'), ('simple_text_3_2_2', 'SimpleText'), ('simple_text_3_2_2_2', 'SimpleText'), ('multitext_GUI_Conn_Fb', 'MultiText'), ('touch_ParkerPump_RPM_mode', 'Touch'), ('multitext_ParkerPump_2', 'MultiText'), ('touch_ParkerPump_RPM_Sel', 'Touch'), ('number_ParkerPumpRPM_Min', 'Number'), ('number_ParkerPumpRPM_Max', 'Number'), ('simple_text_2_2_2', 'SimpleText'), ('simple_text_2_2_2_2', 'SimpleText'), ('touch_ParkerPump_RPM_Set', 'Touch'), ('number_2_3', 'Number'), ('number_2_3_2', 'Number'), ('multibitmap_2', 'MultiBitmap'), ('number_2_2_2', 'Number'), ('simple_text_2_2_3', 'SimpleText')]
+body_language = 'ST'
+background (repr) = 'Color((192, 192, 192),)'
+grid_x = 8
+grid_y = 8
+grid_show = True
+grid_snap = True
+knob_selection_border_width = 0
+knob_selection_border_color (repr) = "ColorOnly(('transparent', 0, 0),)"
+palette_layer_1 = 0

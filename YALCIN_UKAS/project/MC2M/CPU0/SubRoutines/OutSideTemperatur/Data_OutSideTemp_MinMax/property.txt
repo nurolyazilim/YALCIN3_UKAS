@@ -1,0 +1,46 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\OutSideTemperatur\\Data_OutSideTemp_MinMax\\property.txt'
+[ATTRIBUTES]
+name = u'Data_OutSideTemp_MinMax'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 2
+[VAR_0]
+name = u'temValueMax'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'110'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'max g\xf6stergeye giden de\u011fer'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'temValueMin'
+vartype = u'INT'
+address = u''
+alias = False
+init = u'-50'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'min g\xf6stergeye giden de\u011fer'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

@@ -1,0 +1,28 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\Debug_GUI\\screen\\number_ParkerPumpRPM_Max\\property.txt'
+[ATTRIBUTES]
+name = 'number_ParkerPumpRPM_Max'
+nodesInfo = []
+body_language = 'C'
+x = 464
+y = 440
+width = 48
+height = 24
+color (repr) = 'ColorOnly((127, 31, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Arial Bold', 16)"
+separator = '.'
+decimals = 0
+currentValue = 3000
+expression = 'ParkerPumpRPM_Max'
+timer = 1000
+proportional = True
+editable = True
+minValue = 1277
+maxValue = 4200
+bg_focus (repr) = 'ColorOnly((224, 224, 224),)'

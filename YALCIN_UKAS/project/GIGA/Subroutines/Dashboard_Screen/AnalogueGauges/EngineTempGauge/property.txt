@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\AnalogueGauges\\EngineTempGauge\\property.txt'
+[ATTRIBUTES]
+name = u'EngineTempGauge'
+nodesInfo = [(u'EngineTempGaugeFilter_data', 'GlobalDataModel'), (u'Data_EngineTempGauge', 'GlobalDataModel'), (u'mainEngineTempGauge', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

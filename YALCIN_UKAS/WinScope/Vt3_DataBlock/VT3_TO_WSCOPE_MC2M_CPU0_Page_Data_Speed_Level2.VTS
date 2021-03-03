@@ -1,0 +1,14 @@
+1;VehicleSpeed2;USINT;1;%P;5;5;;;;;;;;109 new109
+2;EEC1_EngineSpeed2;UINT;2;%P;34;5;;;;;;;;109 new109
+3;Fuel_Level_2;SINT;1;%P;15;5;;;;;;;;109 new109
+4;TransOilTemperature2;USINT;1;%P;44;5;;;;;;;;109 new109
+5;EngineTempValue2;USINT;1;%P;45;5;;;;;;;;109 new109
+6;EngineOilPressure2;USINT;1;%P;46;5;;;;;;;;109 new109
+7;test_bit;BOOL;1;%P;47;5;;;;;;;;
+8;test_bit2;BOOL;1;%P;48;5;;;;;;;;
+9;test_bit3;BOOL;1;%P;49;5;;;;;;;;
+10;test_bit4;BOOL;1;%P;62;5;;;;;;;;
+11;test_bit5;BOOL;1;%P;63;5;;;;;;;;
+Refresh = 100
+DiskSpace = 1
+Signature = 38E61ADE568A41839DC643F86575DFE0

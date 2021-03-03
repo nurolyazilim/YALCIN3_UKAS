@@ -1,0 +1,33 @@
+[GENERAL]
+module = 'model.elog.alarmTableModel'
+class = 'AlarmTableModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Diagnostics\\DropboxDiffLockAlarm\\property.txt'
+[ATTRIBUTES]
+name = u'DropboxDiffLockAlarm'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[ALARMS]
+COUNT = 1
+[ALARM_0]
+PRIORITY = 1
+SPN = 1
+FMI = 1
+GROUP = 1
+TRIG_TYPE = 'LOGIC'
+TRIG_SET = u'DropboxDifflockAlarm'
+TRIG_RTN = u'!DropboxDifflockAlarm'
+ON_DELAY = 0
+OFF_DELAY = 0
+AUTO_ACK = False
+WORD = [u'CurrentGear', u'VehicleSpeed', u'MC2M_TERA_AccessoryPressure', u'DropboxFeedbackState', u'DropboxDoutState', u'DifflockFeedbackState', u'DifflockDoutState', u'Total_Odometer_Low', u'Total_Odometer_High', u'']
+DESCR = ['', '', '', '', '', '', '', '', '', '']
+ADD = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+MUL = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+DIV = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+DECIMALS = [True, False, False, False, False, False, False, False, False, 0]
+SIGNS = [True, False, False, False, False, False, False, False, False, 0]
+INHIBITIONS = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+REPETITION_INFO = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+REPETITION_SAFE = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+EL_0_NAME = ''
+EL_1_NAME = ''

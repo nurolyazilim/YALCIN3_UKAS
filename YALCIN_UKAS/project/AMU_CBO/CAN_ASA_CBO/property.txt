@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\AMU_CBO\\CAN_ASA_CBO\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_ASA_CBO'
+nodesInfo = [(u'CAN_18D', 'CanMsgModel')]
+connection = u'CAN_Open'
+port_number = 0
+j1939_source_address = 29
+whitelist = []

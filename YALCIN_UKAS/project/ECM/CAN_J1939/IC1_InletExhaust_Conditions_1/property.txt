@@ -1,0 +1,95 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\IC1_InletExhaust_Conditions_1\\property.txt'
+[ATTRIBUTES]
+name = 'IC1_InletExhaust_Conditions_1'
+nodesInfo = []
+id = 419362558
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 500
+alm_tout = 510
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'IC1_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 6
+[CAN_VARIABLE_0]
+name = 'EngineIntakeManifold1Pressure'
+vartype = 'USINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 2L
+init = ''
+comment = 'Engine Intake Manifold #1 Pressure J1939 SPN 102 [kPa]'
+[CAN_VARIABLE_1]
+name = 'EngineIntakeManifold1Temperature'
+vartype = 'SINT'
+bytepos = 2
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 40
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine Intake Manifold 1 Temperature J1939 SPN 105 [deg C]'
+[CAN_VARIABLE_2]
+name = 'EngineAirInletPressure'
+vartype = 'USINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 2L
+init = ''
+comment = 'Engine Air Inlet Pressure J1939 SPN 106 [kPa]'
+[CAN_VARIABLE_3]
+name = 'EngineAirFilter1DiffPressure'
+vartype = 'USINT'
+bytepos = 4
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 20L
+div = 1L
+init = ''
+comment = 'Engine Air Filter 1 Differential Pressure J1939 SPN 107 [kPa]'
+[CAN_VARIABLE_4]
+name = 'EngineCoolantFilterDiffPressure'
+vartype = 'USINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 2L
+div = 1L
+init = ''
+comment = 'Engine Coolant Filter Differential Pressure J1939 SPN 112 [kPa]'
+[CAN_VARIABLE_5]
+name = 'EngineExhaustGasTemperature'
+vartype = 'INT'
+bytepos = 5
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 8736
+mul = 32L
+div = 1L
+init = ''
+comment = 'Engine Exhaust Gas Temperature J1939 SPN 173 [deg C]'

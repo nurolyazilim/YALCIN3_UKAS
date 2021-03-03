@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum349\\property.txt'
+[ATTRIBUTES]
+name = u'Enum349'
+nodesInfo = []
+definition = '(\n\tEnum349_PRESSURE_NORMAL := 0,\n\tEnum349_PRESSURE_HIGH_FAN_MAY_BE_ENGAGED := 1,\n\tEnum349_ERROR := 2,\n\tEnum349_NOT_AVAILABLE := 3\n)'

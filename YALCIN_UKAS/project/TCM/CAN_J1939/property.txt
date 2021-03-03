@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\TCM\\CAN_J1939\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_J1939'
+nodesInfo = [(u'DM01_TCM', 'CanMsgJ1939Model'), (u'DM01_BAM_TCM', 'CanMsgJ1939Model'), ('ETC1_Electronic_Transmission_Controller_1', 'CanMsgJ1939Model'), ('ETC2_Electronic_Transmission_Controller_2', 'CanMsgJ1939Model'), ('ETC7_Electronic_Transmission_Controller_7', 'CanMsgJ1939Model'), ('ETC8_Electronic_Transmission_Controller_8', 'CanMsgJ1939Model'), ('TRF1_Transmission_Fluids_1', 'CanMsgJ1939Model'), (u'TRF2_Transmission_Fluids_2', 'CanMsgJ1939Model')]
+connection = u'CAN_J1939_250'
+port_number = 0
+j1939_source_address = 3
+whitelist = []

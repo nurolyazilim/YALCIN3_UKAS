@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\TERA12\\Screens\\screen\\number_KMH\\property.txt'
+[ATTRIBUTES]
+name = u'number_KMH'
+nodesInfo = []
+body_language = 'C'
+x = 111
+y = 226
+width = 106
+height = 49
+color (repr) = 'ColorOnly((176, 176, 176),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'DS-Digital Normal', 47)"
+separator = '.'
+decimals = 0
+currentValue = 120
+expression = 'MC2M_TERA_VehicleSpeed'
+timer = 1000
+proportional = False
+editable = False

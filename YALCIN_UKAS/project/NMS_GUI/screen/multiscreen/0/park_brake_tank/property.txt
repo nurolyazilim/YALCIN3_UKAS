@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\NMS_GUI\\screen\\multiscreen\\0\\park_brake_tank\\property.txt'
+[ATTRIBUTES]
+name = u'park_brake_tank'
+nodesInfo = []
+body_language = 'C'
+x = 254
+y = 314
+width = 242
+height = 32
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign('left',)"
+valign (repr) = "VAlign('top',)"
+expression = 'IDS_TEXT_NMSGUI_2'
+font (repr) = "FontName(u'Arial Bold', 18)"
+timer = 200
+editable = False

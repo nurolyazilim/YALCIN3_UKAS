@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\TERA12\\Screens\\screen\\AuxPressureLow\\property.txt'
+[ATTRIBUTES]
+name = 'AuxPressureLow'
+nodesInfo = []
+body_language = 'C'
+x = 340
+y = 505
+width = 224
+height = 18
+color (repr) = 'ColorOnly((255, 0, 0),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign('left',)"
+valign (repr) = "VAlign('top',)"
+expression = '"SIMPLE TEXT"'
+font (repr) = "FontName(u'Courier New Regular', 13)"
+timer = 0
+editable = False

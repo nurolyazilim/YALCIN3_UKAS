@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Dashboard_Screen\\WarningLights\\property.txt'
+[ATTRIBUTES]
+name = u'WarningLights'
+nodesInfo = [(u'Data_WarningLights', 'GlobalDataModel'), (u'mainWarningLights', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

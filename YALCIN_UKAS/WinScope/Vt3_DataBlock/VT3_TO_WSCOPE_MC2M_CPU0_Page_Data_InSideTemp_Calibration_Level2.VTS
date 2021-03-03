@@ -1,0 +1,43 @@
+1;TemLevel13_ANALOG_2;INT;2;%P;376;5;;;;;;;;
+2;TemLevel13_2;INT;2;%P;378;5;;;;;;;;
+3;TemLevel14_ANALOG_2;INT;2;%P;380;5;;;;;;;;
+4;TemLevel14_2;INT;2;%P;382;5;;;;;;;;
+5;TemLevel15_ANALOG_2;INT;2;%P;384;5;;;;;;;;
+6;TemLevel15_2;INT;2;%P;386;5;;;;;;;;
+7;TemLevel16_ANALOG_2;INT;2;%P;388;5;;;;;;;;
+8;TemLevel16_2;INT;2;%P;390;5;;;;;;;;
+9;TemLevel17_ANALOG_2;INT;2;%P;392;5;;;;;;;;
+10;TemLevel17_2;INT;2;%P;394;5;;;;;;;;
+11;TemLevel18_ANALOG_2;INT;2;%P;396;5;;;;;;;;
+12;TemLevel18_2;INT;2;%P;398;5;;;;;;;;
+13;TemLevel19_ANALOG_2;INT;2;%P;400;5;;;;;;;;
+14;TemLevel19_2;INT;2;%P;402;5;;;;;;;;
+15;TemLevel20_ANALOG_2;INT;2;%P;404;5;;;;;;;;
+16;TemLevel20_2;INT;2;%P;406;5;;;;;;;;
+17;TemLevel21_ANALOG_2;INT;2;%P;408;5;;;;;;;;
+18;TemLevel21_2;INT;2;%P;410;5;;;;;;;;
+19;TemLevel22_ANALOG_2;INT;2;%P;412;5;;;;;;;;
+20;TemLevel22_2;INT;2;%P;414;5;;;;;;;;
+21;TemLevel23_ANALOG_2;INT;2;%P;416;5;;;;;;;;
+22;TemLevel23_2;INT;2;%P;418;5;;;;;;;;
+23;TemLevel24_ANALOG_2;INT;2;%P;420;5;;;;;;;;
+24;TemLevel24_2;INT;2;%P;422;5;;;;;;;;
+25;TemLevel25_ANALOG_2;INT;2;%P;424;5;;;;;;;;
+26;TemLevel25_2;INT;2;%P;426;5;;;;;;;;
+27;TemLevel26_ANALOG_2;INT;2;%P;428;5;;;;;;;;
+28;TemLevel26_2;INT;2;%P;430;5;;;;;;;;
+29;TemLevel27_ANALOG_2;INT;2;%P;432;5;;;;;;;;
+30;TemLevel27_2;INT;2;%P;434;5;;;;;;;;
+31;TemLevel28_ANALOG_2;INT;2;%P;436;5;;;;;;;;
+32;TemLevel28_2;INT;2;%P;438;5;;;;;;;;
+33;TemLevel29_ANALOG_2;INT;2;%P;440;5;;;;;;;;
+34;TemLevel29_2;INT;2;%P;442;5;;;;;;;;
+35;TemLevel30_ANALOG_2;INT;2;%P;444;5;;;;;;;;
+36;TemLevel30_2;INT;2;%P;446;5;;;;;;;;
+37;TemLevel31_ANALOG_2;INT;2;%P;448;5;;;;;;;;
+38;TemLevel31_2;INT;2;%P;450;5;;;;;;;;
+39;TemLevel32_ANALOG_2;INT;2;%P;452;5;;;;;;;;
+40;TemLevel32_2;INT;2;%P;454;5;;;;;;;;
+Refresh = 100
+DiskSpace = 1
+Signature = 204C635A438550BC255D5363D14D749E

@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum48\\property.txt'
+[ATTRIBUTES]
+name = u'Enum48'
+nodesInfo = []
+definition = '(\n\tEnum48_NOT_BUCKLED := 0,\n\tEnum48_OK_SEAT_BELT_IS_BUCKLED := 1,\n\tEnum48_ERROR_SWITCH_STATE_CANNOT_BE_DETERMINED := 2,\n\tEnum48_NOT_AVAILABLE := 3\n)'

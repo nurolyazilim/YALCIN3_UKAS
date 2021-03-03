@@ -1,0 +1,16 @@
+[GENERAL]
+module = 'model.screenModel'
+class = 'ScreenModel'
+filename = u'project\\TERA12\\Screens\\screen\\property.txt'
+[ATTRIBUTES]
+name = 'screen'
+nodesInfo = [(u'gauge_RPM', 'CircularGauge'), (u'gauge_Speed', 'CircularGauge'), (u'gauge_ParkBrake', 'GaugeBar'), (u'gauge_ServiceBrake_1', 'GaugeBar'), (u'gauge_ServiceBrake_2', 'GaugeBar'), (u'gauge_Accessories', 'GaugeBar'), (u'Alarm_Icon_Group', 'IndicatorGroup'), (u'gauge_EngineOilPress', 'CircularGauge'), (u'gauge_EngineTemp', 'CircularGauge'), (u'gauge_Battery', 'CircularGauge'), (u'gauge_TransOilTemp', 'CircularGauge'), (u'circle_1', 'MultiBitmap'), (u'circle_2', 'MultiBitmap'), (u'number_KMH', 'Number'), (u'number_TRIP', 'Number'), (u'text_TRIP', 'SimpleText'), (u'text_TRIP_km', 'SimpleText'), (u'touch_TRIP', 'Touch'), (u'circle_3', 'SimpleCircle'), (u'circle_4', 'SimpleCircle'), (u'circle_5', 'SimpleCircle'), (u'circle_6', 'SimpleCircle'), (u'Date_Text', 'SimpleText'), (u'Time_Text', 'SimpleText'), ('simple_line', 'SimpleLine'), (u'InfoLine', 'MultiText'), (u'CurrentGear', 'MultiText'), (u'outSideTemp', 'IndicatorGroup'), (u'inSideTemp', 'IndicatorGroup'), (u'gauge_brightness', 'GaugeBar'), (u'brightness_hiding', 'MultiBitmap'), (u'touch_BrightnessDec', 'Touch'), (u'touch_BrightnessInc', 'Touch'), (u'touch_UpdateDate', 'Touch'), (u'touch_DateApply', 'Touch'), (u'touch_UpdateTime', 'Touch'), (u'touch_DateCancel', 'Touch'), (u'touch_TimeApply', 'Touch'), (u'touch_TimeCancel', 'Touch'), (u'gauge_RearRightAngle', 'CircularGauge'), (u'gauge_SideAngle', 'CircularGauge'), (u'Fuel_Group', 'IndicatorGroup'), (u'SWVersion', 'Touch'), (u'SWVersionText', 'SimpleText'), ('AuxPressureLow', 'SimpleText'), (u'EngineHour', 'SimpleText')]
+body_language = 'ST'
+background (repr) = "Bitmap(u'Dashboard800_600_new_2.png', (0, 0, 0))"
+grid_x = 8
+grid_y = 8
+grid_show = False
+grid_snap = False
+knob_selection_border_width = 0
+knob_selection_border_color (repr) = 'ColorOnly((0, 0, 255),)'
+palette_layer_1 = 0

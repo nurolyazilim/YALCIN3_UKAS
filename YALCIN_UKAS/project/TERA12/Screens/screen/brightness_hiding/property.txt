@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\brightness_hiding\\property.txt'
+[ATTRIBUTES]
+name = u'brightness_hiding'
+nodesInfo = []
+body_language = 'C'
+x = 279
+y = 347
+width = 243
+height = 15
+layer = 0
+expression = 'ShowBrightnessBar'
+timer = 100
+currentValue = 0
+count = 2
+bitmap0 (repr) = 'Color((51, 51, 51),)'
+bitmap1 (repr) = "Color(('transparent', 0, 0),)"

@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_4\\simple_text_08\\property.txt'
+[ATTRIBUTES]
+name = u'simple_text_08'
+nodesInfo = []
+body_language = 'C'
+x = 104
+y = 152
+width = 16
+height = 16
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = 'PanelBrightLUptOnScreen'
+font (repr) = "FontName(u'Arial Regular', 13)"
+timer = 200
+editable = False

@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum255\\property.txt'
+[ATTRIBUTES]
+name = u'Enum255'
+nodesInfo = []
+definition = '(\n\tEnum255_INACTIVE := 0,\n\tEnum255_ACTIVE := 1,\n\tEnum255_RESERVED := 2,\n\tEnum255_TAKE_NO_ACTION := 3\n)'

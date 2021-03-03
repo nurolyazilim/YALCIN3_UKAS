@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum_TransOilFilterRestriction\\property.txt'
+[ATTRIBUTES]
+name = u'Enum_TransOilFilterRestriction'
+nodesInfo = []
+definition = u'(\r\n\tEnum_TransOilFilter_NO_RESTRICTION := 0,\r\n\tEnum_TransOilFilter_RESTRICTION_EXISTS_ON_OIL_FILTER := 1,\r\n\tEnum_TransOilFilter_ERROR := 2,\r\n\tEnum_TransOilFilter_NOT_AVAIABLE := 3\r\n)'

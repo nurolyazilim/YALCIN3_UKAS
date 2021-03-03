@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_3\\Date_Time_Headline\\property.txt'
+[ATTRIBUTES]
+name = 'Date_Time_Headline'
+nodesInfo = []
+body_language = 'C'
+x = 16
+y = 8
+width = 288
+height = 32
+color (repr) = 'ColorOnly((85, 191, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = u'IDS_TEXT10'
+font (repr) = "FontName(u'Arial Regular', 20)"
+timer = 200
+editable = False

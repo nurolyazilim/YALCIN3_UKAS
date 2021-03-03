@@ -1,0 +1,17 @@
+
+vt3 application starting: Pzt 2. Ara 11:01:20 2019
+Opening PCAN net 250
+reading eeprom file C:\Users\Mert\AppData\Local\vt3\persist\project_NMS_GUI_BYTEP.main.bin:
+error: could not open file
+reading eeprom file C:\Users\Mert\AppData\Local\vt3\persist\project_NMS_GUI_BYTEP.mirror.bin:
+error: could not open file
+reading eeprom file C:\Users\Mert\AppData\Local\vt3\persist\project_NMS_GUI_BYTER.main.bin:
+error: could not open file
+reading eeprom file C:\Users\Mert\AppData\Local\vt3\persist\project_NMS_GUI_BYTER.mirror.bin:
+error: could not open file
+reading eeprom file C:\Users\Mert\AppData\Local\vt3\persist\project_NMS_GUI_BYTEF.main.bin:
+error: could not open file
+reading eeprom file C:\Users\Mert\AppData\Local\vt3\persist\project_NMS_GUI_BYTEF.mirror.bin:
+error: could not open file
+vt3 application ending: Pzt 2. Ara 11:02:03 2019
+

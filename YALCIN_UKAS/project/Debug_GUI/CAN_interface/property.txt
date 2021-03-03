@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\Debug_GUI\\CAN_interface\\property.txt'
+[ATTRIBUTES]
+name = 'CAN_interface'
+nodesInfo = [(u'CAN_200', 'CanMsgModel')]
+connection = u'CAN_Open'
+port_number = 0
+j1939_source_address = 2
+whitelist = [u'MC2M_GUI_DebugActive_Fb', u'MC2M_GUI_EvacuationValveActive_Fb', u'MC2M_GUI_EvacuationValveState_Fb', u'MC2M_GUI_FuelLevelSensorVal_L', u'MC2M_GUI_FuelLevelSensorVal_R', u'MC2M_GUI_FuelTankLevel1', u'MC2M_GUI_FuelTankLevel2', u'MC2M_GUI_FuelWaterDetect', u'MC2M_GUI_ParkerPumpStatus', u'MC2M_GUI_Selenoid1_Draw_Fb', u'MC2M_GUI_Selenoid1_Return_Fb', u'MC2M_GUI_Selenoid2_Draw_Fb', u'MC2M_GUI_Selenoid2_Return_Fb', u'MC2M_GUI_Selenpid2_Draw_Fb', u'MC2M_PARKERPUMP_Speed_Command', u'MC2M_TERA_EngineSpeed', u'MC2M_TERA_FuelLevel_1']

@@ -1,0 +1,18 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\circle_1\\property.txt'
+[ATTRIBUTES]
+name = u'circle_1'
+nodesInfo = []
+body_language = 'C'
+x = 108
+y = 111
+width = 125
+height = 125
+layer = 0
+expression = '0'
+timer = 500
+currentValue = 0
+count = 1
+bitmap0 (repr) = "Bitmap(u'GaugeRPM_punto.png', ('transparent', 0, 0))"

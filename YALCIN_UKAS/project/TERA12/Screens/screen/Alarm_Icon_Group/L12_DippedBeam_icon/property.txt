@@ -1,0 +1,20 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\Alarm_Icon_Group\\L12_DippedBeam_icon\\property.txt'
+[ATTRIBUTES]
+name = u'L12_DippedBeam_icon'
+nodesInfo = []
+body_language = 'ST'
+x = 377
+y = 557
+width = 44
+height = 30
+layer = 0
+expression = 'Icon_Status_L12'
+timer = 100
+currentValue = 2
+count = 3
+bitmap0 (repr) = "Bitmap(u'17B.png', (0, 0, 0))"
+bitmap1 (repr) = "Bitmap(u'17A.png', (0, 0, 0))"
+bitmap2 (repr) = "Bitmap(u'17C.png', ('null', 0, 0))"

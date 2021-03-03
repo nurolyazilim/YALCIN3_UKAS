@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum352\\property.txt'
+[ATTRIBUTES]
+name = u'Enum352'
+nodesInfo = []
+definition = '(\n\tEnum352_NOT_APPROACHING := 0,\n\tEnum352_APPROACHING := 1,\n\tEnum352_ERROR := 2,\n\tEnum352_NOT_AVAILABLE := 3\n)'

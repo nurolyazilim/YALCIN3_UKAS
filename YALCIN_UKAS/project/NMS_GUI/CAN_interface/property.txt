@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\NMS_GUI\\CAN_interface\\property.txt'
+[ATTRIBUTES]
+name = 'CAN_interface'
+nodesInfo = [(u'CAN_790', 'CanMsgModel'), (u'CAN_791', 'CanMsgModel'), (u'CAN_792', 'CanMsgModel'), (u'CAN_793', 'CanMsgModel'), (u'CAN_794', 'CanMsgModel'), (u'CAN_795', 'CanMsgModel')]
+connection = u'CAN_Open'
+port_number = 0
+j1939_source_address = 50
+whitelist = [u'MC2M_NMSGUI_accessory_tank', u'MC2M_NMSGUI_accessory_tank_raw_fb', u'MC2M_NMSGUI_difflock_front_fb', u'MC2M_NMSGUI_difflock_mid_fb', u'MC2M_NMSGUI_difflock_rear_fb', u'MC2M_NMSGUI_dropbox_h_fb', u'MC2M_NMSGUI_dropbox_l_fb', u'MC2M_NMSGUI_dropbox_n_fb', u'MC2M_NMSGUI_fuel__level_left_raw_fb', u'MC2M_NMSGUI_fuel__level_right_raw_fb', u'MC2M_NMSGUI_fuel__temp_left_raw_fb', u'MC2M_NMSGUI_fuel__temp_right_raw_fb', u'MC2M_NMSGUI_fuel_level_left', u'MC2M_NMSGUI_fuel_level_left_raw_fb', u'MC2M_NMSGUI_fuel_level_right', u'MC2M_NMSGUI_fuel_level_right_raw_fb', u'MC2M_NMSGUI_fuel_temp_left', u'MC2M_NMSGUI_fuel_temp_left_raw_fb', u'MC2M_NMSGUI_fuel_temp_right', u'MC2M_NMSGUI_fuel_temp_right_raw_fb', u'MC2M_NMSGUI_hydraulic_tank_pressure', u'MC2M_NMSGUI_hydraulic_tank_pressure_raw_fb', u'MC2M_NMSGUI_hydraulic_tank_temp', u'MC2M_NMSGUI_hydraulic_tank_temp_raw_fb', u'MC2M_NMSGUI_park_brake_tank', u'MC2M_NMSGUI_park_break_tank_raw_fb', u'MC2M_NMSGUI_service_brake_tank_1', u'MC2M_NMSGUI_service_brake_tank_2', u'MC2M_NMSGUI_service_break_tank_1_raw_fb', u'MC2M_NMSGUI_service_break_tank_2_raw_fb', u'MC2M_NMSGUI_service_tank_2_alarm', u'accessory_tank_raw_fb', u'fuel__level_left_raw_fb', u'fuel__level_right_raw_fb', u'fuel__temp_left_raw_fb', u'fuel__temp_right_raw_fb', u'hydraulic_tank_pressure_raw_fb', u'hydraulic_tank_temp_raw_fb', u'park_break_tank_raw_fb', u'service_break_tank_1_raw_fb', u'service_break_tank_2_raw_fb']

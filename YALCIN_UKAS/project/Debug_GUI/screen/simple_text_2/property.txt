@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\Debug_GUI\\screen\\simple_text_2\\property.txt'
+[ATTRIBUTES]
+name = 'simple_text_2'
+nodesInfo = []
+body_language = 'C'
+x = 96
+y = 456
+width = 24
+height = 24
+color (repr) = 'ColorOnly((0, 0, 0),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = '"%"'
+font (repr) = "FontName(u'Arial Bold', 17)"
+timer = 200
+editable = False

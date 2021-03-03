@@ -1,0 +1,7 @@
+[GENERAL]
+module = 'model.deviceJ1939Model'
+class = 'DeviceJ1939Model'
+filename = u'project\\ASELSAN_SURVEIL\\property.txt'
+[ATTRIBUTES]
+name = u'ASELSAN_SURVEIL'
+nodesInfo = [('CAN_interface', 'CanInterfaceModel')]

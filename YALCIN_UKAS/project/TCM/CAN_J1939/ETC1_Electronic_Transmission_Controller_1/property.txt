@@ -1,0 +1,131 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\TCM\\CAN_J1939\\ETC1_Electronic_Transmission_Controller_1\\property.txt'
+[ATTRIBUTES]
+name = 'ETC1_Electronic_Transmission_Controller_1'
+nodesInfo = []
+id = 217055998
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 10
+alm_tout = 20
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'ETC1_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 9
+[CAN_VARIABLE_0]
+name = 'TransmissionDrivelineEngaged'
+vartype = 'Enum76'
+bytepos = 0
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Driveline Engaged J1939 SPN 560'
+[CAN_VARIABLE_1]
+name = 'TransmissionTrqCnvLockupEngaged'
+vartype = 'Enum77'
+bytepos = 0
+bitpos = 2
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Torque Converter Lockup Engaged J1939 SPN 573'
+[CAN_VARIABLE_2]
+name = 'TransmissionShiftInProcess'
+vartype = 'Enum78'
+bytepos = 0
+bitpos = 4
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Shift In Process J1939 SPN 574'
+[CAN_VARIABLE_3]
+name = 'PercentClutchSlip'
+vartype = 'USINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 2L
+init = ''
+comment = 'Percent Clutch Slip J1939 SPN 522 [%]'
+[CAN_VARIABLE_4]
+name = 'EngineMomentaryOverspeedEnable'
+vartype = 'Enum79'
+bytepos = 4
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine Momentary Overspeed Enable J1939 SPN 606'
+[CAN_VARIABLE_5]
+name = 'ProgressiveShiftDisable'
+vartype = 'Enum80'
+bytepos = 4
+bitpos = 2
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Progressive Shift Disable J1939 SPN 607'
+[CAN_VARIABLE_6]
+name = 'SrcAddrOfCtrllingDevForTrnsmCtrl'
+vartype = 'USINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Source Address of Controlling Device for Transmission Control J1939 SPN 1482'
+[CAN_VARIABLE_7]
+name = 'TransmissionOutputShaftSpeed'
+vartype = 'UINT'
+bytepos = 1
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 8L
+div = 1L
+init = ''
+comment = 'Transmission Output Shaft Speed J1939 SPN 191 [rpm]'
+[CAN_VARIABLE_8]
+name = 'TransmissionInputShaftSpeed'
+vartype = 'UINT'
+bytepos = 5
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 8L
+div = 1L
+init = ''
+comment = 'Transmission Input Shaft Speed J1939 SPN 161 [rpm]'

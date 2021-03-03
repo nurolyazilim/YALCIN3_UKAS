@@ -1,0 +1,18 @@
+[GENERAL]
+module = 'model.indicatorModel.subscreen'
+class = 'SubScreen'
+filename = u'project\\NMS_GUI\\screen\\multiscreen_4\\property.txt'
+[ATTRIBUTES]
+name = 'multiscreen_4'
+nodesInfo = [('0', 'SubScreenPage'), ('1', 'SubScreenPage')]
+body_language = 'C'
+x = 0
+y = 0
+width = 1280
+height = 720
+expression = '0'
+timer = 100
+currentValue = 1
+count = 2
+bitmap0 (repr) = 'Color((128, 128, 128),)'
+bitmap1 (repr) = "Color(('null', 0, 0),)"

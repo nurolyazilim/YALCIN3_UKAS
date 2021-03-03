@@ -1,0 +1,12 @@
+1;EHR_2_TotalEngineHours;UDINT;4;%R;60;5;;;;;;;;SPN 247
+2;TotalEngineHours_Old;UDINT;4;%R;64;5;;;;;;;;
+3;EngineTempValue1;USINT;1;%P;0;5;;;;;;;;SPN 249
+4;TCM_SuspectParameterNumber;UDINT;4;%M;100;5;;;;;;;;SPN 249
+5;TCM_FailureModeIdentifier;USINT;1;%M;25;5;;;;;;;;SPN 249
+6;ECM_SuspectParameterNumber;UDINT;4;%M;104;5;;;;;;;;SPN 249
+7;ECM_FailureModeIdentifier;USINT;1;%M;26;5;;;;;;;;SPN 249
+8;EBS_SuspectParameterNumber;UDINT;4;%M;108;5;;;;;;;;SPN 249
+9;EBS_FailureModeIdentifier;USINT;1;%M;27;5;;;;;;;;SPN 249
+Refresh = 100
+DiskSpace = 1
+Signature = 30F8570771E3F3E16A9B01E1BB52CFCC

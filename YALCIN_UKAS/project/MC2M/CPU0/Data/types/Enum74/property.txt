@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum74\\property.txt'
+[ATTRIBUTES]
+name = u'Enum74'
+nodesInfo = []
+definition = '(\n\tEnum74_HALT_BRAKE_SWITCH_PASSIVE := 0,\n\tEnum74_HALT_BRAKE_SWITCH_ACTIVE := 1,\n\tEnum74_ERROR := 2,\n\tEnum74_NOT_AVAILABLE := 3\n)'

@@ -1,0 +1,5 @@
+1;MC2M_Formatted;USINT;1;%P;74;5;;;;;;;;
+2;TotalOdometer_d;UDINT;4;%M;116;5;;;;;;;;
+Refresh = 100
+DiskSpace = 1
+Signature = 90B2AC759D7EC763D8C7DC472558C33A

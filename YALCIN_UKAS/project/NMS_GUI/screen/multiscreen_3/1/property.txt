@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.indicatorModel.subscreen'
+class = 'SubScreenPage'
+filename = u'project\\NMS_GUI\\screen\\multiscreen_3\\1\\property.txt'
+[ATTRIBUTES]
+name = '1'
+nodesInfo = []
+body_language = 'C'

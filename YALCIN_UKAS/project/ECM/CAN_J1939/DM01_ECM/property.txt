@@ -1,0 +1,167 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\DM01_ECM\\property.txt'
+[ATTRIBUTES]
+name = u'DM01_ECM'
+nodesInfo = []
+id = 419351294
+dlc = 1782
+dlcMin = 6
+ext = True
+rate = 1000
+alm_tout = 5000
+alm_off_cnt = 3
+alm_on_cnt = 10
+byte_base = 1
+varname_prefix = u'DM01_ECM_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 12
+[CAN_VARIABLE_0]
+name = u'ProtectLamp'
+vartype = u'Enum13'
+bytepos = 0
+bitpos = 0
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Protect Lamp J1939 SPN 987 **(timeout 1500->5000)'
+[CAN_VARIABLE_1]
+name = u'AmberWarningLamp'
+vartype = u'Enum13'
+bytepos = 0
+bitpos = 2
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Amber Warning Lamp J1939 SPN 624'
+[CAN_VARIABLE_2]
+name = u'RedStopLamp'
+vartype = u'Enum13'
+bytepos = 0
+bitpos = 4
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Red Stop Lamp J1939 SPN 623 **(alarm on count 1->10)'
+[CAN_VARIABLE_3]
+name = u'MalfunctionIndicatorLamp'
+vartype = u'Enum14'
+bytepos = 0
+bitpos = 6
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Malfunction Indicator Lamp J1939 SPN 1213'
+[CAN_VARIABLE_4]
+name = u'FlashProtectLamp'
+vartype = u'Enum15'
+bytepos = 1
+bitpos = 0
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Flash Protect Lamp J1939 SPN 3041'
+[CAN_VARIABLE_5]
+name = u'FlashAmberWarningLamp'
+vartype = u'Enum15'
+bytepos = 1
+bitpos = 2
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Flash Amber Warning Lamp (AWL) J1939 SPN 3040'
+[CAN_VARIABLE_6]
+name = u'FlashRedStopLamp'
+vartype = u'Enum15'
+bytepos = 1
+bitpos = 4
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Flash Red Stop Lamp (RSL) J1939 SPN 3039'
+[CAN_VARIABLE_7]
+name = u'FlashMalfunctionIndicatorLamp'
+vartype = u'Enum16'
+bytepos = 1
+bitpos = 6
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Flash Malfunction Indicator Lamp (MIL) J1939 SPN 3038'
+[CAN_VARIABLE_8]
+name = u'SuspectParameterNumber'
+vartype = u'UDINT'
+bytepos = 2
+bitpos = 0
+bitlength = 19
+endianness = u'BE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Suspect Parameter Number J1939 SPN 1214'
+[CAN_VARIABLE_9]
+name = u'FailureModeIdentifier'
+vartype = u'USINT'
+bytepos = 4
+bitpos = 3
+bitlength = 5
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Failure Mode Identifier J1939 SPN 1215'
+[CAN_VARIABLE_10]
+name = u'OccurrenceCount'
+vartype = u'USINT'
+bytepos = 5
+bitpos = 0
+bitlength = 7
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Occurrence Count J1939 SPN 1216'
+[CAN_VARIABLE_11]
+name = u'SPNConversionMethod'
+vartype = u'Enum17'
+bytepos = 5
+bitpos = 7
+bitlength = 1
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'SPN Conversion Method J1939 SPN 1706'

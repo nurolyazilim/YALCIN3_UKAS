@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\property.txt'
+[ATTRIBUTES]
+name = u'Subroutines'
+nodesInfo = [(u'Dashboard_Screen', 'FolderModel'), (u'DiffLock', 'FolderModel'), (u'OtherFunctions', 'FolderModel')]
+documentation = 'write documentation here'
+private = False

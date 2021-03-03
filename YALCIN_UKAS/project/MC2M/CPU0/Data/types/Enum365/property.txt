@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum365\\property.txt'
+[ATTRIBUTES]
+name = 'Enum365'
+nodesInfo = []
+definition = '(\n\tEnum365_CLUTCH_PEDAL_RELEASED := 0,\n\tEnum365_CLUTCH_PEDAL_DEPRESSED := 1,\n\tEnum365_ERROR := 2,\n\tEnum365_NOT_AVAILABLE := 3\n)'

@@ -1,0 +1,16 @@
+[GENERAL]
+module = 'model.screenModel'
+class = 'ScreenModel'
+filename = u'project\\GIGA\\Screens\\screen_2\\property.txt'
+[ATTRIBUTES]
+name = u'screen_2'
+nodesInfo = [(u'Date_Text', 'SimpleText'), (u'Time_Text', 'SimpleText'), ('Date_Time_Headline', 'SimpleText'), ('Date_Time_Caption_Text', 'MultiText'), ('Return_Text', 'MultiText'), (u'Update_Min_Text', 'SimpleText'), (u'Update_Hour_Text', 'SimpleText'), (u'Update_Time_SemiColon', 'SimpleText'), (u'Update_Month_Text', 'SimpleText'), (u'Update_Day_Text', 'SimpleText'), (u'Update_Date_Slash1', 'SimpleText'), (u'Update_Year_Text', 'SimpleText'), (u'Update_Date_Slash2', 'SimpleText'), ('Return_Text_2', 'MultiText')]
+body_language = 'ST'
+background (repr) = 'Color((0, 0, 0),)'
+grid_x = 8
+grid_y = 8
+grid_show = True
+grid_snap = False
+knob_selection_border_width = 0
+knob_selection_border_color (repr) = 'ColorOnly((0, 0, 255),)'
+palette_layer_1 = 0

@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\WinchControl\\property.txt'
+[ATTRIBUTES]
+name = u'WinchControl'
+nodesInfo = [(u'WinchControl', 'POU_PROGRAM'), (u'Data_Winch_In', 'GlobalDataModel'), (u'Data_Winch_Out', 'GlobalDataModel')]
+documentation = 'write documentation here'
+private = False

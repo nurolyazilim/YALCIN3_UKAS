@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Dashboard_Screen\\TERA_Screen\\property.txt'
+[ATTRIBUTES]
+name = u'TERA_Screen'
+nodesInfo = [(u'mainTeraScreen', 'POU_PROGRAM'), (u'main_Lxicon', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

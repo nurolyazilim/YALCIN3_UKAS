@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\RemooteRPM\\property.txt'
+[ATTRIBUTES]
+name = u'RemooteRPM'
+nodesInfo = [(u'RPM_Set', 'POU_PROGRAM')]
+documentation = u'Rwrite documentation here'
+private = False

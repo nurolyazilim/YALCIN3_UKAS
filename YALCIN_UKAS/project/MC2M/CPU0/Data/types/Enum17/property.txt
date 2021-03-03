@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum17\\property.txt'
+[ATTRIBUTES]
+name = u'Enum17'
+nodesInfo = []
+definition = '(\n\tEnum17_CONVERT_SPN_PER_VERSION_4 := 0,\n\tEnum17_CONVERT_SPN_PER_VERSION_1_2_OR_3 := 1\n)'

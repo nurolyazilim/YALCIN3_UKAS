@@ -1,0 +1,32 @@
+[GENERAL]
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Diagnostics\\mainMC2MDiagnostics\\property.txt'
+[ATTRIBUTES]
+name = u'mainMC2MDiagnostics'
+nodesInfo = []
+pou_type = 'PROGRAM'
+body_language = 'ST'
+pou_comment = 'comment'
+last_excel_import_export_filename = ''
+linker_address = -1
+[VARIABLES]
+count = 1
+[VAR_0]
+name = u'tempcoolant'
+vartype = u'UINT'
+address = ''
+alias = False
+init = u'0'
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''

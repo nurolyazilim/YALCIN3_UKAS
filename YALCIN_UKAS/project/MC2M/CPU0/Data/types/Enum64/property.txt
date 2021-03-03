@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum64\\property.txt'
+[ATTRIBUTES]
+name = u'Enum64'
+nodesInfo = []
+definition = '(\n\tEnum64_ASR_BRAKE_CONTROL_PASSIVE_BUT_INSTALLED := 0,\n\tEnum64_ASR_BRAKE_CONTROL_ACTIVE := 1,\n\tEnum64_RESERVED := 2,\n\tEnum64_NOT_AVAILABLE := 3\n)'

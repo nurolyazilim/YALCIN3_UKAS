@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum370\\property.txt'
+[ATTRIBUTES]
+name = u'Enum370'
+nodesInfo = []
+definition = '(\n\tEnum370_OFFDISABLED := 0,\n\tEnum370_HOLD := 1,\n\tEnum370_ACCELERATE := 2,\n\tEnum370_DECELERATE := 3,\n\tEnum370_RESUME := 4,\n\tEnum370_SET := 5,\n\tEnum370_ACCELERATOR_OVERRIDE := 6,\n\tEnum370_NOT_AVAILABLE := 7\n)'

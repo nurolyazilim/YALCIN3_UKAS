@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_1\\EngineHour\\property.txt'
+[ATTRIBUTES]
+name = u'EngineHour'
+nodesInfo = []
+body_language = 'C'
+x = 37
+y = 189
+width = 52
+height = 12
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = u'UDINT_TO_STRING(MC2M_TERA_DIAG_TotalEngineHours)'
+font (repr) = "FontName(u'Courier New Regular', 11)"
+timer = 0
+editable = False

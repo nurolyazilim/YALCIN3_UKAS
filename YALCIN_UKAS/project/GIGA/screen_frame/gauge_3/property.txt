@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\gauge_3\\property.txt'
+[ATTRIBUTES]
+name = 'gauge_3'
+nodesInfo = []
+body_language = 'C'
+expression = 'GIGATransOilTemperature  + GIGAGaugeOverride3'
+x = 564
+y = 647
+width = 130
+height = 100
+hwNumber = 1003
+currentValue = 0

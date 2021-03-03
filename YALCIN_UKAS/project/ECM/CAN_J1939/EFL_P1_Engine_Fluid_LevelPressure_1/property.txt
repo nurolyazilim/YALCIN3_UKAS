@@ -1,0 +1,107 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\EFL_P1_Engine_Fluid_LevelPressure_1\\property.txt'
+[ATTRIBUTES]
+name = 'EFL_P1_Engine_Fluid_LevelPressure_1'
+nodesInfo = []
+id = 419360766
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 500
+alm_tout = 510
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'EFL_P1_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 7
+[CAN_VARIABLE_0]
+name = u'EngineFuelDeliveryPressure'
+vartype = u'USINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 4
+init = ''
+comment = u'Engine Fuel Delivery Pressure J1939 SPN 94 [kPa]'
+[CAN_VARIABLE_1]
+name = u'EngExtendedCrankCsBlowByPressure'
+vartype = u'USINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 20
+div = 1
+init = ''
+comment = u'Engine Extended Crankcase Blow-by Pressure J1939 SPN 22 [kPa]'
+[CAN_VARIABLE_2]
+name = u'EngineOilLevel'
+vartype = u'USINT'
+bytepos = 2
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 5
+div = 2
+init = ''
+comment = u'Engine Oil Level J1939 SPN 98 [%]'
+[CAN_VARIABLE_3]
+name = u'EngineOilPressure'
+vartype = u'USINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = ''
+comment = u'Engine Oil Pressure J1939 SPN 100 [kPa]'
+[CAN_VARIABLE_4]
+name = u'EngineCoolantPressure'
+vartype = u'USINT'
+bytepos = 6
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 2
+init = ''
+comment = u'Engine Coolant Pressure J1939 SPN 109 [kPa]'
+[CAN_VARIABLE_5]
+name = u'EngineCoolantLevel'
+vartype = u'USINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 5
+div = 2
+init = ''
+comment = u'Engine Coolant Level J1939 SPN 111 [%]'
+[CAN_VARIABLE_6]
+name = u'EngineCrankcasePressure'
+vartype = u'INT'
+bytepos = 4
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 32000
+mul = 128
+div = 1
+init = ''
+comment = u'Engine Crankcase Pressure J1939 SPN 101 [kPa]'

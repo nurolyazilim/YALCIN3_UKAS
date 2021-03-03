@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum364\\property.txt'
+[ATTRIBUTES]
+name = 'Enum364'
+nodesInfo = []
+definition = '(\n\tEnum364_BRAKE_PEDAL_RELEASED := 0,\n\tEnum364_BRAKE_PEDAL_DEPRESSED := 1,\n\tEnum364_ERROR := 2,\n\tEnum364_NOT_AVAILABLE := 3\n)'

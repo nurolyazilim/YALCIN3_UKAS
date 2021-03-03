@@ -1,0 +1,10 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\EBS\\Data_EBS\\property.txt'
+[ATTRIBUTES]
+name = u'Data_EBS'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 0

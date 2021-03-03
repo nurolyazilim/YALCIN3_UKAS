@@ -1,0 +1,26 @@
+[GENERAL]
+module = 'model.indicatorModel.multiText'
+class = 'MultiText'
+filename = u'project\\GIGA\\Screens\\screen_4\\multitext_2\\property.txt'
+[ATTRIBUTES]
+name = 'multitext_2'
+nodesInfo = []
+body_language = 'C'
+x = 24
+y = 128
+width = 40
+height = 16
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = 'SubMenuVar2=1'
+timer = 200
+currentValue = 0
+count = 2
+text0 = 'IDS_TEXT29'
+font0 (repr) = "FontName(u'Arial Regular', 13)"
+color0 (repr) = 'ColorOnly((255, 255, 255),)'
+text1 = 'IDS_TEXT29'
+font1 (repr) = "FontName(u'Arial Regular', 13)"
+color1 (repr) = 'ColorOnly((42, 255, 0),)'

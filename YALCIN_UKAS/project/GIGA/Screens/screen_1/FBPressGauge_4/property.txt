@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.gaugeBar'
+class = 'GaugeBar'
+filename = u'project\\GIGA\\Screens\\screen_1\\FBPressGauge_4\\property.txt'
+[ATTRIBUTES]
+name = u'FBPressGauge_4'
+nodesInfo = []
+body_language = 'ST'
+x = 225
+y = 206
+width = 90
+height = 24
+orientation (repr) = "Orientation('left-right',)"
+fill0 (repr) = 'Color((255, 31, 0),)'
+fill1 (repr) = 'Color((255, 0, 0),)'
+fill2 (repr) = 'Color((85, 191, 255),)'
+bg (repr) = "Color(('transparent', 0, 0),)"
+layer = 1
+minValue = 0
+zone1Value = 60
+zone2Value = 60
+maxValue = 85
+currentValue = 85
+expression = 'GIGA_AccessoryPressure'
+timer = 200

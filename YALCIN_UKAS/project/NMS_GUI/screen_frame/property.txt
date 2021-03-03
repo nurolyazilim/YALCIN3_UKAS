@@ -1,0 +1,10 @@
+[GENERAL]
+module = 'model.screenFrameModel'
+class = 'ScreenFrameModel'
+filename = u'project\\NMS_GUI\\screen_frame\\property.txt'
+[ATTRIBUTES]
+name = 'screen_frame'
+nodesInfo = [('screen_backlight', 'PhysicalIndicator'), ('buzzer', 'PhysicalIndicator')]
+anchor_x = 32
+anchor_y = 32
+body_language = 'C'

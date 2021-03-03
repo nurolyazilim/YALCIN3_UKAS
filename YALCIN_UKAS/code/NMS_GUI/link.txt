@@ -1,0 +1,26 @@
+INPUT(
+vt3_code\vt3_lang.o
+vt3_code\vt3_fonts.o
+vt3_code\vt3_IO.o
+vt3_code\vt3_alarms.o
+vt3_code\vt3_POU__global_data.o
+vt3_code\vt3_POU__cycle.o
+vt3_code\vt3_POU_common.o
+vt3_code\vt3_vars.o
+vt3_code\vt3_signature.o
+vt3_code\vt3_disp_events.o
+vt3_code\vt3_images.o
+vt3_code\vt3_CAN.o
+vt3_code\vt3_disp.o
+extra\vt3_extra.o
+-lglu32
+-lopengl32
+-lgdi32
+-luser32
+-lmingw32
+-lqtmain
+"C:/Program Files (x86)/vt3/resources/targets/PC_Windows/lib/libvt3.a"
+-lQt5Widgets
+-lQt5Gui
+-lQt5Core
+);

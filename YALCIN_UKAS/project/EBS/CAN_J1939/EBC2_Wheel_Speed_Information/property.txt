@@ -1,0 +1,107 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\EBS\\CAN_J1939\\EBC2_Wheel_Speed_Information\\property.txt'
+[ATTRIBUTES]
+name = 'EBC2_Wheel_Speed_Information'
+nodesInfo = []
+id = 419348478
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 100
+alm_tout = 110
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'EBC2_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 7
+[CAN_VARIABLE_0]
+name = 'RelativeSpeed_FrontAxl_LeftWheel'
+vartype = 'SINT'
+bytepos = 2
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 114
+mul = 16L
+div = 1L
+init = ''
+comment = 'Relative Speed, Front Axle, Left Wheel J1939 SPN 905 [km/h]'
+[CAN_VARIABLE_1]
+name = 'RelativeSpeed_FrntAxl_RightWheel'
+vartype = 'SINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 114
+mul = 16L
+div = 1L
+init = ''
+comment = 'Relative Speed, Front Axle, Right Wheel J1939 SPN 906 [km/h]'
+[CAN_VARIABLE_2]
+name = 'RelativeSpeed_RearAxl1_LeftWheel'
+vartype = 'SINT'
+bytepos = 4
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 114
+mul = 16L
+div = 1L
+init = ''
+comment = 'Relative Speed, Rear Axle #1, Left Wheel J1939 SPN 907 [km/h]'
+[CAN_VARIABLE_3]
+name = 'RelSpeed_RearAxl1_RightWheel'
+vartype = 'SINT'
+bytepos = 5
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 114
+mul = 16L
+div = 1L
+init = ''
+comment = 'Relative Speed, Rear Axle #1, Right Wheel J1939 SPN 908 [km/h]'
+[CAN_VARIABLE_4]
+name = 'RelativeSpeed_RearAxl2_LeftWheel'
+vartype = 'SINT'
+bytepos = 6
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 114
+mul = 16L
+div = 1L
+init = ''
+comment = 'Relative Speed, Rear Axle #2, Left Wheel J1939 SPN 909 [km/h]'
+[CAN_VARIABLE_5]
+name = 'RelSpeed_RearAxl2_RightWheel'
+vartype = 'SINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 114
+mul = 16L
+div = 1L
+init = ''
+comment = 'Relative Speed, Rear Axle #2, Right Wheel J1939 SPN 910 [km/h]'
+[CAN_VARIABLE_6]
+name = 'FrontAxleSpeed'
+vartype = 'UINT'
+bytepos = 0
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 256L
+div = 1L
+init = ''
+comment = 'Front Axle Speed J1939 SPN 904 [km/h]'

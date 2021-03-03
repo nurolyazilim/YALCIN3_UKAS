@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\AnalogueGauges\\EngineSpeed\\property.txt'
+[ATTRIBUTES]
+name = u'EngineSpeed'
+nodesInfo = [(u'EngineSpeedFilter_data', 'GlobalDataModel'), (u'Data_EngineSpeed', 'GlobalDataModel'), (u'mainEngineSpeed', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

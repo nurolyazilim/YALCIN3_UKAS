@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\property.txt'
+[ATTRIBUTES]
+name = u'Sensors'
+nodesInfo = [(u'pressureSensorsControl', 'POU_PROGRAM'), (u'BarGauges', 'FolderModel'), (u'HydrolicSensors', 'FolderModel'), (u'WebastoTempSensor', 'FolderModel'), (u'FrontParkSensor', 'FolderModel'), (u'FuelTankTemp', 'FolderModel')]
+documentation = 'write documentation here'
+private = False

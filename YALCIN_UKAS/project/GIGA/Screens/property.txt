@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Screens\\property.txt'
+[ATTRIBUTES]
+name = u'Screens'
+nodesInfo = [(u'screen_1', 'ScreenModel'), (u'screen_2', 'ScreenModel'), (u'screen_3', 'ScreenModel'), (u'screen_4', 'ScreenModel'), (u'screen_5', 'ScreenModel'), (u'screen_6', 'ScreenModel')]
+documentation = 'write documentation here'
+private = False

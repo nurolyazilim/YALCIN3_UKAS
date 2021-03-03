@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\TERA12\\Screens\\screen\\outSideTemp\\o_text\\property.txt'
+[ATTRIBUTES]
+name = u'o_text'
+nodesInfo = []
+body_language = 'C'
+x = 470
+y = 34
+width = 14
+height = 23
+color (repr) = 'ColorOnly((176, 176, 176),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign('left',)"
+valign (repr) = "VAlign('top',)"
+expression = '"SIMPLE TEXT"'
+font (repr) = "FontName(u'DS-Digital Normal', 14)"
+timer = 200
+editable = False

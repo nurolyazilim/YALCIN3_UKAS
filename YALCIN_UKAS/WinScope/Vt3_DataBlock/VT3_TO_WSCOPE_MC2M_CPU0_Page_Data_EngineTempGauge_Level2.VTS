@@ -1,0 +1,8 @@
+1;EngineTempGaugeValue_1;INT;2;%P;12;5;;;;;;;;250-100
+2;EngineTempGaugeValue_2;INT;2;%P;26;5;;;;;;;;600-550
+3;EngineTempGaugeValue_3;INT;2;%P;28;5;;;;;;;;800-780
+4;EngineTempGaugeValue_4;INT;2;%P;30;5;;;;;;;;930-930
+5;EngineTempGaugeValue_5;INT;2;%P;32;5;;;;;;;;1020-1020
+Refresh = 100
+DiskSpace = 1
+Signature = FC89E200187980D6E7D3A540F96779E5

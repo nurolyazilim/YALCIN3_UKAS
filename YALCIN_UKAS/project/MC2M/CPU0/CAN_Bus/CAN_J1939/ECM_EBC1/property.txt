@@ -1,0 +1,35 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_J1939\\ECM_EBC1\\property.txt'
+[ATTRIBUTES]
+name = u'ECM_EBC1'
+nodesInfo = []
+id = 217055743
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 100
+alm_tout = 150
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = u'EBC1_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = u'23'
+[CAN_VARIABLES]
+count = 1
+[CAN_VARIABLE_0]
+name = u'GasPedalEnable'
+vartype = u'Enum87'
+bytepos = 3
+bitpos = 6
+bitlength = 2
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

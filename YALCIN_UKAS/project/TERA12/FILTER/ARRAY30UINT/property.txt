@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\TERA12\\FILTER\\ARRAY30UINT\\property.txt'
+[ATTRIBUTES]
+name = u'ARRAY30UINT'
+nodesInfo = []
+definition = u'ARRAY [0..29] OF UINT'

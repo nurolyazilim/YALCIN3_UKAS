@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\EngineProtection\\property.txt'
+[ATTRIBUTES]
+name = u'EngineProtection'
+nodesInfo = [(u'Data_EngineProtection', 'GlobalDataModel'), (u'mainEngineProtection', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

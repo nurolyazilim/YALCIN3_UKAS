@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\EBS\\CAN_J1939\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_J1939'
+nodesInfo = [(u'DM01_EBS', 'CanMsgJ1939Model'), (u'DM01_BAM_EBS', 'CanMsgJ1939Model'), ('HRW_High_Resolution_Wheel_Speed', 'CanMsgJ1939Model'), ('EBC1_Electronic_Brake_Controller_1', 'CanMsgJ1939Model'), ('EBC2_Wheel_Speed_Information', 'CanMsgJ1939Model')]
+connection = u'CAN_J1939_250'
+port_number = 0
+j1939_source_address = 11
+whitelist = []

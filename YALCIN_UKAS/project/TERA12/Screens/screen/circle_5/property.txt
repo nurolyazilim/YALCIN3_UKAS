@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleCircle'
+class = 'SimpleCircle'
+filename = u'project\\TERA12\\Screens\\screen\\circle_5\\property.txt'
+[ATTRIBUTES]
+name = u'circle_5'
+nodesInfo = []
+body_language = 'C'
+X = 557
+Y = 574
+radius = 15
+thick = 2
+layer = 0
+border (repr) = 'ColorOnly((83, 29, 29),)'
+fill (repr) = 'ColorOnly((0, 0, 0),)'

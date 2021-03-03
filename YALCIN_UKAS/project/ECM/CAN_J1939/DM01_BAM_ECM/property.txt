@@ -1,0 +1,83 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\DM01_BAM_ECM\\property.txt'
+[ATTRIBUTES]
+name = u'DM01_BAM_ECM'
+nodesInfo = []
+id = 418185215
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 1000
+alm_tout = 1500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = u'DM01_BAM_ECM_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 5
+[CAN_VARIABLE_0]
+name = u'CtrlByte'
+vartype = u'BYTE'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'TotNumByte'
+vartype = u'UINT'
+bytepos = 1
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'TotNumPacket'
+vartype = u'BYTE'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'Reserved'
+vartype = u'BYTE'
+bytepos = 4
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0xff'
+comment = u''
+[CAN_VARIABLE_4]
+name = u'PGNofPacket'
+vartype = u'UDINT'
+bytepos = 5
+bitpos = 0
+bitlength = 24
+endianness = 'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

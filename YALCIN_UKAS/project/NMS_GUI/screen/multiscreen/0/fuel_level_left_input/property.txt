@@ -1,0 +1,28 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\NMS_GUI\\screen\\multiscreen\\0\\fuel_level_left_input\\property.txt'
+[ATTRIBUTES]
+name = u'fuel_level_left_input'
+nodesInfo = []
+body_language = 'C'
+x = 935
+y = 84
+width = 50
+height = 20
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign('right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Arial Bold', 16)"
+separator = '.'
+decimals = 0
+currentValue = 123
+expression = 'fuel_level_left_val'
+timer = 200
+proportional = False
+editable = True
+minValue = 0
+maxValue = 100
+bg_focus (repr) = "ColorOnly(('transparent', 0, 0),)"

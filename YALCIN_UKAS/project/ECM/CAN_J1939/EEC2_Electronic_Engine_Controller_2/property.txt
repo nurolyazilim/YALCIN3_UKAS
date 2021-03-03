@@ -1,0 +1,143 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\EEC2_Electronic_Engine_Controller_2\\property.txt'
+[ATTRIBUTES]
+name = 'EEC2_Electronic_Engine_Controller_2'
+nodesInfo = []
+id = 217056254
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 50
+alm_tout = 60
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'EEC2_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 10
+[CAN_VARIABLE_0]
+name = 'AcceleratorPedal1LowIdleSwitch'
+vartype = 'Enum81'
+bytepos = 0
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Accelerator Pedal 1 Low Idle Switch J1939 SPN 558'
+[CAN_VARIABLE_1]
+name = 'AcceleratorPedalKickdownSwitch'
+vartype = 'Enum82'
+bytepos = 0
+bitpos = 2
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Accelerator Pedal Kickdown Switch J1939 SPN 559'
+[CAN_VARIABLE_2]
+name = 'RoadSpeedLimitStatus'
+vartype = 'Enum83'
+bytepos = 0
+bitpos = 4
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Road Speed Limit Status J1939 SPN 1437'
+[CAN_VARIABLE_3]
+name = 'AcceleratorPedal2LowIdleSwitch'
+vartype = 'Enum84'
+bytepos = 0
+bitpos = 6
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Accelerator Pedal 2 Low Idle Switch J1939 SPN 2970'
+[CAN_VARIABLE_4]
+name = 'AcceleratorPedalPosition1'
+vartype = 'USINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 2L
+init = ''
+comment = 'Accelerator Pedal Position 1 J1939 SPN 91 [%]'
+[CAN_VARIABLE_5]
+name = 'EnginePercentLoadAtCurrentSpeed'
+vartype = 'USINT'
+bytepos = 2
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine Percent Load At Current Speed J1939 SPN 92 [%]'
+[CAN_VARIABLE_6]
+name = 'RemoteAcceleratorPedalPosition'
+vartype = 'USINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 2L
+init = ''
+comment = 'Remote Accelerator Pedal Position J1939 SPN 974 [%]'
+[CAN_VARIABLE_7]
+name = 'AcceleratorPedalPosition2'
+vartype = 'USINT'
+bytepos = 4
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 2L
+init = ''
+comment = 'Accelerator Pedal Position 2 J1939 SPN 29 [%]'
+[CAN_VARIABLE_8]
+name = 'VehicleAccelerationRateLmtStatus'
+vartype = 'Enum85'
+bytepos = 5
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Vehicle Acceleration Rate Limit Status J1939 SPN 2979'
+[CAN_VARIABLE_9]
+name = 'ActlMaximumAvailEngPercentTorque'
+vartype = 'USINT'
+bytepos = 6
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 5L
+div = 2L
+init = ''
+comment = 'Actual Maximum Available Engine - Percent Torque J1939 SPN 3357'

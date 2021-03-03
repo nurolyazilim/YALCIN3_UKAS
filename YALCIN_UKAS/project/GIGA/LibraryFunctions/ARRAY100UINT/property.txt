@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\GIGA\\LibraryFunctions\\ARRAY100UINT\\property.txt'
+[ATTRIBUTES]
+name = u'ARRAY100UINT'
+nodesInfo = []
+definition = u'ARRAY [0..99] OF UINT'

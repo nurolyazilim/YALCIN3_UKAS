@@ -1,0 +1,6 @@
+1;HTempGaugeValue_Min_2;INT;2;%P;20;5;;;;;;;;Minimum Voltage for 0%
+2;HTempGaugeValue_Mid_2;INT;2;%P;22;5;;;;;;;;Maximum Voltage for 50%
+3;HTempGaugeValue_Max_2;INT;2;%P;24;5;;;;;;;;Maximum Voltage for 100%
+Refresh = 100
+DiskSpace = 1
+Signature = 1E181E95BE415B8BDFF1E7B33B961E75

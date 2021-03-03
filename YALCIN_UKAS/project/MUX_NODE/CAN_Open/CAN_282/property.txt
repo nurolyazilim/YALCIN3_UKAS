@@ -1,0 +1,118 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MUX_NODE\\CAN_Open\\CAN_282\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_282'
+nodesInfo = []
+id = 642
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 150
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MUX_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 8
+[CAN_VARIABLE_0]
+name = u'ISenseOut09'
+vartype = u'USINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'ISenseOut10'
+vartype = u'USINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_2]
+name = u'ISenseOut11'
+vartype = u'USINT'
+bytepos = 2
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_3]
+name = u'ISenseOut12'
+vartype = u'USINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_4]
+name = u'ISenseOut13'
+vartype = u'USINT'
+bytepos = 4
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_5]
+name = u'ISenseOut14'
+vartype = u'USINT'
+bytepos = 5
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_6]
+name = u'ISenseOut15'
+vartype = u'USINT'
+bytepos = 6
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_7]
+name = u'ISenseOut16'
+vartype = u'USINT'
+bytepos = 7
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

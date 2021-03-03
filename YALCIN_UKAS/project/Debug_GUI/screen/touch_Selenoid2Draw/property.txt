@@ -1,0 +1,24 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.touch'
+class = 'Touch'
+filename = u'project\\Debug_GUI\\screen\\touch_Selenoid2Draw\\property.txt'
+[ATTRIBUTES]
+name = 'touch_Selenoid2Draw'
+nodesInfo = []
+body_language = 'C'
+x = 256
+y = 632
+width = 72
+height = 40
+label = ''
+font (repr) = "FontName(u'Arial Bold', 17)"
+color_enabled (repr) = 'ColorOnly((85, 223, 0),)'
+color_disabled (repr) = 'ColorOnly((255, 0, 0),)'
+color_pressed (repr) = 'ColorOnly((85, 191, 255),)'
+bitmap_enabled (repr) = "Bitmap(u'Off.png', (192, 192, 192))"
+bitmap_disabled (repr) = "Bitmap(u'Off.png', (192, 192, 192))"
+bitmap_pressed (repr) = "Bitmap(u'On.png', (192, 192, 192))"
+bistable = True
+radio = False
+enabled = True
+pressed = False

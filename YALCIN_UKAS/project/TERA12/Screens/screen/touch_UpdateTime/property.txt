@@ -1,0 +1,24 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.touch'
+class = 'Touch'
+filename = u'project\\TERA12\\Screens\\screen\\touch_UpdateTime\\property.txt'
+[ATTRIBUTES]
+name = u'touch_UpdateTime'
+nodesInfo = []
+body_language = 'ST'
+x = 439
+y = 390
+width = 86
+height = 42
+label = ''
+font (repr) = "FontName(u'DS-Digital Normal', 24)"
+color_enabled (repr) = 'ColorOnly((0, 0, 0),)'
+color_disabled (repr) = 'ColorOnly((128, 128, 128),)'
+color_pressed (repr) = 'ColorOnly((0, 0, 0),)'
+bitmap_enabled (repr) = "Color(('null', 0, 0),)"
+bitmap_disabled (repr) = "Color(('null', 0, 0),)"
+bitmap_pressed (repr) = "Color(('null', 0, 0),)"
+bistable = False
+radio = False
+enabled = True
+pressed = False

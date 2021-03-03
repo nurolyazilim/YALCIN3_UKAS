@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum257\\property.txt'
+[ATTRIBUTES]
+name = 'Enum257'
+nodesInfo = []
+definition = '(\n\tEnum257_PRIMARY_SHIFT_CONSOLE_IS_ACTIVE := 0,\n\tEnum257_SECONDARY_SHIFT_CONSOLE_IS_ACTIVE := 1,\n\tEnum257_RESERVED := 2,\n\tEnum257_NOT_AVAILABLE := 3\n)'

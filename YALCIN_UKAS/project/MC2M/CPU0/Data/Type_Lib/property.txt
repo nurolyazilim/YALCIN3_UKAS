@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\Data\\Type_Lib\\property.txt'
+[ATTRIBUTES]
+name = u'Type_Lib'
+nodesInfo = [(u'ARRAY100UDINT', 'TypedefModel'), (u'ARRAY100USINT', 'TypedefModel'), (u'dataArray', 'TypedefModel')]
+documentation = 'write documentation here'
+private = False

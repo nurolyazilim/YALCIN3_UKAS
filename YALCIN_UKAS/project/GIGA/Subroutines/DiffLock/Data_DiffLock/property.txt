@@ -1,0 +1,64 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\GIGA\\Subroutines\\DiffLock\\Data_DiffLock\\property.txt'
+[ATTRIBUTES]
+name = u'Data_DiffLock'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 3
+[VAR_0]
+name = u'L10_Difflock_Dropbox'
+vartype = u'BOOL'
+address = u''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'L11_Difflock_Front'
+vartype = u'BOOL'
+address = u''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'L12_Difflock_Rear'
+vartype = u'BOOL'
+address = u''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_5\\simple_text_3_2\\property.txt'
+[ATTRIBUTES]
+name = 'simple_text_3_2'
+nodesInfo = []
+body_language = 'C'
+x = 144
+y = 64
+width = 56
+height = 17
+color (repr) = 'ColorOnly((255, 95, 85),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = "'SPN'"
+font (repr) = "FontName(u'Arial Regular', 15)"
+timer = 200
+editable = False

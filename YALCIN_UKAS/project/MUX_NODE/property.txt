@@ -1,0 +1,7 @@
+[GENERAL]
+module = 'model.deviceJ1939Model'
+class = 'DeviceJ1939Model'
+filename = u'project\\MUX_NODE\\property.txt'
+[ATTRIBUTES]
+name = u'MUX_NODE'
+nodesInfo = [(u'CAN_Open', 'CanInterfaceModel')]

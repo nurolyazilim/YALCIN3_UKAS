@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\NMS_GUI\\screen\\multiscreen\\0\\service_break_tank_1_raw_fb\\property.txt'
+[ATTRIBUTES]
+name = u'service_break_tank_1_raw_fb'
+nodesInfo = []
+body_language = 'C'
+x = 577
+y = 115
+width = 50
+height = 21
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Arial Bold', 16)"
+separator = '.'
+decimals = 0
+currentValue = 123
+expression = 'MC2M_NMSGUI_service_break_tank_1_raw_fb'
+timer = 100
+proportional = False
+editable = False

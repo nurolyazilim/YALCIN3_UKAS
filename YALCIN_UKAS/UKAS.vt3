@@ -1,0 +1,10 @@
+[GENERAL]
+create_date = '2018-10-08-14.39.03'
+module = 'model.rootModel'
+class = 'Vt3Root'
+filename = u'UKAS.vt3'
+version = '7.6.3.2-stable'
+build = 2177
+[ATTRIBUTES]
+name = 'Hidden root'
+nodesInfo = [('project', 'ProjectModel')]

@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleLine'
+class = 'SimpleLine'
+filename = u'project\\TERA12\\Screens\\screen\\simple_line\\property.txt'
+[ATTRIBUTES]
+name = 'simple_line'
+nodesInfo = []
+body_language = 'C'
+XA = 288
+YA = 397
+XB = 512
+YB = 397
+T = 1
+layer = 0
+color (repr) = 'ColorOnly((176, 176, 176),)'

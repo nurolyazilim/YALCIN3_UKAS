@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\Debug_GUI\\screen\\number_2_3\\property.txt'
+[ATTRIBUTES]
+name = 'number_2_3'
+nodesInfo = []
+body_language = 'C'
+x = 56
+y = 480
+width = 40
+height = 24
+color (repr) = 'ColorOnly((0, 0, 0),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Arial Bold', 17)"
+separator = '.'
+decimals = 0
+currentValue = 123
+expression = 'MC2M_GUI_FuelLevelSensorVal_R'
+timer = 1000
+proportional = False
+editable = False

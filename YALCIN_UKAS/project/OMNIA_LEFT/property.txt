@@ -1,0 +1,7 @@
+[GENERAL]
+module = 'model.deviceJ1939Model'
+class = 'DeviceJ1939Model'
+filename = u'project\\OMNIA_LEFT\\property.txt'
+[ATTRIBUTES]
+name = u'OMNIA_LEFT'
+nodesInfo = [(u'CAN_Open', 'CanInterfaceModel')]

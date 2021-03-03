@@ -1,0 +1,35 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\TCM\\CAN_J1939\\ETC8_Electronic_Transmission_Controller_8\\property.txt'
+[ATTRIBUTES]
+name = 'ETC8_Electronic_Transmission_Controller_8'
+nodesInfo = []
+id = 217058558
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 20
+alm_tout = 30
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'ETC8_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 1
+[CAN_VARIABLE_0]
+name = 'TransmissionTorqueConverterRatio'
+vartype = 'UINT'
+bytepos = 0
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 1000L
+div = 1L
+init = ''
+comment = 'Transmission Torque Converter Ratio J1939 SPN 3030'

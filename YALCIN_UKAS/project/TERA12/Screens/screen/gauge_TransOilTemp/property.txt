@@ -1,0 +1,23 @@
+[GENERAL]
+module = 'model.indicatorModel.circularGauge'
+class = 'CircularGauge'
+filename = u'project\\TERA12\\Screens\\screen\\gauge_TransOilTemp\\property.txt'
+[ATTRIBUTES]
+name = u'gauge_TransOilTemp'
+nodesInfo = []
+body_language = 'C'
+x = 557
+y = 576
+radius = 83
+thick = 3
+minAngle = 127
+maxAngle = 53
+color (repr) = 'ColorOnly((176, 176, 176),)'
+bitmap (repr) = "Color(('null', 0, 0),)"
+bitmap_x = 0
+bitmap_y = 0
+minValue = 70
+maxValue = 150
+currentValue = 110
+expression = 'MC2M_TERA_TransOilTemperature'
+timer = 100

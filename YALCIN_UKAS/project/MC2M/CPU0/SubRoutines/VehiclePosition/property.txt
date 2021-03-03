@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\VehiclePosition\\property.txt'
+[ATTRIBUTES]
+name = u'VehiclePosition'
+nodesInfo = [(u'Sensor_Data', 'GlobalDataModel'), (u'vehiclePosition', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

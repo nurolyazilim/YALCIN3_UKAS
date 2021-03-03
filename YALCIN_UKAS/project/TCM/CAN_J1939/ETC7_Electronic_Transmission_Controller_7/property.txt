@@ -1,0 +1,143 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\TCM\\CAN_J1939\\ETC7_Electronic_Transmission_Controller_7\\property.txt'
+[ATTRIBUTES]
+name = 'ETC7_Electronic_Transmission_Controller_7'
+nodesInfo = []
+id = 419318526
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 100
+alm_tout = 110
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'ETC7_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 10
+[CAN_VARIABLE_0]
+name = 'TrnsmRqedRngDisplayBlankStat'
+vartype = 'Enum255'
+bytepos = 0
+bitpos = 4
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Requested Range Display Blank State J1939 SPN 1850'
+[CAN_VARIABLE_1]
+name = 'TrnsmRqedRngDisplayFlashStat'
+vartype = 'Enum255'
+bytepos = 0
+bitpos = 6
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Requested Range Display Flash State J1939 SPN 1849'
+[CAN_VARIABLE_2]
+name = 'TransmissionReadyForBrakeRelease'
+vartype = 'Enum256'
+bytepos = 1
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Ready for Brake Release J1939 SPN 3086'
+[CAN_VARIABLE_3]
+name = 'ActiveShiftConsoleIndicator'
+vartype = 'Enum257'
+bytepos = 1
+bitpos = 2
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Active Shift Console Indicator J1939 SPN 2945'
+[CAN_VARIABLE_4]
+name = 'TransmissionEngineCrankEnable'
+vartype = 'Enum258'
+bytepos = 1
+bitpos = 4
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Engine Crank Enable J1939 SPN 2900'
+[CAN_VARIABLE_5]
+name = 'TransmissionShiftInhibitIndictr'
+vartype = 'Enum255'
+bytepos = 1
+bitpos = 6
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Shift Inhibit Indicator J1939 SPN 1851'
+[CAN_VARIABLE_6]
+name = 'TransmissionMode4Indicator'
+vartype = 'Enum259'
+bytepos = 2
+bitpos = 0
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Mode 4 Indicator J1939 SPN 2539'
+[CAN_VARIABLE_7]
+name = 'TransmissionMode3Indicator'
+vartype = 'Enum260'
+bytepos = 2
+bitpos = 2
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Mode 3 Indicator J1939 SPN 2538'
+[CAN_VARIABLE_8]
+name = 'TransmissionMode2Indicator'
+vartype = 'Enum261'
+bytepos = 2
+bitpos = 4
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Mode 2 Indicator J1939 SPN 2537'
+[CAN_VARIABLE_9]
+name = 'TransmissionMode1Indicator'
+vartype = 'Enum262'
+bytepos = 2
+bitpos = 6
+bitlength = 2
+endianness = 'LE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Mode 1 Indicator J1939 SPN 2536'

@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\UKASControl\\property.txt'
+[ATTRIBUTES]
+name = u'UKASControl'
+nodesInfo = [(u'main_UKAS_Control', 'POU_PROGRAM'), (u'main_UKAS_Receive_Control', 'POU_PROGRAM'), (u'data_UKAS', 'GlobalDataModel')]
+documentation = 'write documentation here'
+private = False

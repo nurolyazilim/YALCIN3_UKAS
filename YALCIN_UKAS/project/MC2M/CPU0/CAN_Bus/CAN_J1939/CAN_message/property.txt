@@ -1,0 +1,35 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_J1939\\CAN_message\\property.txt'
+[ATTRIBUTES]
+name = 'CAN_message'
+nodesInfo = []
+id = 417988863
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 1000
+alm_tout = 1500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = u'EHR2_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 1
+[CAN_VARIABLE_0]
+name = u'DestinationAdr'
+vartype = u'UINT'
+bytepos = 0
+bitpos = 0
+bitlength = 16
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\AnalogueGauges\\property.txt'
+[ATTRIBUTES]
+name = u'AnalogueGauges'
+nodesInfo = [(u'EngineTempGauge', 'FolderModel'), (u'Speedometer', 'FolderModel'), (u'EngineSpeed', 'FolderModel'), (u'FuelLevel', 'FolderModel'), (u'EngineOilPressure', 'FolderModel'), (u'TransOilTemperature', 'FolderModel'), (u'mainAnalogGauges', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

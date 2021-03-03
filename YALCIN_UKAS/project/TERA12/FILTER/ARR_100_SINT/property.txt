@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\TERA12\\FILTER\\ARR_100_SINT\\property.txt'
+[ATTRIBUTES]
+name = u'ARR_100_SINT'
+nodesInfo = []
+definition = u'ARRAY [0..99] OF SINT'

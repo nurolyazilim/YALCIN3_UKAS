@@ -1,0 +1,50 @@
+[GENERAL]
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Wipers\\mainWipers\\property.txt'
+[ATTRIBUTES]
+name = u'mainWipers'
+nodesInfo = []
+pou_type = 'PROGRAM'
+body_language = 'ST'
+pou_comment = 'comment'
+last_excel_import_export_filename = ''
+linker_address = -1
+[VARIABLES]
+count = 2
+[VAR_0]
+name = u'WIPER_DELAY'
+vartype = u'UDINT'
+address = ''
+alias = False
+init = u'2'
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_1]
+name = u'Wiper_Req_Tout'
+vartype = u'UDINT'
+address = ''
+alias = False
+init = u'0'
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''

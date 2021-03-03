@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\NMS_GUI\\screen\\multiscreen_3\\0\\diff_lock\\property.txt'
+[ATTRIBUTES]
+name = u'diff_lock'
+nodesInfo = []
+body_language = 'C'
+x = 770
+y = 120
+width = 100
+height = 23
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign('left',)"
+valign (repr) = "VAlign('top',)"
+expression = "'Diff Lock'"
+font (repr) = "FontName(u'Arial Bold', 18)"
+timer = 200
+editable = False

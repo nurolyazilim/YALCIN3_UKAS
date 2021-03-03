@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\GIGA\\Screens\\screen_1\\number_2_3_2_3\\property.txt'
+[ATTRIBUTES]
+name = 'number_2_3_2_3'
+nodesInfo = []
+body_language = 'C'
+x = 38
+y = 223
+width = 52
+height = 12
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Courier New Regular', 11)"
+separator = '.'
+decimals = 1
+currentValue = 32
+expression = 'MC2M_TERA_BatteryLevel'
+timer = 200
+proportional = False
+editable = False

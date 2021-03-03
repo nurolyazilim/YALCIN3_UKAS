@@ -1,0 +1,7 @@
+[GENERAL]
+module = 'model.deviceJ1939Model'
+class = 'DeviceJ1939Model'
+filename = u'project\\AMU_CBO\\property.txt'
+[ATTRIBUTES]
+name = u'AMU_CBO'
+nodesInfo = [(u'CAN_ASA_CBO', 'CanInterfaceModel')]

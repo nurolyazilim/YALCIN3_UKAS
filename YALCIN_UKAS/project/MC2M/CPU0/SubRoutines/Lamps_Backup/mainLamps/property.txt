@@ -1,0 +1,14 @@
+[GENERAL]
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Lamps_Backup\\mainLamps\\property.txt'
+[ATTRIBUTES]
+name = u'mainLamps'
+nodesInfo = []
+pou_type = 'PROGRAM'
+body_language = 'ST'
+pou_comment = 'comment'
+last_excel_import_export_filename = ''
+linker_address = -1
+[VARIABLES]
+count = 0

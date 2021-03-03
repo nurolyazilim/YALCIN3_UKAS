@@ -1,0 +1,7 @@
+1;PresLevel3_ANALOG;INT;2;%P;272;5;;;;;;;;
+2;PresLevel3;INT;2;%P;274;5;;;;;;;;
+3;PresLevel4_ANALOG;INT;2;%P;276;5;;;;;;;;
+4;PresLevel4;INT;2;%P;278;5;;;;;;;;
+Refresh = 100
+DiskSpace = 1
+Signature = BFFB92B3DA4673912548220428D3155F

@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\Alarm_Icon_Group\\L39_HydrolicTankPressure_icon\\property.txt'
+[ATTRIBUTES]
+name = u'L39_HydrolicTankPressure_icon'
+nodesInfo = []
+body_language = 'C'
+x = 84
+y = 349
+width = 36
+height = 45
+layer = 0
+expression = 'MC2M_TERA_Icon_Status_L39'
+timer = 100
+currentValue = 1
+count = 2
+bitmap0 (repr) = "Bitmap(u'hidrolikPressure_off.png', (0, 0, 0))"
+bitmap1 (repr) = "Bitmap(u'hidrolikPressure_on.png', ('null', 0, 0))"

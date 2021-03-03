@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\HydrolicSensors\\property.txt'
+[ATTRIBUTES]
+name = u'HydrolicSensors'
+nodesInfo = [(u'HydrolicPressureSensor', 'FolderModel'), (u'HydrolicTempSensor', 'FolderModel')]
+documentation = 'write documentation here'
+private = False

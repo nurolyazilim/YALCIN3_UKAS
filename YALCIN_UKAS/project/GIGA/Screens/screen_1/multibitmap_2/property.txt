@@ -1,0 +1,18 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\GIGA\\Screens\\screen_1\\multibitmap_2\\property.txt'
+[ATTRIBUTES]
+name = 'multibitmap_2'
+nodesInfo = []
+body_language = 'C'
+x = 0
+y = 0
+width = 92
+height = 86
+layer = 1
+expression = '0'
+timer = 200
+currentValue = 0
+count = 1
+bitmap0 (repr) = "Color(('null', 0, 0),)"

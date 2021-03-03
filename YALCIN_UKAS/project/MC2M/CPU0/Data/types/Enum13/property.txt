@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum13\\property.txt'
+[ATTRIBUTES]
+name = u'Enum13'
+nodesInfo = []
+definition = '(\n\tEnum13_LAMP_OFF := 0,\n\tEnum13_LAMP_ON := 1,\n\tEnum13_RESERVED := 2,\n\tEnum13_NOT_AVAILABLE := 3\n)'

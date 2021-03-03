@@ -1,0 +1,46 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\CAN_Open_UKAS\\CAN_164A\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_164A'
+nodesInfo = []
+id = 356
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 150
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'MC2M_MURPHY_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 2
+[CAN_VARIABLE_0]
+name = u'TCM_SuspectParameterNumber'
+vartype = u'UDINT'
+bytepos = 0
+bitpos = 0
+bitlength = 32
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'ECM_SuspectParameterNumber'
+vartype = u'UDINT'
+bytepos = 4
+bitpos = 0
+bitlength = 32
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

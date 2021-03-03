@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\FuelTankTemp\\property.txt'
+[ATTRIBUTES]
+name = u'FuelTankTemp'
+nodesInfo = [(u'TempTank_Left', 'FolderModel'), (u'TempTank_Right', 'FolderModel')]
+documentation = 'write documentation here'
+private = False

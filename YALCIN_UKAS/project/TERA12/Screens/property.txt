@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\TERA12\\Screens\\property.txt'
+[ATTRIBUTES]
+name = u'Screens'
+nodesInfo = [('screen', 'ScreenModel')]
+documentation = 'write documentation here'
+private = False

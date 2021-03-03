@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\Debug_GUI\\screen\\number\\property.txt'
+[ATTRIBUTES]
+name = 'number'
+nodesInfo = []
+body_language = 'C'
+x = 64
+y = 336
+width = 32
+height = 24
+color (repr) = 'ColorOnly((0, 0, 0),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'Arial Bold', 17)"
+separator = '.'
+decimals = 0
+currentValue = 123
+expression = 'MC2M_GUI_FuelTankLevel1'
+timer = 1000
+proportional = False
+editable = False

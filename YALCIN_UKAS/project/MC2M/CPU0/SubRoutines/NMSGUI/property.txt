@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\NMSGUI\\property.txt'
+[ATTRIBUTES]
+name = u'NMSGUI'
+nodesInfo = [(u'global_data_nmsgui', 'GlobalDataModel'), (u'mainNMSGUI', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

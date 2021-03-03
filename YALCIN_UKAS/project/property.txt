@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.projectModel'
+class = 'ProjectModel'
+filename = u'project\\property.txt'
+[ATTRIBUTES]
+name = 'project'
+nodesInfo = [(u'CAN_Open', 'CanLineModel'), (u'CAN_J1939_250', 'CanLineModel'), (u'CAN_Open_forAselsan', 'CanLineModel'), (u'TERA12', 'DeviceModel'), (u'MC2M', 'CompositeDeviceModel'), (u'MUX_NODE', 'DeviceJ1939Model'), (u'IO_MODE', 'DeviceJ1939Model'), (u'IO_MODE_2', 'DeviceJ1939Model'), (u'OMNIA_LEFT', 'DeviceJ1939Model'), (u'OMNIA_RIGHT', 'DeviceJ1939Model'), (u'ECM', 'DeviceJ1939Model'), (u'TCM', 'DeviceJ1939Model'), (u'EBS', 'DeviceJ1939Model'), (u'AMU_CBO', 'DeviceJ1939Model'), (u'ASELSAN_SURVEIL', 'DeviceJ1939Model'), (u'GIGA', 'DeviceModel'), (u'Debug_GUI', 'DeviceModel'), (u'MIDAC_UKAS', 'DeviceJ1939Model'), (u'NMS_GUI', 'DeviceModel'), (u'NMS_TEST', 'DeviceJ1939Model')]
+version = u'a01'
+documentation = u'Nurol Ara\xe7 yaz\u0131l\u0131m\u0131\n\n\nJoystick fren denemeleri i\xe7in T35 AIN_FuelTankRight_Temp pini joystick i\xe7in de\u011fi\u015ftirilmi\u015ftir. \nYALCIN 3 UKAS Yaz\u0131l\u0131m\u0131n\u0131n sadele\u015ftirilmi\u015f versiyonudur. \xd6nceki ASELSAN i\xe7in olan mesajlar sadele\u015ftirilmi\u015ftir. (marel 08.01.2020)'
+historyLog = u''
+debug_PC_SA = 128
+debug_PC_NetName = '250'
+debug_CAN_line = u'CAN_Open'
+customer_id = [u'A005', u'A3B4', u'A3C4', u'']
+access_level = [100, 100, 100, 0]
+alarm_repetitions = [('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', ''), ('', '')]
+elog_cfg = []
+[alarm_priority]
+1 = 'IDS_ONEMLI'
+[alarm_spn]
+1 = 'SPN_1'
+[alarm_fmi]
+1 = 'FMI_1'
+[alarm_group]
+1 = 'GROUP_1'

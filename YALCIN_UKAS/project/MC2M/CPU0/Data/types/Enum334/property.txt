@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum334\\property.txt'
+[ATTRIBUTES]
+name = u'Enum334'
+nodesInfo = []
+definition = '(\n\tEnum334_FAN_OFF := 0,\n\tEnum334_ENGINE_SYSTEMGENERAL := 1,\n\tEnum334_EXCESSIVE_ENGINE_AIR_TEMPERATURE := 2,\n\tEnum334_EXCESSIVE_ENGINE_OIL_TEMPERATURE := 3,\n\tEnum334_EXCESSIVE_ENGINE_COOLANT_TEMPERATURE := 4,\n\tEnum334_EXCESSIVE_TRANSMISSION_OIL_TEMPERATURE := 5,\n\tEnum334_EXCESSIVE_HYDRAULIC_OIL_TEMPERATURE := 6,\n\tEnum334_DEFAULT_OPERATION := 7,\n\tEnum334_NOT_DEFINED := 8,\n\tEnum334_MANUAL_CONTROL := 9,\n\tEnum334_TRANSMISSION_RETARDER := 10,\n\tEnum334_AC_SYSTEM := 11,\n\tEnum334_TIMER := 12,\n\tEnum334_ENGINE_BRAKE := 13,\n\tEnum334_OTHER := 14,\n\tEnum334_NOT_AVAILABLE := 15\n)'

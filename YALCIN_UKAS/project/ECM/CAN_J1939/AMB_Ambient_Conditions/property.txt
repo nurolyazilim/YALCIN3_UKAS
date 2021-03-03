@@ -1,0 +1,83 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\ECM\\CAN_J1939\\AMB_Ambient_Conditions\\property.txt'
+[ATTRIBUTES]
+name = 'AMB_Ambient_Conditions'
+nodesInfo = []
+id = 419362302
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 1000
+alm_tout = 1010
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'AMB_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 5
+[CAN_VARIABLE_0]
+name = 'BarometricPressure'
+vartype = 'USINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 0
+mul = 2L
+div = 1L
+init = ''
+comment = 'Barometric Pressure J1939 SPN 108 [kPa]'
+[CAN_VARIABLE_1]
+name = 'EngineAirInletTemperature'
+vartype = 'SINT'
+bytepos = 5
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 40
+mul = 1L
+div = 1L
+init = ''
+comment = 'Engine Air Inlet Temperature J1939 SPN 172 [deg C]'
+[CAN_VARIABLE_2]
+name = 'CabInteriorTemperature'
+vartype = 'INT'
+bytepos = 1
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 8736
+mul = 32L
+div = 1L
+init = ''
+comment = 'Cab Interior Temperature J1939 SPN 170 [deg C]'
+[CAN_VARIABLE_3]
+name = 'AmbientAirTemperature'
+vartype = 'INT'
+bytepos = 3
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 8736
+mul = 32L
+div = 1L
+init = ''
+comment = 'Ambient Air Temperature J1939 SPN 171 [deg C]'
+[CAN_VARIABLE_4]
+name = 'RoadSurfaceTemperature'
+vartype = 'INT'
+bytepos = 6
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 8736
+mul = 32L
+div = 1L
+init = ''
+comment = 'Road Surface Temperature J1939 SPN 79 [deg C]'

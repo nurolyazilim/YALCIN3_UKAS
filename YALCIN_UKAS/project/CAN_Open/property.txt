@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.can.canLineModel'
+class = 'CanLineModel'
+filename = u'project\\CAN_Open\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_Open'
+nodesInfo = []
+bitrate = 250

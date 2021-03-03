@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\LibraryFunctions\\property.txt'
+[ATTRIBUTES]
+name = u'LibraryFunctions'
+nodesInfo = [(u'Interpolate', 'POU_FUNCTION'), (u'ActivateWDO', 'POU_PROGRAM'), (u'ARRAY30UINT', 'TypedefModel'), (u'ARRAY100UINT', 'TypedefModel'), (u'ARRAY120UINT', 'TypedefModel')]
+documentation = u'Genel k\xfct\xfcphane fonksiyonlar\u0131'
+private = False

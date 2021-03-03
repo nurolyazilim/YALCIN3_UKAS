@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\Debug_GUI\\screen_frame\\screen_backlight\\property.txt'
+[ATTRIBUTES]
+name = 'screen_backlight'
+nodesInfo = []
+body_language = 'C'
+expression = ''
+x = 128
+y = 0
+width = 128
+height = 32
+hwNumber = 1200
+currentValue = 255

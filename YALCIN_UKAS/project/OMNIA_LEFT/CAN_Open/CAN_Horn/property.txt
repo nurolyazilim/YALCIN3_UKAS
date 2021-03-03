@@ -1,0 +1,35 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\OMNIA_LEFT\\CAN_Open\\CAN_Horn\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_Horn'
+nodesInfo = []
+id = 419430399
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 1000
+alm_tout = 1500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = ''
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 1
+[CAN_VARIABLE_0]
+name = u'Horn_Switch_On'
+vartype = u'BYTE'
+bytepos = 5
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

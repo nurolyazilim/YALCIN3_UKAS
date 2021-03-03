@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum368\\property.txt'
+[ATTRIBUTES]
+name = 'Enum368'
+nodesInfo = []
+definition = '(\n\tEnum368_CRUISE_CONTROL_ACTIVATOR_NOT_IN_THE_POSITION_RESUME := 0,\n\tEnum368_CRUISE_CONTROL_ACTIVATOR_IN_POSITION_RESUME := 1,\n\tEnum368_ERROR := 2,\n\tEnum368_NOT_AVAILABLE := 3\n)'

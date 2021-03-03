@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum54\\property.txt'
+[ATTRIBUTES]
+name = u'Enum54'
+nodesInfo = []
+definition = '(\n\tEnum54_DO_NOT_HEAT_ENGINE_ZONE := 0,\n\tEnum54_HEAT_ENGINE_ZONE := 1,\n\tEnum54_RESERVED := 2,\n\tEnum54_DONT_CARETAKE_NO_ACTION := 3\n)'

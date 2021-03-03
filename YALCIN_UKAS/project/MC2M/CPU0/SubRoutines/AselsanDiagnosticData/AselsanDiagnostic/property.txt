@@ -1,0 +1,32 @@
+[GENERAL]
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\AselsanDiagnosticData\\AselsanDiagnostic\\property.txt'
+[ATTRIBUTES]
+name = u'AselsanDiagnostic'
+nodesInfo = []
+pou_type = 'PROGRAM'
+body_language = 'ST'
+pou_comment = 'comment'
+last_excel_import_export_filename = ''
+linker_address = -1
+[VARIABLES]
+count = 1
+[VAR_0]
+name = u'highVoltageThreshold'
+vartype = u'UINT'
+address = ''
+alias = False
+init = u'282'
+inp = False
+out = False
+temp = False
+constant = True
+comment = u'Yuksek Voltaj  uyar\u0131s\u0131 i\xe7in Threshold'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''

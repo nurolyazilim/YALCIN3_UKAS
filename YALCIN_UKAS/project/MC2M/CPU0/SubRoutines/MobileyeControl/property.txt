@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\MobileyeControl\\property.txt'
+[ATTRIBUTES]
+name = u'MobileyeControl'
+nodesInfo = [(u'mainMobileye', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

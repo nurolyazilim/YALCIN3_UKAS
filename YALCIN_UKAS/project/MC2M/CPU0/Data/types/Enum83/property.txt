@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum83\\property.txt'
+[ATTRIBUTES]
+name = u'Enum83'
+nodesInfo = []
+definition = '(\n\tEnum83_ACTIVE := 0,\n\tEnum83_NOT_ACTIVE := 1,\n\tEnum83_ERROR := 2,\n\tEnum83_NOT_AVAILABLE := 3\n)'

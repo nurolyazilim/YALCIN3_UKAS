@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\CAN_Bus\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_Bus'
+nodesInfo = [(u'CAN_Open', 'CanInterfaceModel'), (u'CAN_J1939', 'CanInterfaceModel'), (u'CAN_Open_UKAS', 'CanInterfaceModel')]
+documentation = 'write documentation here'
+private = False

@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\TERA12\\Screens\\screen\\text_TRIP\\property.txt'
+[ATTRIBUTES]
+name = u'text_TRIP'
+nodesInfo = []
+body_language = 'C'
+x = 572
+y = 229
+width = 109
+height = 23
+color (repr) = 'ColorOnly((176, 176, 176),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = '"SIMPLE TEXT"'
+font (repr) = "FontName(u'Courier New Regular', 17)"
+timer = 200
+editable = False

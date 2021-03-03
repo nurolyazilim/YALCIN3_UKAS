@@ -1,0 +1,64 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\WebastoTempSensor\\Data_WebastoTemp_Sensor\\property.txt'
+[ATTRIBUTES]
+name = u'Data_WebastoTemp_Sensor'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 3
+[VAR_0]
+name = u'HTempGaugeValue_Min_2'
+vartype = u'INT'
+address = '%PW20'
+alias = False
+init = u'912'
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Minimum Voltage for 0%'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'HTempGaugeValue_Mid_2'
+vartype = u'INT'
+address = '%PW22'
+alias = False
+init = u'496'
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Maximum Voltage for 50%'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'HTempGaugeValue_Max_2'
+vartype = u'INT'
+address = '%PW24'
+alias = False
+init = u'381'
+inp = False
+out = False
+temp = False
+constant = False
+comment = u'Maximum Voltage for 100%'
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

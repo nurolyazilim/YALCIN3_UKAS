@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\Fuel_Group\\L30_icon_2\\property.txt'
+[ATTRIBUTES]
+name = u'L30_icon_2'
+nodesInfo = []
+body_language = 'C'
+x = 384
+y = 176
+width = 30
+height = 29
+layer = 0
+expression = 'MC2M_TERA_Icon_Status_L30'
+timer = 100
+currentValue = 1
+count = 2
+bitmap0 (repr) = "Bitmap(u'03B.png', ('transparent', 0, 0))"
+bitmap1 (repr) = "Bitmap(u'03A.png', ('transparent', 0, 0))"

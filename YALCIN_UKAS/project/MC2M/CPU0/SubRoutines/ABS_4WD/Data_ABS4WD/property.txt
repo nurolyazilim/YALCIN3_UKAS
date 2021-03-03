@@ -1,0 +1,64 @@
+[GENERAL]
+module = 'model.globalDataModel'
+class = 'GlobalDataModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\ABS_4WD\\Data_ABS4WD\\property.txt'
+[ATTRIBUTES]
+name = u'Data_ABS4WD'
+nodesInfo = []
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 3
+[VAR_0]
+name = u'Stat_ABS4WD'
+vartype = u'BOOL'
+address = u''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_1]
+name = u'Trigger_44'
+vartype = u'R_TRIG'
+address = u''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''
+[VAR_2]
+name = u'Trigger_42'
+vartype = u'F_TRIG'
+address = u''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = u''
+winscope_max = u''
+winscope_unit = u''
+winscope_scale = u''
+winscope_offset = u''
+winscope_access_read = u''
+winscope_access_write = u''

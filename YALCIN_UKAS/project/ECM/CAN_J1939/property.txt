@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\ECM\\CAN_J1939\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_J1939'
+nodesInfo = [(u'DM01_ECM', 'CanMsgJ1939Model'), (u'DM01_BAM_ECM', 'CanMsgJ1939Model'), ('EEC1_Electronic_Engine_Controller_1', 'CanMsgJ1939Model'), ('EEC2_Electronic_Engine_Controller_2', 'CanMsgJ1939Model'), ('EEC3_Electronic_Engine_Controller_3', 'CanMsgJ1939Model'), (u'EBC1_Electronic_Brake_Controller_1_vECM', 'CanMsgJ1939Model'), ('FD_Fan_Drive', 'CanMsgJ1939Model'), ('VDHR_High_Resolution_Vehicle_Distance', 'CanMsgJ1939Model'), ('SHUTDN_Shutdown', 'CanMsgJ1939Model'), ('ET1_Engine_Temperature_1', 'CanMsgJ1939Model'), ('EFL_P1_Engine_Fluid_LevelPressure_1', 'CanMsgJ1939Model'), ('PTO_Power_Takeoff_Information', 'CanMsgJ1939Model'), ('LFE_Fuel_Economy_Liquid', 'CanMsgJ1939Model'), ('AMB_Ambient_Conditions', 'CanMsgJ1939Model'), ('IC1_InletExhaust_Conditions_1', 'CanMsgJ1939Model'), ('VEP1_Vehicle_Electrical_Power_1', 'CanMsgJ1939Model'), ('WFI_Water_in_Fuel_Indicator', 'CanMsgJ1939Model'), ('CCVS_Cruise_ControlVehicle_Speed', 'CanMsgJ1939Model'), (u'EHR_Engine_Hours_Revolutions', 'CanMsgJ1939Model')]
+connection = u'CAN_J1939_250'
+port_number = 0
+j1939_source_address = 0
+whitelist = []

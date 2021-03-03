@@ -1,0 +1,24 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.touch'
+class = 'Touch'
+filename = u'project\\NMS_GUI\\screen\\multiscreen_3\\0\\difflock_rear_touch\\property.txt'
+[ATTRIBUTES]
+name = u'difflock_rear_touch'
+nodesInfo = []
+body_language = 'C'
+x = 897
+y = 341
+width = 100
+height = 93
+label = ''
+font (repr) = "FontName(u'Arial Regular', 20)"
+color_enabled (repr) = 'ColorOnly((0, 0, 0),)'
+color_disabled (repr) = 'ColorOnly((128, 128, 128),)'
+color_pressed (repr) = 'ColorOnly((0, 0, 0),)'
+bitmap_enabled (repr) = "Bitmap(u'1EYIII_DIFFLOCK_BOS1.png', ('transparent', 0, 0))"
+bitmap_disabled (repr) = "Bitmap(u'1EYIII_DIFFLOCK_BOS1.png', ('transparent', 0, 0))"
+bitmap_pressed (repr) = "Bitmap(u'1EYIII_DIFFLOCK_ORTA_ARKA1.png', ('transparent', 0, 0))"
+bistable = True
+radio = False
+enabled = True
+pressed = False

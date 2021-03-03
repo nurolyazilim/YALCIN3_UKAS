@@ -1,0 +1,11 @@
+[GENERAL]
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+filename = u'project\\ASELSAN_SURVEIL\\CAN_interface\\property.txt'
+[ATTRIBUTES]
+name = 'CAN_interface'
+nodesInfo = [(u'CAN_18E', 'CanMsgModel'), (u'CAN_18F', 'CanMsgModel'), (u'CAN_190', 'CanMsgModel')]
+connection = u'CAN_Open'
+port_number = 0
+j1939_source_address = 30
+whitelist = []

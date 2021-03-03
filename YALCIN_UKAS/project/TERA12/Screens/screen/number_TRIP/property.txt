@@ -1,0 +1,25 @@
+[GENERAL]
+module = 'model.indicatorModel.number'
+class = 'Number'
+filename = u'project\\TERA12\\Screens\\screen\\number_TRIP\\property.txt'
+[ATTRIBUTES]
+name = u'number_TRIP'
+nodesInfo = []
+body_language = 'C'
+x = 568
+y = 239
+width = 66
+height = 47
+color (repr) = 'ColorOnly((176, 176, 176),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'right',)"
+valign (repr) = "VAlign(u'centre',)"
+font (repr) = "FontName(u'DS-Digital Normal', 24)"
+separator = '.'
+decimals = 1
+currentValue = 9999
+expression = 'ScreenTripMeter'
+timer = 1000
+proportional = False
+editable = False

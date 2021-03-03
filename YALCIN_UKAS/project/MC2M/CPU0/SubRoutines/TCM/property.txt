@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\TCM\\property.txt'
+[ATTRIBUTES]
+name = u'TCM'
+nodesInfo = [(u'AlarmManagement', 'FolderModel'), (u'Data_TCM', 'GlobalDataModel'), (u'mainTCM_Management', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

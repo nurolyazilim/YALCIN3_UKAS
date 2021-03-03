@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\lcd_odometer\\property.txt'
+[ATTRIBUTES]
+name = 'lcd_odometer'
+nodesInfo = []
+body_language = 'C'
+expression = 'ScreenTripMeter'
+x = 1160
+y = 632
+width = 111
+height = 27
+hwNumber = 1101
+currentValue = 0

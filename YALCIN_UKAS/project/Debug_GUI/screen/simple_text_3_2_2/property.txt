@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\Debug_GUI\\screen\\simple_text_3_2_2\\property.txt'
+[ATTRIBUTES]
+name = 'simple_text_3_2_2'
+nodesInfo = []
+body_language = 'C'
+x = 40
+y = 32
+width = 152
+height = 24
+color (repr) = 'ColorOnly((0, 0, 0),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'centre',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = u'"ELLE KONTROL"'
+font (repr) = "FontName(u'Arial Bold', 16)"
+timer = 200
+editable = False

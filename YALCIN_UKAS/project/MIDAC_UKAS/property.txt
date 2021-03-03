@@ -1,0 +1,7 @@
+[GENERAL]
+module = 'model.deviceJ1939Model'
+class = 'DeviceJ1939Model'
+filename = u'project\\MIDAC_UKAS\\property.txt'
+[ATTRIBUTES]
+name = u'MIDAC_UKAS'
+nodesInfo = [(u'CAN_MIDAC', 'CanInterfaceModel')]

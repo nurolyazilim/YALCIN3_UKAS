@@ -1,0 +1,15 @@
+[GENERAL]
+module = 'model.indicatorModel.physicalIndicators.physicalIndicator'
+class = 'PhysicalIndicator'
+filename = u'project\\GIGA\\screen_frame\\buzzer_level\\property.txt'
+[ATTRIBUTES]
+name = 'buzzer_level'
+nodesInfo = []
+body_language = 'C'
+expression = 'Buzzer_Level'
+x = 38
+y = 24
+width = 117
+height = 117
+hwNumber = 1203
+currentValue = 0

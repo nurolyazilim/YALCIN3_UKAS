@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum259\\property.txt'
+[ATTRIBUTES]
+name = 'Enum259'
+nodesInfo = []
+definition = '(\n\tEnum259_TRANSMISSION_MODE_4_NOT_ACTIVE := 0,\n\tEnum259_TRANSMISSION_MODE_4_ACTIVE := 1,\n\tEnum259_ERROR := 2,\n\tEnum259_NOT_AVAILABLE := 3\n)'

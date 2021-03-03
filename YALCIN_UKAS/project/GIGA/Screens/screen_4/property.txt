@@ -1,0 +1,16 @@
+[GENERAL]
+module = 'model.screenModel'
+class = 'ScreenModel'
+filename = u'project\\GIGA\\Screens\\screen_4\\property.txt'
+[ATTRIBUTES]
+name = u'screen_4'
+nodesInfo = [(u'simple_text_07', 'SimpleText'), (u'simple_text_08', 'SimpleText'), (u'simple_text_09', 'SimpleText'), (u'simple_text_10', 'SimpleText'), ('Return_Text_2', 'MultiText'), ('Date_Time_Caption_Text', 'MultiText'), ('Return_Text', 'MultiText'), ('multitext', 'MultiText'), ('multitext_3', 'MultiText'), ('multitext_3_2', 'MultiText'), ('multitext_2', 'MultiText'), ('multitext_2_2', 'MultiText'), ('multitext_2_2_2', 'MultiText'), ('multitext_2_2_2_2', 'MultiText'), ('multitext_2_2_2_3', 'MultiText')]
+body_language = 'ST'
+background (repr) = 'Color((0, 0, 0),)'
+grid_x = 8
+grid_y = 8
+grid_show = True
+grid_snap = True
+knob_selection_border_width = 0
+knob_selection_border_color (repr) = 'ColorOnly((0, 255, 0),)'
+palette_layer_1 = 0

@@ -1,0 +1,23 @@
+1;TotalTripMeter;REAL;4;%R;8;5;;;;;;;;Toplam Trip - Metre
+2;TotalTripMeter2;REAL;4;%R;12;5;;;;;;;;Toplam Trip - Metre
+3;TotalOdometer;REAL;4;%R;16;5;;;;;;;;Toplam Kilometre - Metre
+4;TotalOdometer2;REAL;4;%R;20;5;;;;;;;;Toplam Kilometre - Metre
+5;TotalOdometer1km;REAL;4;%R;52;5;;;;;;;;1km mesafe - Metre (aaslan)
+6;TotalOdometer100m;REAL;4;%R;56;5;;;;;;;;100m mesafe - Metre (aaslan)
+7;TotalTripMeterX;REAL;4;%R;24;5;;;;;;;;Toplam Trip - Metre
+8;ResetTrp;BOOL;1;%P;73;5;;;;;;;;Toplam Trip - Metre
+9;TotalTripMeter5;REAL;4;%R;28;5;;;;;;;;Toplam Trip - Metre
+10;TotalTripMeter6;REAL;4;%R;32;5;;;;;;;;Toplam Trip - Metre
+11;TotalTripMeter7;REAL;4;%R;36;5;;;;;;;;Toplam Trip - Metre
+12;TotalTripMeter8;REAL;4;%R;40;5;;;;;;;;Toplam Trip - Metre
+13;TotalTripMeter9;REAL;4;%R;44;5;;;;;;;;Toplam Trip - Metre
+14;TotalTripMeter10;REAL;4;%R;48;5;;;;;;;;Toplam Trip - Metre
+15;tmp_t50_res;BOOL;1;%M;33;5;;;;;;;;Toplam Trip - Metre
+16;tmp_fuel_t50;BOOL;1;%M;34;5;;;;;;;;Toplam Trip - Metre
+17;Total_Odometer_Low;UINT;2;%M;112;5;;;;;;;;Toplam Trip - Metre
+18;Total_Odometer_High;UINT;2;%M;114;5;;;;;;;;Toplam Trip - Metre
+19;WorkState_WebastoTankTemperature;BOOL;1;%M;35;5;;;;;;;;
+20;Odometer;REAL;4;%M;120;5;;;;;;;;Hesaplanan birim mesafe(aaslan)
+Refresh = 100
+DiskSpace = 1
+Signature = 52F8F47DD3E42E63A7C2CB5739B0FEED

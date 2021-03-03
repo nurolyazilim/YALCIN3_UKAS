@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\AnalogueGauges\\Speedometer\\property.txt'
+[ATTRIBUTES]
+name = u'Speedometer'
+nodesInfo = [(u'SpeedometerFilter_data', 'GlobalDataModel'), (u'Data_SpeedometerGauge', 'GlobalDataModel'), (u'mainSpeedometer', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

@@ -1,0 +1,19 @@
+[GENERAL]
+module = 'model.indicatorModel.multiBitmap'
+class = 'MultiBitmap'
+filename = u'project\\TERA12\\Screens\\screen\\Alarm_Icon_Group\\L15_WindowResistance_icon\\property.txt'
+[ATTRIBUTES]
+name = u'L15_WindowResistance_icon'
+nodesInfo = []
+body_language = 'C'
+x = 758
+y = 318
+width = 38
+height = 37
+layer = 0
+expression = 'MC2M_TERA_Icon_Status_L15'
+timer = 100
+currentValue = 1
+count = 2
+bitmap0 (repr) = "Bitmap(u'25B.png', (0, 0, 0))"
+bitmap1 (repr) = "Bitmap(u'25A.png', (0, 0, 0))"

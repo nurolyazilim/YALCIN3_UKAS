@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\InSideTemperatur\\property.txt'
+[ATTRIBUTES]
+name = u'InSideTemperatur'
+nodesInfo = [(u'Data_InSideTemp_SensorFilter', 'GlobalDataModel'), (u'Data_InSideTemp_Calibration', 'GlobalDataModel'), (u'Data_InSideTemp_MinMax', 'GlobalDataModel'), (u'inSideTemperatur', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

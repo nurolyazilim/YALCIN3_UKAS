@@ -1,0 +1,21 @@
+[GENERAL]
+module = 'model.indicatorModel.simpleText'
+class = 'SimpleText'
+filename = u'project\\GIGA\\Screens\\screen_1\\simple_text\\property.txt'
+[ATTRIBUTES]
+name = 'simple_text'
+nodesInfo = []
+body_language = 'C'
+x = 95
+y = 155
+width = 15
+height = 12
+color (repr) = 'ColorOnly((255, 255, 255),)'
+background (repr) = "ColorOnly(('transparent', 0, 0),)"
+layer = 0
+halign (repr) = "HAlign(u'left',)"
+valign (repr) = "VAlign(u'centre',)"
+expression = "'Km'"
+font (repr) = "FontName(u'Courier New Regular', 11)"
+timer = 200
+editable = False

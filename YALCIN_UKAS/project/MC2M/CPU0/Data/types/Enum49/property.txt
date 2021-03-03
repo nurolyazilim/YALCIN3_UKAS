@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.typedefModel'
+class = 'TypedefModel'
+filename = u'project\\MC2M\\CPU0\\Data\\types\\Enum49\\property.txt'
+[ATTRIBUTES]
+name = u'Enum49'
+nodesInfo = []
+definition = '(\n\tEnum49_SWITCH_IN_THE_OFF_STATE := 0,\n\tEnum49_SWITCH_IN_THE_ON_STATE_DECREASE := 1,\n\tEnum49_ERROR := 2,\n\tEnum49_NOT_AVAILABLE := 3\n)'

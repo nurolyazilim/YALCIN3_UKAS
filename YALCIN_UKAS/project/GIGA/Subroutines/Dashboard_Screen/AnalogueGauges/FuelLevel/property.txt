@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\GIGA\\Subroutines\\Dashboard_Screen\\AnalogueGauges\\FuelLevel\\property.txt'
+[ATTRIBUTES]
+name = u'FuelLevel'
+nodesInfo = [(u'FuelLevelFilter_data', 'GlobalDataModel'), (u'Data_FuelLevel', 'GlobalDataModel'), (u'mainFuelLevel', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

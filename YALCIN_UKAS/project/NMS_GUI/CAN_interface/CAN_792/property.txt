@@ -1,0 +1,46 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+filename = u'project\\NMS_GUI\\CAN_interface\\CAN_792\\property.txt'
+[ATTRIBUTES]
+name = u'CAN_792'
+nodesInfo = []
+id = 1938
+dlc = 8
+dlcMin = 8
+ext = False
+rate = 100
+alm_tout = 500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'NMSGUI_MC2M_'
+mux = 0
+muxpos = 0
+muxid = 0
+[CAN_VARIABLES]
+count = 2
+[CAN_VARIABLE_0]
+name = u'hydraulic_tank_pressure'
+vartype = u'USINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+[CAN_VARIABLE_1]
+name = u'hydraulic_tank_temp'
+vartype = u'SINT'
+bytepos = 1
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''

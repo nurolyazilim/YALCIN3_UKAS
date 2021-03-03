@@ -1,0 +1,83 @@
+[GENERAL]
+module = 'model.can.canMsgModel'
+class = 'CanMsgJ1939Model'
+filename = u'project\\TCM\\CAN_J1939\\ETC2_Electronic_Transmission_Controller_2\\property.txt'
+[ATTRIBUTES]
+name = 'ETC2_Electronic_Transmission_Controller_2'
+nodesInfo = []
+id = 418383358
+dlc = 8
+dlcMin = 8
+ext = True
+rate = 100
+alm_tout = 110
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 1
+varname_prefix = 'ETC2_'
+mux = 0
+muxpos = 0
+muxid = 0
+private_source_address = ''
+[CAN_VARIABLES]
+count = 5
+[CAN_VARIABLE_0]
+name = 'TransmissionSelectedGear'
+vartype = 'SINT'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 125
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Selected Gear J1939 SPN 524'
+[CAN_VARIABLE_1]
+name = 'TransmissionCurrentGear'
+vartype = 'SINT'
+bytepos = 3
+bitpos = 0
+bitlength = 8
+endianness = 'LE'
+offset = 125
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Current Gear J1939 SPN 523'
+[CAN_VARIABLE_2]
+name = 'TransmissionActualGearRatio'
+vartype = 'UINT'
+bytepos = 1
+bitpos = 0
+bitlength = 16
+endianness = 'LE'
+offset = 0
+mul = 1000L
+div = 1L
+init = ''
+comment = 'Transmission Actual Gear Ratio J1939 SPN 526'
+[CAN_VARIABLE_3]
+name = 'TransmissionRequestedRange'
+vartype = 'array_2_of_byte'
+bytepos = 4
+bitpos = 0
+bitlength = 16
+endianness = 'BE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Requested Range J1939 SPN 162 [ASCII]'
+[CAN_VARIABLE_4]
+name = 'TransmissionCurrentRange'
+vartype = 'array_2_of_byte'
+bytepos = 6
+bitpos = 0
+bitlength = 16
+endianness = 'BE'
+offset = 0
+mul = 1L
+div = 1L
+init = ''
+comment = 'Transmission Current Range J1939 SPN 163 [ASCII]'

@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\SubRoutines\\Dashboard_Screen\\AnalogGauges\\EngineTempGauge\\property.txt'
+[ATTRIBUTES]
+name = u'EngineTempGauge'
+nodesInfo = [(u'Data_EngineTempGauge', 'GlobalDataModel'), (u'mainEngineTempGauge', 'POU_PROGRAM')]
+documentation = 'write documentation here'
+private = False

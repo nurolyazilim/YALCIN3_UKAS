@@ -1,0 +1,9 @@
+[GENERAL]
+module = 'model.folderModel'
+class = 'FolderModel'
+filename = u'project\\MC2M\\CPU0\\Sensors\\WebastoTempSensor\\property.txt'
+[ATTRIBUTES]
+name = u'WebastoTempSensor'
+nodesInfo = [(u'main_WebastoTempSensor', 'POU_PROGRAM'), (u'Data_WebastoTemp_Sensor', 'GlobalDataModel'), (u'Data_Webasto_Calibration', 'GlobalDataModel'), (u'Sensor_WebastoTemp_Filter_data', 'GlobalDataModel')]
+documentation = 'write documentation here'
+private = False
