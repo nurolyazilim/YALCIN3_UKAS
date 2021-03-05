@@ -55,11 +55,11 @@ static const vt3_image FAR ind_screen_6_multibitmap_bitmap[8] = {
 	{ VT3IMG_BITMAP_RLE, vt3_BMP__6_40Bb_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
 	{ VT3IMG_BITMAP_RLE, vt3_BMP__2_40Ddd_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
 	{ VT3IMG_BITMAP_RLE, vt3_BMP__0_40Ee_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
-	{ VT3IMG_BITMAP_RLE, vt3_BMP__12_Logging_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
+	{ VT3IMG_BITMAP_RLE, vt3_BMP__13_Logging_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
 	{ VT3IMG_BITMAP_RLE, vt3_BMP__3_Trflag_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
 	{ VT3IMG_BITMAP_RLE, vt3_BMP__5_Enflag_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
-	{ VT3IMG_BITMAP_RLE, vt3_BMP__10_Qtrflag_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
-	{ VT3IMG_BITMAP_RLE, vt3_BMP__8_40Ff_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
+	{ VT3IMG_BITMAP_RLE, vt3_BMP__11_Qtrflag_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
+	{ VT3IMG_BITMAP_RLE, vt3_BMP__9_40Ff_0_0, 0, 0 /* = RGB(0, 0, 0) */ }, 
 }; /* ind_screen_6_multibitmap_bitmap[] */
 
 /* ROM configuration of indicator multibitmap */

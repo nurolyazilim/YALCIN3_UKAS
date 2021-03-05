@@ -15,4 +15,4 @@ expression = '0'
 timer = 200
 currentValue = 0
 count = 1
-bitmap0 (repr) = "Color(('null', 0, 0),)"
+bitmap0 (repr) = "Bitmap(u'nurol_logo_3.png', ('transparent', 0, 0))"

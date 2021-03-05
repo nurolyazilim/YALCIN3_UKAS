@@ -64,7 +64,9 @@ ELSE
         END_IF
     END_IF
 END_IF
+
 //Hidrolik pompa testi için eklendi.
+/*
 IF ( Stat_FrontFog ) THEN
     PWMOUT_VVR_Pump := 0;
 //Hidrolik pompa testi için eklendi.
@@ -74,12 +76,18 @@ ELSIF (Cmd_BlackOut) THEN
 ELSE
     PWMOUT_VVR_Pump := vvr_pump;
     //Orjinal hidrolik pompa PWM çıkış ayarlama kodu. buranın dışındaki kısımlar test için yazılmıştır. marel 19.03.2020
-    /*IF ( vvr_pump > 4250 ) THEN
+    IF ( vvr_pump > 4250 ) THEN
         PWMOUT_VVR_Pump := 4250; // MAX değer 4250yi geçmemeli
     ELSE
         PWMOUT_VVR_Pump := vvr_pump;
-    END_IF*/
+    END_IF
 END_IF
+*/
+IF ( vvr_pump > 4250 ) THEN
+        PWMOUT_VVR_Pump := 4250; // MAX değer 4250yi geçmemeli
+    ELSE
+        PWMOUT_VVR_Pump := vvr_pump;
+    END_IF
 
 vvr_pump_interpolated := Interpolate(UINT_TO_INT(PWMOUT_VVR_Pump),4250,0,25,100);;
 //((75*(4250 - UINT_TO_INT(vvr_pump)))/4250) + 25

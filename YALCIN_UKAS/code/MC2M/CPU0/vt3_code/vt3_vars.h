@@ -22286,7 +22286,7 @@ extern WORD FAR vt3_alarm_inhibition_bitmask;
  * type:         UINT
  * address:      %IW80
  * constant:     False
- * comment:      INP20 input, configured as PIN_LOR_ANALOGIN
+ * comment:      INP20 input, configured as PIN_HIR_ANALOGIN
  */
 #define AIN_Tank_Right_Level (*(UINT FARPTR)(&BYTEI[80]))
 

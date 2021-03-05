@@ -1201,7 +1201,7 @@
 262;DIGIN_WiperLow;BOOL;1;%I;68;5;;;;;;;;INP17 input, configured as PIN_HI_DIGITALIN
 263;DIGIN_Unmanned_Mode;BOOL;1;%I;72;5;;;;;;;;INP18 input, configured as PIN_HI_DIGITALIN
 264;DIGIN_BackDoor_IN_Close;BOOL;1;%I;76;5;;;;;;;;INP19 input, configured as PIN_HI_DIGITALIN
-265;AIN_Tank_Right_Level;UINT;2;%I;80;5;;;;;;;;INP20 input, configured as PIN_LOR_ANALOGIN
+265;AIN_Tank_Right_Level;UINT;2;%I;80;5;;;;;;;;INP20 input, configured as PIN_HIR_ANALOGIN
 266;DIGIN_HandBrakeActivated;BOOL;1;%I;84;5;;;;;;;;INP21 input, configured as PIN_LO_DIGITALIN
 267;DIGIN_Feedback_DropboxHigh;BOOL;1;%I;88;5;;;;;;;;INP22 input, configured as PIN_LO_DIGITALIN
 268;DIGIN_CentralLockSystemEnable;BOOL;1;%I;92;5;;;;;;;;INP23 input, configured as PIN_LO_DIGITALIN
@@ -1306,4 +1306,4 @@
 367;DOUT_ResistanceLED_status;SINT;1;%S;89;5;;;;;;;;OUT18 status
 368;DOUT_TurnSignalLamp_Right_status;SINT;1;%S;91;5;;;;;;;;OUT20 status
 DefaultLevelWrite = 50
-Signature = E3D7C6BA5EF5A770C52AC637327B92C7
+Signature = 0D85C8359F6319E31AFD8BA3AD32E3A7

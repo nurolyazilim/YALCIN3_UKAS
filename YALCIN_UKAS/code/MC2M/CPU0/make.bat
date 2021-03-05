@@ -1,5 +1,5 @@
 :: file:    make.bat
-:: date:    Wed Aug 26 09:36:30 2020
+:: date:    Fri Mar 05 15:55:14 2021
 :: device:  /project/MC2M/CPU0
 :: use this batch file to compile the source code and build the binary file
 

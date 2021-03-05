@@ -84,7 +84,7 @@ void vt3_IO_init(void)
 	(void)ConfigPIN(INP19, 0, PIN_HI_DIGITALIN, 0, NULL);
 
 	/* configure pin INP20 */
-	(void)ConfigPIN(INP20, 0, PIN_LOR_ANALOGIN, 0, NULL);
+	(void)ConfigPIN(INP20, 0, PIN_HIR_ANALOGIN, 0, NULL);
 
 	/* configure pin INP21 */
 	(void)ConfigPIN(INP21, 0, PIN_LO_DIGITALIN, 0, NULL);

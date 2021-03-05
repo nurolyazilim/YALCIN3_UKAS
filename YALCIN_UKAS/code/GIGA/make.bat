@@ -1,5 +1,5 @@
 :: file:    make.bat
-:: date:    Wed Aug 26 09:37:05 2020
+:: date:    Fri Mar 05 15:56:04 2021
 :: device:  /project/GIGA
 :: use this batch file to compile the source code and build the binary file
 

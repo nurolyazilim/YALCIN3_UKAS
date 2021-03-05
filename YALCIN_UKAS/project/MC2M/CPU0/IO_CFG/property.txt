@@ -7,7 +7,7 @@ name = 'IO_CFG'
 nodesInfo = []
 parent_type = 'MC2M_2CPU\\CPU0'
 [RESOURCES]
-labels = [u'INP11', u'INP10', u'INP13', u'INP12', u'INP15', u'INP14', u'INP17', u'INP38', u'INP19', u'INP18', u'INP35', u'INP34', u'INP33', u'INP32', u'INP31', u'INP30', u'INP51', u'INP50', u'INP53', u'INP52', u'OUT27', u'OUT26', u'OUT25', u'OUT24', u'OUT23', u'INP39', u'OUT21', u'OUT20', u'INP09', u'OUT29', u'OUT28', u'OUT09', u'OUT08', u'INP40', u'INP36', u'OUT01', u'OUT00', u'OUT03', u'OUT02', u'INP08', u'OUT07', u'OUT06', u'INP02', u'INP29', u'INP37', u'INP01', u'INP06', u'INP07', u'INP04', u'INP05', u'INP20', u'INP21', u'INP22', u'INP23', u'INP24', u'INP25', u'INP26', u'INP27', u'INP48', u'INP49', u'INP46', u'INP47', u'INP44', u'INP45', u'INP42', u'INP43', u'INP03', u'OUT22', u'OUT30', u'OUT31', u'OUT33', u'INP28', u'OUT04', u'OUT18', u'OUT19', u'OUT12', u'OUT13', u'OUT10', u'OUT11', u'INP00', u'OUT17', u'OUT14', u'OUT15']
+labels = [u'INP11', u'INP10', u'INP13', u'INP12', u'INP15', u'INP14', u'INP17', u'INP38', u'INP19', u'INP18', u'INP35', u'INP34', u'INP33', u'INP32', u'INP31', u'INP30', u'INP51', u'INP50', u'INP53', u'INP52', u'OUT27', u'OUT26', u'OUT25', u'OUT24', u'OUT23', u'INP39', u'OUT21', u'OUT20', u'INP23', u'OUT29', u'OUT28', u'OUT09', u'OUT08', u'INP36', u'OUT01', u'OUT00', u'OUT03', u'OUT02', u'INP22', u'OUT07', u'OUT06', u'INP02', u'INP29', u'INP37', u'INP01', u'INP06', u'INP07', u'INP04', u'INP05', u'INP20', u'INP21', u'INP08', u'INP09', u'INP24', u'INP25', u'INP26', u'INP27', u'INP03', u'INP48', u'INP49', u'INP46', u'INP47', u'INP44', u'INP45', u'INP42', u'INP43', u'INP40', u'OUT22', u'OUT30', u'OUT31', u'OUT33', u'INP28', u'OUT04', u'OUT18', u'OUT19', u'OUT12', u'OUT13', u'OUT10', u'OUT11', u'INP00', u'OUT17', u'OUT14', u'OUT15']
 [INP11]
 VARNAME = u'DIGIN_Light_P1_Park'
 SW_CFG = u'PIN_HI_DIGITALIN'
@@ -120,8 +120,8 @@ PARAM = u''
 VARNAME = u'DOUT_TurnSignalLamp_Right'
 SW_CFG = u'PIN_HI_DIGOUT_D'
 PARAM = u''
-[INP09]
-VARNAME = u'DIGIN_EngineCoolantLevelLow'
+[INP23]
+VARNAME = u'DIGIN_CentralLockSystemEnable'
 SW_CFG = u'PIN_LO_DIGITALIN'
 PARAM = u''
 [OUT29]
@@ -139,10 +139,6 @@ PARAM = u''
 [OUT08]
 VARNAME = u'DOUT_InteriorVantilator'
 SW_CFG = u'PIN_HI_DIGOUT_D'
-PARAM = u''
-[INP40]
-VARNAME = u'DIGIN_TurnLeftSignal'
-SW_CFG = u'PIN_HI_DIGITALIN'
 PARAM = u''
 [INP36]
 VARNAME = u'DIGIN_Bypass_Switch'
@@ -164,8 +160,8 @@ PARAM = u''
 VARNAME = u'DOUT_Tank2_Valve_Draw'
 SW_CFG = u'PIN_HI_DIGOUT'
 PARAM = u''
-[INP08]
-VARNAME = u'DIGIN_SteeringWheelRepPump'
+[INP22]
+VARNAME = u'DIGIN_Feedback_DropboxHigh'
 SW_CFG = u'PIN_LO_DIGITALIN'
 PARAM = u''
 [OUT07]
@@ -216,12 +212,12 @@ PARAM = u''
 VARNAME = u'DIGIN_HandBrakeActivated'
 SW_CFG = u'PIN_LO_DIGITALIN'
 PARAM = u''
-[INP22]
-VARNAME = u'DIGIN_Feedback_DropboxHigh'
+[INP08]
+VARNAME = u'DIGIN_SteeringWheelRepPump'
 SW_CFG = u'PIN_LO_DIGITALIN'
 PARAM = u''
-[INP23]
-VARNAME = u'DIGIN_CentralLockSystemEnable'
+[INP09]
+VARNAME = u'DIGIN_EngineCoolantLevelLow'
 SW_CFG = u'PIN_LO_DIGITALIN'
 PARAM = u''
 [INP24]
@@ -239,6 +235,10 @@ PARAM = u''
 [INP27]
 VARNAME = u'DIGIN_BackDoor_OUT_Open'
 SW_CFG = u'PIN_HI_DIGITALIN'
+PARAM = u''
+[INP03]
+VARNAME = u'DIGIN_Feedback_DropboxLow'
+SW_CFG = u'PIN_LO_DIGITALIN'
 PARAM = u''
 [INP48]
 VARNAME = u'DIGIN_BackDoor_IN_Open'
@@ -272,9 +272,9 @@ PARAM = u''
 VARNAME = u'DIGIN_Back_HydDoorClosed'
 SW_CFG = u'PIN_LO_DIGITALIN'
 PARAM = u''
-[INP03]
-VARNAME = u'DIGIN_Feedback_DropboxLow'
-SW_CFG = u'PIN_LO_DIGITALIN'
+[INP40]
+VARNAME = u'DIGIN_TurnLeftSignal'
+SW_CFG = u'PIN_HI_DIGITALIN'
 PARAM = u''
 [OUT22]
 VARNAME = u'DOUT_Washer'

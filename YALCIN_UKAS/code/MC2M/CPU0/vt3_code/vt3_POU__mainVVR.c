@@ -200,10 +200,9 @@ void mainVVR__call(void)
 			}
 		}
 
-		if ( (Stat_FrontFog) ) {
-			PWMOUT_VVR_Pump = (UINT)((SINT)0);
-		} else if  ( (Cmd_BlackOut) ) {
-			PWMOUT_VVR_Pump = (UINT)((INT)1150);
+		if ( GT_WORD_2((mainVVR.vvr_pump),
+			((INT)4250)) ) {
+			PWMOUT_VVR_Pump = (UINT)((INT)4250);
 		} else if  ( TRUE ) {
 			PWMOUT_VVR_Pump = (UINT)(mainVVR.vvr_pump);
 		}

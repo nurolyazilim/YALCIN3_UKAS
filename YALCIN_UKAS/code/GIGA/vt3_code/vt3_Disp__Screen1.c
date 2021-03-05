@@ -307,7 +307,7 @@ static BOOL FAR FARPTR const ind_screen_1_simple_text_2_2_invalid_chain[] =
 
 /* status of indicator multibitmap_2: array bitmap */
 static const vt3_image FAR ind_screen_1_multibitmap_2_bitmap[1] = {
-	{ VT3IMG_COLOR, (ICONPTR)NULL, VT3_COLOR_NOTHING, 0 }, 
+	{ VT3IMG_BITMAP_RLE, vt3_BMP__8_NurolLogo3_0_1, 0, VT3_COLOR_TRANSPARENT }, 
 }; /* ind_screen_1_multibitmap_2_bitmap[] */
 
 /* ROM configuration of indicator multibitmap_2 */
@@ -343,7 +343,7 @@ static BOOL FAR FARPTR const ind_screen_1_multibitmap_2_invalid_chain[] =
 
 /* status of indicator multibitmap_2_2: array bitmap */
 static const vt3_image FAR ind_screen_1_multibitmap_2_2_bitmap[1] = {
-	{ VT3IMG_BITMAP_RLE, vt3_BMP__11_EjderLogo2_0_1, 0, VT3_COLOR_TRANSPARENT }, 
+	{ VT3IMG_BITMAP_RLE, vt3_BMP__12_EjderLogo2_0_1, 0, VT3_COLOR_TRANSPARENT }, 
 }; /* ind_screen_1_multibitmap_2_2_bitmap[] */
 
 /* ROM configuration of indicator multibitmap_2_2 */
@@ -379,7 +379,7 @@ static BOOL FAR FARPTR const ind_screen_1_multibitmap_2_2_invalid_chain[] =
 
 /* status of indicator multibitmap_2_3: array bitmap */
 static const vt3_image FAR ind_screen_1_multibitmap_2_3_bitmap[1] = {
-	{ VT3IMG_BITMAP_RLE, vt3_BMP__9_NurolLogo41_0_0, 0, VT3_COLOR_TRANSPARENT }, 
+	{ VT3IMG_BITMAP_RLE, vt3_BMP__10_NurolLogo41_0_0, 0, VT3_COLOR_TRANSPARENT }, 
 }; /* ind_screen_1_multibitmap_2_3_bitmap[] */
 
 /* ROM configuration of indicator multibitmap_2_3 */
@@ -1848,7 +1848,7 @@ static const vt3_indicator_Number FAR __init_value__ind_screen_1_FBPressValue_3_
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_FBPressValue_3_2,
 	/* x                */ 8,
 	/* y                */ 16,
-	/* color            */ 4 /* = RGB(255, 255, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -1884,7 +1884,7 @@ static const vt3_indicator_Number FAR __init_value__ind_screen_1_FBPressValue_3_
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_FBPressValue_3_2_2,
 	/* x                */ 16,
 	/* y                */ 0,
-	/* color            */ 4 /* = RGB(255, 255, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -1915,7 +1915,7 @@ static const vt3_indicator_SimpleText FAR __init_value__ind_screen_1_simple_text
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_simple_text_2_3,
 	/* x                */ 48,
 	/* y                */ 0,
-	/* color            */ 31 /* = RGB(42, 223, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -1944,7 +1944,7 @@ static const vt3_indicator_SimpleText FAR __init_value__ind_screen_1_simple_text
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_simple_text_2_3_2,
 	/* x                */ 48,
 	/* y                */ 16,
-	/* color            */ 31 /* = RGB(42, 223, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -1978,7 +1978,7 @@ static const vt3_indicator_Number FAR __init_value__ind_screen_1_vvrPump = {
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_vvrPump,
 	/* x                */ 16,
 	/* y                */ 43,
-	/* color            */ 4 /* = RGB(255, 255, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -2016,7 +2016,7 @@ static const vt3_indicator_SimpleText FAR __init_value__ind_screen_1_simple_text
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_simple_text_2_3_3,
 	/* x                */ 42,
 	/* y                */ 45,
-	/* color            */ 31 /* = RGB(42, 223, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -2053,7 +2053,7 @@ static const vt3_indicator_SimpleText FAR __init_value__ind_screen_1_simple_text
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_simple_text_2_3_3_2,
 	/* x                */ 48,
 	/* y                */ 72,
-	/* color            */ 31 /* = RGB(42, 223, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -2094,7 +2094,7 @@ static const vt3_indicator_Number FAR __init_value__ind_screen_1_FBPressValue_3_
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_FBPressValue_3_2_3,
 	/* x                */ 8,
 	/* y                */ 72,
-	/* color            */ 4 /* = RGB(255, 255, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -2130,7 +2130,7 @@ static const vt3_indicator_Number FAR __init_value__ind_screen_1_vvrPump_2 = {
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_vvrPump_2,
 	/* x                */ 16,
 	/* y                */ 32,
-	/* color            */ 4 /* = RGB(255, 255, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -2161,7 +2161,7 @@ static const vt3_indicator_SimpleText FAR __init_value__ind_screen_1_simple_text
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_simple_text_2_3_3_3,
 	/* x                */ 48,
 	/* y                */ 32,
-	/* color            */ 31 /* = RGB(42, 223, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -2195,7 +2195,7 @@ static const vt3_indicator_Number FAR __init_value__ind_screen_1_vvrPump_3 = {
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_vvrPump_3,
 	/* x                */ 16,
 	/* y                */ 56,
-	/* color            */ 4 /* = RGB(255, 255, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -2226,7 +2226,7 @@ static const vt3_indicator_SimpleText FAR __init_value__ind_screen_1_simple_text
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_simple_text_2_3_3_4,
 	/* x                */ 48,
 	/* y                */ 56,
-	/* color            */ 31 /* = RGB(42, 223, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
@@ -2260,7 +2260,7 @@ static const vt3_indicator_Number FAR __init_value__ind_screen_1_FBPressValue_3_
 	/* ROM parameters   */ &__ROM_value__ind_screen_1_FBPressValue_3_2_2_2,
 	/* x                */ 72,
 	/* y                */ 0,
-	/* color            */ 4 /* = RGB(255, 255, 255) */,
+	/* color            */ VT3_COLOR_TRANSPARENT,
 	/* color_old        */ 0 /* = RGB(0, 0, 0) */,
 	/* background       */ VT3_COLOR_TRANSPARENT,
 	/* bg_old           */ 4 /* = RGB(255, 255, 255) */,
